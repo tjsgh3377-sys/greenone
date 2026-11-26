@@ -253,6 +253,7 @@ def write(p, htmltext):
 def page_hero(p, eyebrow, h1, lead, trail, media=None):
     crumbs = "".join('<li>%s</li>' % ('<a href="%s">%s</a>' % (p.u(h), e(n)) if h and i < len(trail) - 1 else '<span aria-current="page">%s</span>' % e(n))
                      for i, (n, h) in enumerate(trail))
+    media = None  # 서브페이지 상단에는 사진을 쓰지 않는다(연두 배경만). 사진을 다시 쓰려면 이 줄을 지운다.
     m = '<div class="ph-media">%s</div>' % media if media else ""
     return ('<section class="ph%s"><div class="ph-in"><div class="ph-text"><nav aria-label="breadcrumb"><ol class="crumb">%s</ol></nav>'
             '<p class="eyebrow">%s</p><h1>%s</h1>%s</div>%s</div></section>'
