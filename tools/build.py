@@ -317,14 +317,14 @@ def pcard(p, g, label=None, href=None, show_cat=True):
 def build_home(L):
     p = P(L, "index.html")
     H = TXT[L]["home"]
-    hero_img = ('<img src="{a}" srcset="{b} 900w, {a} 2000w" sizes="(max-width: 1000px) 100vw, 58vw" alt="{alt}" width="2000" height="1773" fetchpriority="high" decoding="async">'
+    hero_img = ('<img src="{a}" srcset="{b} 900w, {a} 2000w" sizes="100vw" alt="{alt}" width="2000" height="1773" fetchpriority="high" decoding="async">'
                 .format(a=p.a("assets/img/hero/bridge-night.webp"), b=p.a("assets/img/hero/bridge-night-900.webp"), alt=e(H["hero"]["imageAlt"])))
     body = """<section class="hero">
 <div class="hero-text">
 <p class="eyebrow">{eb}</p>
 <h1>{h1}</h1>
 <p class="hero-desc">{desc}</p>
-<div class="btn-row"><a class="btn btn-solid" href="{u1}">{c1}</a><a class="btn btn-line" href="{u2}">{c2}</a></div>
+<div class="btn-row"><a class="btn btn-light" href="{u1}">{c1}</a><a class="btn btn-line-light" href="{u2}">{c2}</a></div>
 <p class="hero-foot"><b>{tag}</b><span>{sub}</span></p>
 </div>
 <div class="hero-media">{img}
