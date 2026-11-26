@@ -192,13 +192,11 @@ def layout(p, title, desc, body, group="", current="", ld="", og_image="assets/i
 </head>
 <body>
 <a class="skip" href="#main">{skip}</a>
-<div class="hd-top"><div class="hd-top-in"><span>{tag}</span>
-<div class="hd-top-r"><a href="tel:{telHref}">{tel}</a><a href="mailto:{mail}">{mail}</a><a href="{cat}" download>{catL}</a>{lang}</div></div></div>
 <header class="hd">
 <div class="hd-in">
 <a class="hd-logo" href="{home}" aria-label="{site} {homeLabel}">{logo}</a>
 <nav class="gnb" aria-label="{menu}"><ul>{nav_d}</ul></nav>
-<div class="hd-util">{lang_m}<a class="btn btn-solid btn-sm hd-cta" href="{contact}">{cta}</a>
+<div class="hd-util">{lang}<a class="btn btn-solid btn-sm hd-cta" href="{contact}">{cta}</a>
 <button type="button" class="burger" aria-controls="mnav" aria-expanded="false" aria-label="{menu}"><span></span><span></span></button></div>
 </div>
 </header>
@@ -236,7 +234,7 @@ def layout(p, title, desc, body, group="", current="", ld="", og_image="assets/i
            fav=p.a("favicon.ico"), fav48=p.a("assets/img/brand/favicon-48.png"), touch=p.a("assets/img/brand/apple-touch-icon.png"),
            css=p.a("assets/css/site.css") + "?v=" + ASSET_VER, js=p.a("assets/js/site.js") + "?v=" + ASSET_VER, ld=ld, skip=e(t(L, "nav.skip")), home=p.u("index.html"),
            homeLabel=e(t(L, "common.home")), logo=logo, logo_lazy=img(p.a("assets/img/brand/logo.png"), logo_alt, 750, 140),
-           menu=e(t(L, "nav.menu")), nav_d="".join(nav_d), nav_m="".join(nav_m), lang=lang, lang_m=lang.replace('class="lang"', 'class="lang lang-m"'), contact=p.u("contact.html"), cta=e(t(L, "nav.cta")),
+           menu=e(t(L, "nav.menu")), nav_d="".join(nav_d), nav_m="".join(nav_m), lang=lang, contact=p.u("contact.html"), cta=e(t(L, "nav.cta")),
            inq=e(t(L, "common.inquiry")), telL=e(t(L, "common.tel")), faxL=e(t(L, "common.fax")), mailL=e(t(L, "common.email")),
            tel=e(tel), telHref=CO["telIntl"].replace("-", ""), fax=e(fax), mail=e(CO["email"]), body=body, tag=e(t(L, "footer.tagline")),
            cL=e(t(L, "common.company")), cname=e(ln(CO, "name", L)), ceoL=e(t(L, "common.ceo")), ceo=e(ln(CO, "ceo", L)),
@@ -270,12 +268,11 @@ def about_tabs(p, current):
 def cta_band(p):
     L = p.L
     tel = CO["tel"] if L == "ko" else CO["telIntl"]
-    return """<section class="cta"><div class="cta-grid">
-<div class="cta-lead"><p class="eyebrow">{eb}</p><h2>{title}</h2>
+    return """<section class="sec cta"><div class="wrap"><div class="cta-grid">
+<div><p class="eyebrow">{eb}</p><h2>{title}</h2></div>
+<div><div class="btn-row"><a class="btn btn-light btn-dl" href="{cat}" download>{c1}</a><a class="btn btn-line-light" href="{contact}">{c2}</a></div>
 <dl class="cta-contact"><div><dt>{telL}</dt><dd><a href="tel:{telHref}">{tel}</a></dd></div><div><dt>{mailL}</dt><dd><a href="mailto:{mail}">{mail}</a></dd></div></dl></div>
-<div class="cta-actions"><a class="cta-act" href="{cat}" download><span class="num">01</span><strong>{c1}</strong><span class="arr" aria-hidden="true">↓</span></a>
-<a class="cta-act" href="{contact}"><span class="num">02</span><strong>{c2}</strong><span class="arr" aria-hidden="true">→</span></a></div>
-</div></section>""".format(eb=e(p.t("home.contact.eyebrow")), title=e(p.t("home.contact.title")), cat=p.a(CO["catalogFile"]), c1=e(p.t("home.contact.cta1")),
+</div></div></section>""".format(eb=e(p.t("home.contact.eyebrow")), title=e(p.t("home.contact.title")), cat=p.a(CO["catalogFile"]), c1=e(p.t("home.contact.cta1")),
                                  c2=e(p.t("home.contact.cta2")), contact=p.u("contact.html"), telL=e(p.t("common.tel")), tel=e(tel),
                                  telHref=CO["telIntl"].replace("-", ""), mailL=e(p.t("common.email")), mail=e(CO["email"]))
 
@@ -323,20 +320,19 @@ def build_home(L):
     hero_img = ('<img src="{a}" srcset="{b} 900w, {a} 2000w" sizes="100vw" alt="{alt}" width="2000" height="1773" fetchpriority="high" decoding="async">'
                 .format(a=p.a("assets/img/hero/bridge-night.webp"), b=p.a("assets/img/hero/bridge-night-900.webp"), alt=e(H["hero"]["imageAlt"])))
     body = """<section class="hero">
-<div class="hero-media">{img}</div>
-<div class="hero-in">
-<div class="hero-meta"><p class="eyebrow">{eb}</p><p><b>{tag}</b><span>{sub}</span></p></div>
-<div class="hero-main">
+<div class="hero-text">
+<p class="eyebrow">{eb}</p>
 <h1>{h1}</h1>
-<div class="hero-side"><p>{desc}</p>
-<div class="btn-row"><a class="btn btn-light" href="{u1}">{c1}</a><a class="btn btn-line-light" href="{u2}">{c2}</a></div></div>
+<p class="hero-desc">{desc}</p>
+<div class="btn-row"><a class="btn btn-light" href="{u1}">{c1}</a><a class="btn btn-line-light" href="{u2}">{c2}</a></div>
+<p class="hero-foot"><b>{tag}</b><span>{sub}</span></p>
 </div>
+<div class="hero-media">{img}
+<div class="hero-index"><a href="{u1}"><span class="num">01</span><strong>{n1}</strong></a><a href="{u3}"><span class="num">02</span><strong>{n2}</strong></a></div>
 </div>
-<nav class="hero-index" aria-label="{nav}"><a href="{u1}"><span class="num">01</span><strong>{n1}</strong></a><a href="{u3}"><span class="num">02</span><strong>{n2}</strong></a><a href="{cat}" download><span class="num">PDF</span><strong>{n3}</strong></a></nav>
 </section>""".format(eb=e(H["hero"]["eyebrow"]), h1="".join("<span>%s</span>" % e(x) for x in H["hero"]["title"]), desc=e(H["hero"]["desc"]),
                      u1=p.u("road-stud.html"), u2=p.u("applications.html"), u3=p.u("lighting.html"), c1=e(H["hero"]["cta1"]), c2=e(H["hero"]["cta2"]),
-                     tag=e(H["hero"]["tag"]), sub=e(H["hero"]["sub"]), img=hero_img, n1=e(p.t("nav.roadStud")), n2=e(p.t("nav.lighting")),
-                     n3=e(p.t("common.catalog")), cat=p.a(CO["catalogFile"]), nav=e(p.t("nav.products")))
+                     tag=e(H["hero"]["tag"]), sub=e(H["hero"]["sub"]), img=hero_img, n1=e(p.t("nav.roadStud")), n2=e(p.t("nav.lighting")))
 
     def duo(no, key, href, iid, rev):
         d = H["products"][key]
