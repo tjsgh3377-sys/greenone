@@ -1,0 +1,31 @@
+{
+  "_about": "그린원 기업 기본정보 및 사이트 설정. 수정 후 python tools/build.py 실행.",
+  "nameKo": "그린원 주식회사",
+  "nameEn": "GreenOne Co., Ltd.",
+  "ceoKo": "문지원",
+  "ceoEn": "Moon Ji-won",
+  "postalCode": "10039",
+  "addressKo": "경기도 김포시 대곶면 율마로 27, 나동 2층",
+  "addressEn": "2F, Building Na, 27 Yulma-ro, Daegot-myeon, Gimpo-si, Gyeonggi-do, Republic of Korea",
+  "addressEnNote": "영문 주소는 국문 주소의 로마자 표기안이며 그린원 확인이 필요함 (CATALOG_ISSUES.md 참고)",
+  "tel": "031-985-7880",
+  "telIntl": "+82-31-985-7880",
+  "fax": "070-4275-0644",
+  "faxIntl": "+82-70-4275-0644",
+  "email": "hbone777@daum.net",
+  "businessKo": "도로표지병 및 LED 경관조명 제조",
+  "businessEn": "Manufacture of road studs and LED landscape lighting",
+  "registrationKo": "건설업 등록업체",
+  "registrationEn": "Registered construction contractor",
+  "sloganKo": "빛으로 완성하는 안전, 기술로 높이는 도시의 품격",
+  "sloganEn": "Safety Illuminated by Light, Urban Excellence Elevated by Technology",
+  "subSloganKo": "고객의 안전을 최우선으로 하는 친환경 기업",
+  "subSloganEn": "An eco-friendly company that prioritizes customer safety",
+  "catalogFile": "assets/docs/GreenOne_Catalog.pdf",
+  "site": {
+    "siteUrl": "https://tjsgh3377-sys.github.io/greenone/",
+    "_siteUrl": "배포 주소가 확정되면 끝에 / 를 포함해 입력 (예: https://계정.github.io/저장소/). 비워 두면 canonical·hreflang·sitemap.xml 을 생성하지 않는다.",
+    "showVerificationNotes": true,
+    "_showVerificationNotes": "true 이면 카탈로그 표기 확인이 필요한 모델에 '표기 확인 중' 안내를 노출한다. 그린원 확인이 끝나면 데이터를 고친 뒤 false 로 변경."
+  }
+}

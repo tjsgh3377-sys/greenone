@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>GreenOne 반응형 미리보기 (개발용)</title>
+<style>
+  html, body { margin: 0; background: #888; overflow: hidden; }
+  iframe { border: 0; background: #fff; transform-origin: 0 0; display: block; }
+</style>
+</head>
+<body>
+<!-- 개발용 도구: 좁은 창에서도 지정한 폭(w)의 레이아웃을 축소해 한눈에 확인한다.
+     예) tools/preview.html?u=../ko/index.html&w=1440&y=900 -->
+<iframe id="f" title="preview"></iframe>
+<script>
+  var q = new URLSearchParams(location.search);
+  var w = +(q.get("w") || 1440), y = +(q.get("y") || 0), f = document.getElementById("f");
+  var s = Math.min(1, window.innerWidth / w);
+  f.width = w; f.height = Math.round(window.innerHeight / s);
+  f.style.transform = "scale(" + s + ")";
+  f.src = q.get("u") || "../ko/index.html";
+  f.addEventListener("load", function () { f.contentWindow.scrollTo(0, y); });
+  window.go = function (yy) { f.contentWindow.scrollTo(0, yy); return f.contentDocument.documentElement.scrollHeight; };
+</script>
+</body>
+</html>

@@ -1,0 +1,347 @@
+{
+  "lang": "en",
+  "siteName": "GreenOne Co., Ltd.",
+  "brand": "GreenOne",
+  "nav": {
+    "home": "HOME",
+    "about": "About Us",
+    "overview": "Company Overview",
+    "greeting": "CEO Message",
+    "philosophy": "Management Philosophy",
+    "certificates": "Certificates",
+    "location": "Location",
+    "products": "Products",
+    "roadStud": "Road Stud",
+    "lighting": "LED Landscape Lighting",
+    "applications": "Applications",
+    "resources": "Resources",
+    "contact": "Contact",
+    "cta": "Inquiry",
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to content",
+    "langSwitch": "Language"
+  },
+  "common": {
+    "home": "Home",
+    "more": "Learn more",
+    "viewAll": "View all",
+    "viewProducts": "View products",
+    "catalog": "Download product catalog",
+    "inquiry": "Product & quotation inquiry",
+    "tel": "Tel",
+    "fax": "Fax",
+    "email": "E-mail",
+    "address": "Address",
+    "ceo": "CEO",
+    "company": "Company",
+    "business": "Business",
+    "registration": "Registration",
+    "model": "Model",
+    "models": "Models",
+    "procurementId": "KONEPS identification no.",
+    "type": "Type",
+    "ledColor": "LED colors",
+    "productName": "Product name",
+    "catalogPage": "Catalog p. {p}",
+    "all": "All",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "zoom": "Enlarge",
+    "review": "Under review",
+    "count": "{n} product lines",
+    "countPhotos": "{n} photos",
+    "noResult": "No products match your search. Please change the keyword or filter.",
+    "notSpecified": "Not stated in catalog"
+  },
+  "spec": {
+    "lightingDevice": "Lighting device",
+    "powerSupply": "Power supply",
+    "materials": "Main materials",
+    "size": "Size",
+    "lightingMethod": "Lighting method",
+    "powerConsumption": "Power consumption"
+  },
+  "home": {
+    "title": "GreenOne Co., Ltd. | LED Road Stud & LED Landscape Lighting Manufacturer",
+    "description": "GreenOne is a Korean manufacturer of LED road studs and LED landscape lighting — solar, hybrid, battery and mains-powered road studs, linear lights, floodlights, in-ground lights and more.",
+    "hero": {
+      "eyebrow": "LIGHT FOR SAFER CITIES",
+      "title": ["Safety Illuminated by Light,", "Urban Excellence Elevated by Technology"],
+      "desc": "GreenOne is a specialized manufacturer of road studs and LED landscape lighting, creating safer roads and more beautiful urban environments.",
+      "cta1": "Products",
+      "cta2": "View applications",
+      "sub": "An eco-friendly company that prioritizes customer safety",
+      "tag": "Registered construction contractor",
+      "imageAlt": "Illuminated bridge and city skyline at night"
+    },
+    "products": {
+      "eyebrow": "OUR PRODUCTS",
+      "title": "Lighting solutions for safer roads and more beautiful cities",
+      "roadStud": {
+        "en": "ROAD STUD",
+        "name": "Road Stud",
+        "desc": "Battery, solar, hybrid and mains-powered LED road studs, plus replacement modules for the Ø138 stud.",
+        "types": ["Battery", "Hybrid", "Solar", "Mains-powered", "Module replacement"],
+        "alt": "LED road studs installed along road lanes"
+      },
+      "lighting": {
+        "en": "LED LANDSCAPE LIGHTING",
+        "name": "LED Landscape Lighting",
+        "desc": "Linear lights, floodlights, in-ground lights, wall lights, park lights and more — a wide range of fixtures for the urban nightscape.",
+        "types": ["Line lighting", "Floodlight", "In-ground light", "Wall light", "Park & security light", "Bollard light"],
+        "alt": "Footbridge railings lit with LED lighting at night"
+      }
+    },
+    "tech": {
+      "eyebrow": "TECHNOLOGY THAT MAKES A DIFFERENCE",
+      "title": "Light of true value, built on technology and quality",
+      "lead": "Every installation environment is different, and so is the technology applied. The points below apply only to the products for which the specification is stated in our catalog.",
+      "scopeLabel": "Applies to",
+      "items": [
+        {"title": "Low-power operation", "desc": "Low-power operation and an energy-saving function provide a long service life.", "scope": "Ø138 road stud, battery and hybrid types — up to 3 years of use"},
+        {"title": "Solar & hybrid power", "desc": "Solar and hybrid (solar + battery) power options allow easy installation without wiring.", "scope": "Park security lights, recessed floor lights, fence post lights, accent lighting — 5 days or more without sunlight"},
+        {"title": "Shockproof, waterproof, dustproof", "desc": "Ingress protection is designed per product for road and outdoor environments.", "scope": "IP68: road studs (Ø138, replacement module), curb stone lighting, recessed floor lights, fence post lights / IP65: logo projector, park light, bollard light"},
+        {"title": "Replaceable module structure", "desc": "Only the internal module is replaced while the fixture stays in place, reducing maintenance costs.", "scope": "Ø138 LED road stud and replacement modules"},
+        {"title": "Lighting tailored to the site", "desc": "Custom lengths, adjustable angles, bracket options and color effects to suit site conditions.", "scope": "LED linear light, LED linear floodlight, LED circle floodlight"},
+        {"title": "Direct production & quality control", "desc": "Manufacturing and quality are managed in-house, backed by factory registration, direct production certificates and a dedicated R&D department.", "scope": "Direct production certificates: road studs, LED landscape lighting fixtures"}
+      ]
+    },
+    "collection": {
+      "eyebrow": "EXPLORE OUR COLLECTION",
+      "title": "Discover GreenOne's key products",
+      "repModel": "Model",
+      "items": [
+        {"group": "rs-138-battery", "label": "LED Road Stud", "href": "road-stud.html"},
+        {"group": "lt-linear", "label": "LED Linear Light"},
+        {"group": "lt-curb", "label": "LED Curb Stone Lighting"},
+        {"group": "lt-security-50-30", "label": "LED Park Security Light"},
+        {"group": "lt-flood-160-217", "label": "LED Floodlight"},
+        {"group": "lt-inground-round", "label": "LED In-ground Light"}
+      ]
+    },
+    "gallery": {
+      "eyebrow": "LIGHT IN REAL SPACES",
+      "title": "Urban spaces transformed by light",
+      "lead": "Actual installation examples featured in our catalog.",
+      "cta": "View all applications",
+      "items": [
+        {"id": "p47-1", "label": "Bridges & railings"},
+        {"id": "p10-2", "label": "Crosswalks & roads"},
+        {"id": "p13-1", "label": "Safe way home"},
+        {"id": "p39-1", "label": "Parks & walking paths"},
+        {"id": "p43-1", "label": "Architectural lighting"},
+        {"id": "p43-3", "label": "Waterfront spaces"}
+      ]
+    },
+    "about": {
+      "eyebrow": "ABOUT GREENONE",
+      "title": "Creating safer roads and more beautiful cities",
+      "body": [
+        "GreenOne Co., Ltd. is a specialized manufacturer of road studs and landscape lighting, dedicated to creating safer roads for people and more beautiful nightscapes for cities.",
+        "Combining the meticulous perspective of a women-owned business with an unwavering commitment to technical craftsmanship, we provide solutions tailored to the ever-changing urban environment through rigorous quality control and continuous technological innovation."
+      ],
+      "cta": "Company overview",
+      "imageAlt": "Illuminated city architecture and waterfront at night"
+    },
+    "certs": {
+      "eyebrow": "CERTIFIED QUALITY",
+      "title": "Certifications that back our reliability",
+      "lead": "GreenOne holds seven certificates including factory registration, direct production certificates and construction business registration.",
+      "cta": "View all certificates"
+    },
+    "contact": {
+      "eyebrow": "CONTACT & CATALOG",
+      "title": "Build safer, more beautiful cities together with GreenOne.",
+      "cta1": "Download product catalog",
+      "cta2": "Product & quotation inquiry"
+    }
+  },
+  "overview": {
+    "title": "Company Overview | GreenOne Co., Ltd.",
+    "description": "GreenOne Co., Ltd. is a specialized manufacturer of road studs and LED landscape lighting, creating light of true value through quality control and technological innovation.",
+    "eyebrow": "COMPANY OVERVIEW",
+    "h1": "Company Overview",
+    "lead": "A specialized manufacturer of road studs and LED landscape lighting, creating safer roads for people and more beautiful nightscapes for cities",
+    "statement": "Even a small road marker or a single light illuminating a street can help protect someone's precious everyday life and shape the impression of a city.",
+    "body": [
+      "GreenOne Co., Ltd. is a specialized manufacturer of road studs and landscape lighting, dedicated to creating safer roads for people and more beautiful nightscapes for cities.",
+      "We have gone beyond simply manufacturing lighting structures, continuously pursuing rigorous quality control and technological innovation to create \"Light of True Value.\"",
+      "Combining the meticulous perspective of a women-owned business with an unwavering commitment to technical craftsmanship, we provide products and solutions tailored to the ever-changing urban environment."
+    ],
+    "factsTitle": "Company information",
+    "businessTitle": "Business areas",
+    "certTitle": "Certifications",
+    "imageAlt": "Illuminated city architecture and waterfront at night"
+  },
+  "greeting": {
+    "title": "CEO Message | GreenOne Co., Ltd.",
+    "description": "A message from Moon Ji-won, CEO of GreenOne Co., Ltd. — your most trusted partner in light and safety.",
+    "eyebrow": "CEO MESSAGE",
+    "h1": "CEO Message",
+    "headline": "Safety Illuminated by Light, Urban Excellence Elevated by Technology",
+    "paragraphs": [
+      "Greetings,",
+      "GreenOne Co., Ltd. is a specialized manufacturer of road studs and landscape lighting, dedicated to creating safer roads for people and more beautiful nightscapes for cities.",
+      "We understand that even a small road marker or a single light illuminating a street can help protect someone's precious everyday life and shape the overall impression of a city. With this responsibility in mind, we have gone beyond simply manufacturing lighting structures, continuously pursuing rigorous quality control and technological innovation to create \"Light of True Value.\"",
+      "Combining the meticulous perspective of a women-owned business with an unwavering commitment to technical craftsmanship, we strive to provide optimal solutions tailored to the ever-changing urban environment. Our catalog reflects both our confidence in our technology and our sincere commitment to our customers.",
+      "As your most trusted partner in light and safety, GreenOne Co., Ltd. will always be by your side.",
+      "Thank you."
+    ],
+    "signCompany": "GreenOne Co., Ltd.",
+    "signTitle": "CEO",
+    "signName": "Moon Ji-won"
+  },
+  "philosophy": {
+    "title": "Management Philosophy | GreenOne Co., Ltd.",
+    "description": "The five management directions of GreenOne Co., Ltd. — management innovation, customer satisfaction, system standardization, advanced management and technology superiority.",
+    "eyebrow": "MANAGEMENT PHILOSOPHY",
+    "h1": "Management Philosophy",
+    "lead": "An eco-friendly company that prioritizes customer safety",
+    "statement": "We create \"Light of True Value\" through rigorous quality control and continuous technological innovation.",
+    "items": [
+      {"ko": "경영혁신", "en": "Management Innovation"},
+      {"ko": "고객만족", "en": "Customer Satisfaction"},
+      {"ko": "시스템 표준화", "en": "System Standardization"},
+      {"ko": "선진경영", "en": "Advanced Management"},
+      {"ko": "기술우위", "en": "Technology Superiority"}
+    ]
+  },
+  "certificates": {
+    "title": "Certificates | GreenOne Co., Ltd.",
+    "description": "GreenOne's factory registration, direct production certificates (road studs, LED landscape lighting fixtures), construction business registration, women-owned business, SME and R&D department certificates.",
+    "eyebrow": "CERTIFICATES",
+    "h1": "Certificates",
+    "lead": "The seven certificates held by GreenOne. Select an image to enlarge it.",
+    "note": "Certificate images are the originals printed in our product catalog (p. 3). Please contact us for details such as certificate numbers and validity periods."
+  },
+  "location": {
+    "title": "Location | GreenOne Co., Ltd.",
+    "description": "Address and contact details of GreenOne Co., Ltd. — Gimpo-si, Gyeonggi-do, Republic of Korea. Tel +82-31-985-7880.",
+    "eyebrow": "LOCATION",
+    "h1": "Location",
+    "lead": "Please call us before your visit so that we can assist you better.",
+    "mapTitle": "View on map",
+    "mapNote": "The buttons below open a search for GreenOne's address in each map service.",
+    "naver": "Naver Map",
+    "kakao": "Kakao Map",
+    "google": "Google Maps",
+    "copy": "Copy address",
+    "copied": "Address copied"
+  },
+  "productList": {
+    "road-stud": {
+      "title": "Road Stud | LED, Solar & Hybrid Road Studs | GreenOne",
+      "description": "GreenOne LED road studs — battery, hybrid, solar and mains-powered types and Ø138 replacement modules. Check model names, KONEPS identification numbers and specifications.",
+      "eyebrow": "ROAD STUD",
+      "h1": "Road Stud",
+      "lead": "Battery, hybrid, solar and mains-powered LED road studs and replacement modules for the Ø138 stud — for carriageways, alleys, crosswalks, trails and bicycle paths.",
+      "imageAlt": "LED road studs installed at a roundabout"
+    },
+    "lighting": {
+      "title": "LED Landscape Lighting | Linear Light, Floodlight, In-ground Light | GreenOne",
+      "description": "GreenOne LED landscape lighting — line lighting, wall lights, curb stone lighting, logo projectors, park and security lights, recessed floor lights, fence post lights, bollard lights, floodlights, in-ground lights and column lights.",
+      "eyebrow": "LED LANDSCAPE LIGHTING",
+      "h1": "LED Landscape Lighting",
+      "lead": "From bridges and railings to parks, walking paths, architecture and waterfronts — architectural lighting fixtures to suit every installation environment.",
+      "imageAlt": "Illuminated suspension bridge at night"
+    },
+    "filterType": "Product type",
+    "filterPower": "Power type",
+    "searchLabel": "Search by model name or KONEPS identification no.",
+    "searchPlaceholder": "e.g. HOL-1000BA, 26337935",
+    "reset": "Reset",
+    "modelsCount": "{n} models"
+  },
+  "detail": {
+    "titleSuffix": "GreenOne",
+    "selectModel": "Select model",
+    "specTitle": "Specifications",
+    "featuresTitle": "Features",
+    "applicationTitle": "Applications",
+    "compareTitle": "Model comparison",
+    "relatedTitle": "Related applications",
+    "relatedNoteRoad": "Road stud installation examples from our catalog (pp. 10–15). The photos do not indicate that a specific model was used.",
+    "relatedNoteLighting": "Installation examples printed alongside this product line in our catalog. The photos do not indicate that a specific model was used.",
+    "inquiry": "Request a quotation",
+    "call": "Call us",
+    "priceNote": "For export sales inquiries, please contact us directly.",
+    "sharedImage": "The catalog uses one common image for several models.",
+    "pendingTitle": "Part of the product description will be published after review",
+    "pendingBody": "Items for which the Korean and English catalog text differ are under review and have not been published. Please contact us for details.",
+    "reviewTitle": "Catalog notation under review",
+    "reviewModel": "Model name — specification table: {a} / product image: {b}",
+    "reviewPower": "Type — type field: {a} / power supply field: {b}",
+    "reviewGroup40": "The catalog product name lists three types (line bar, handrail bar, bar) while the models are listed in two groups.",
+    "reviewGeneric": "Some notations for this product line are under review.",
+    "prevProduct": "Previous product",
+    "nextProduct": "Next product",
+    "backToList": "Back to list",
+    "mailSubject": "[Quotation inquiry] {name} ({model})"
+  },
+  "applications": {
+    "title": "Applications | Road Stud & LED Landscape Lighting | GreenOne",
+    "description": "Browse {n} installation photos of road studs and LED landscape lighting from the GreenOne product catalog, by product line and installation environment.",
+    "eyebrow": "APPLICATIONS",
+    "h1": "Applications",
+    "lead": "Crosswalks and lanes, safe routes home, bridges and parks — installation examples from our product catalog.",
+    "scene": "Category",
+    "viewProduct": "View related product",
+    "note": "Installation photos are the images printed in the GreenOne product catalog (pp. 10–49)."
+  },
+  "resources": {
+    "title": "Resources | Product Catalog Download | GreenOne",
+    "description": "Download the GreenOne Korean–English product catalog (PDF) and view certificate materials.",
+    "eyebrow": "RESOURCES",
+    "h1": "Resources",
+    "lead": "Product catalog and certificate materials from GreenOne.",
+    "catalogTitle": "Product Catalog (Korean / English)",
+    "catalogDesc": "A bilingual catalog covering specifications, KONEPS identification numbers and installation examples for all road stud and LED landscape lighting products.",
+    "catalogMeta": "PDF · 52 pages (26 spreads) · {size}",
+    "download": "Download catalog",
+    "certTitle": "Certificate materials",
+    "certDesc": "View images of our seven certificates, including factory registration and direct production certificates.",
+    "certCta": "View certificates",
+    "requestTitle": "Need additional materials?",
+    "requestDesc": "Please request drawings, test reports or other materials by phone or e-mail."
+  },
+  "contact": {
+    "title": "Contact | Product, Quotation & Export Inquiry | GreenOne",
+    "description": "Contact GreenOne for product, quotation and export inquiries. Tel +82-31-985-7880, e-mail hbone777@daum.net.",
+    "eyebrow": "CONTACT",
+    "h1": "Contact",
+    "lead": "For specifications, quotations, delivery and export sales, please contact us by phone or e-mail.",
+    "infoTitle": "Contact details",
+    "domesticTitle": "Product & quotation inquiry",
+    "domesticDesc": "Tell us the model name or KONEPS identification number and the quantity you need, and we will respond promptly.",
+    "exportTitle": "Export inquiry",
+    "exportDesc": "For export sales inquiries, please contact us directly by e-mail.",
+    "formTitle": "Compose an e-mail inquiry",
+    "formNote": "Filling in the fields below prepares a message in your own e-mail program. Nothing is sent to a server from this page — your inquiry is submitted only when you send the e-mail from your mail program.",
+    "fType": "Inquiry type",
+    "fTypeQuote": "Product & quotation inquiry",
+    "fTypeExport": "Export inquiry",
+    "fTypeEtc": "Other",
+    "fName": "Name",
+    "fCompany": "Company / organization",
+    "fPhone": "Phone",
+    "fProduct": "Product of interest (model)",
+    "fMessage": "Message",
+    "fSubmit": "Open in e-mail program",
+    "fFallback": "If your e-mail program does not open, please write to {email} directly.",
+    "subjectPrefix": "[GreenOne website inquiry]",
+    "locationCta": "View location"
+  },
+  "footer": {
+    "tagline": "An eco-friendly company that prioritizes customer safety",
+    "menu": "Menu",
+    "copyright": "© {year} GreenOne Co., Ltd. All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found | GreenOne",
+    "h1": "Page not found",
+    "lead": "The page may have been moved or deleted.",
+    "cta": "Go to home"
+  }
+}

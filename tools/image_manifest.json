@@ -1,0 +1,1030 @@
+{
+ "products": {
+  "products/rs-138-battery/hor-138wb": {
+   "w": 572,
+   "h": 532,
+   "pdfPage": 3,
+   "xrefs": [
+    39
+   ]
+  },
+  "products/rs-138-battery/hor-138yb": {
+   "w": 572,
+   "h": 532,
+   "pdfPage": 3,
+   "xrefs": [
+    35
+   ]
+  },
+  "products/rs-138-hybrid/hor-138wh": {
+   "w": 572,
+   "h": 532,
+   "pdfPage": 3,
+   "xrefs": [
+    47
+   ]
+  },
+  "products/rs-138-hybrid/hor-138yh": {
+   "w": 572,
+   "h": 532,
+   "pdfPage": 3,
+   "xrefs": [
+    43
+   ]
+  },
+  "products/rs-138-solar/hor-138ws": {
+   "w": 572,
+   "h": 532,
+   "pdfPage": 4,
+   "xrefs": [
+    58
+   ]
+  },
+  "products/rs-138-solar/hor-138ys": {
+   "w": 572,
+   "h": 532,
+   "pdfPage": 4,
+   "xrefs": [
+    54
+   ]
+  },
+  "products/rs-113-module/hor-wbi": {
+   "w": 296,
+   "h": 271,
+   "pdfPage": 4,
+   "xrefs": [
+    64
+   ]
+  },
+  "products/rs-113-module/hor-ybi": {
+   "w": 283,
+   "h": 271,
+   "pdfPage": 4,
+   "xrefs": [
+    70
+   ]
+  },
+  "products/rs-113-module/hor-113whi": {
+   "w": 300,
+   "h": 295,
+   "pdfPage": 4,
+   "xrefs": [
+    62
+   ]
+  },
+  "products/rs-113-module/hor-113yhi": {
+   "w": 287,
+   "h": 283,
+   "pdfPage": 4,
+   "xrefs": [
+    68
+   ]
+  },
+  "products/rs-113-module/hor-113wsi": {
+   "w": 289,
+   "h": 284,
+   "pdfPage": 4,
+   "xrefs": [
+    78
+   ]
+  },
+  "products/rs-113-module/hor-113ysi": {
+   "w": 290,
+   "h": 286,
+   "pdfPage": 4,
+   "xrefs": [
+    74
+   ]
+  },
+  "products/rs-125-electric/hor-wc125": {
+   "w": 695,
+   "h": 625,
+   "pdfPage": 5,
+   "xrefs": [
+    89
+   ]
+  },
+  "products/rs-125-electric/hor-yc125": {
+   "w": 695,
+   "h": 623,
+   "pdfPage": 5,
+   "xrefs": [
+    85
+   ]
+  },
+  "products/rs-196-electric/hor-wc196": {
+   "w": 752,
+   "h": 581,
+   "pdfPage": 5,
+   "xrefs": [
+    97
+   ]
+  },
+  "products/rs-196-electric/hor-yc196": {
+   "w": 752,
+   "h": 581,
+   "pdfPage": 5,
+   "xrefs": [
+    93
+   ]
+  },
+  "products/lt-line-bar/1000ba-15h": {
+   "w": 679,
+   "h": 423,
+   "pdfPage": 9,
+   "xrefs": [
+    166
+   ]
+  },
+  "products/lt-line-bar/1000ba-15b": {
+   "w": 399,
+   "h": 355,
+   "pdfPage": 9,
+   "xrefs": [
+    170
+   ]
+  },
+  "products/lt-line-bar/1000fl-10": {
+   "w": 603,
+   "h": 254,
+   "pdfPage": 9,
+   "xrefs": [
+    174
+   ]
+  },
+  "products/lt-wall/ll180-s": {
+   "w": 310,
+   "h": 604,
+   "pdfPage": 10,
+   "xrefs": [
+    181
+   ]
+  },
+  "products/lt-wall/109wa": {
+   "w": 322,
+   "h": 471,
+   "pdfPage": 10,
+   "xrefs": [
+    185
+   ]
+  },
+  "products/lt-curb/hol-19-c-1": {
+   "w": 625,
+   "h": 406,
+   "pdfPage": 11,
+   "xrefs": [
+    198
+   ]
+  },
+  "products/lt-curb/hol-155-h": {
+   "w": 456,
+   "h": 388,
+   "pdfPage": 11,
+   "xrefs": [
+    202
+   ]
+  },
+  "products/lt-curb/hol-155-b": {
+   "w": 473,
+   "h": 402,
+   "pdfPage": 11,
+   "xrefs": [
+    206
+   ]
+  },
+  "products/lt-logo-projector/hol-ll50w-cu": {
+   "w": 166,
+   "h": 128,
+   "pdfPage": 12,
+   "xrefs": [
+    228
+   ]
+  },
+  "products/lt-logo-projector/hol-ll80w-cu": {
+   "w": 166,
+   "h": 128,
+   "pdfPage": 12,
+   "xrefs": [
+    230
+   ]
+  },
+  "products/lt-logo-projector/hol-ll100w-cu": {
+   "w": 144,
+   "h": 128,
+   "pdfPage": 12,
+   "xrefs": [
+    226
+   ]
+  },
+  "products/lt-park/hol-ll80w-butterfly": {
+   "w": 612,
+   "h": 645,
+   "pdfPage": 13,
+   "xrefs": [
+    241
+   ]
+  },
+  "products/lt-park/hol-ll80w-seagull": {
+   "w": 775,
+   "h": 673,
+   "pdfPage": 13,
+   "xrefs": [
+    237
+   ]
+  },
+  "products/lt-security-50-30/hol-50s": {
+   "w": 270,
+   "h": 903,
+   "pdfPage": 14,
+   "xrefs": [
+    253
+   ]
+  },
+  "products/lt-security-50-30/hol-ll30s-3m": {
+   "w": 270,
+   "h": 668,
+   "pdfPage": 14,
+   "xrefs": [
+    257
+   ]
+  },
+  "products/lt-security-25/hol-25s": {
+   "w": 302,
+   "h": 1488,
+   "pdfPage": 15,
+   "xrefs": [
+    267
+   ]
+  },
+  "products/lt-accent/hol-130-b": {
+   "w": 419,
+   "h": 405,
+   "pdfPage": 15,
+   "xrefs": [
+    271
+   ]
+  },
+  "products/lt-accent/hol-138s": {
+   "w": 565,
+   "h": 359,
+   "pdfPage": 15,
+   "xrefs": [
+    275
+   ]
+  },
+  "products/lt-accent/hol-275-10": {
+   "w": 235,
+   "h": 176,
+   "pdfPage": 15,
+   "xrefs": [
+    279
+   ]
+  },
+  "products/lt-floor-square/hol-222-60s": {
+   "w": 565,
+   "h": 469,
+   "pdfPage": 16,
+   "xrefs": [
+    290,
+    304,
+    294,
+    292,
+    296
+   ]
+  },
+  "products/lt-floor-square/hol-118-60s": {
+   "w": 587,
+   "h": 478,
+   "pdfPage": 16,
+   "xrefs": [
+    286,
+    306,
+    308,
+    310,
+    312
+   ]
+  },
+  "products/lt-floor-round/hol-120-60s": {
+   "w": 404,
+   "h": 516,
+   "pdfPage": 17,
+   "xrefs": [
+    336,
+    346,
+    323,
+    327,
+    331
+   ]
+  },
+  "products/lt-floor-round/hol-96-47s": {
+   "w": 414,
+   "h": 505,
+   "pdfPage": 17,
+   "xrefs": [
+    344,
+    350,
+    352,
+    319,
+    321
+   ]
+  },
+  "products/lt-floor-round/hol-67-30s": {
+   "w": 374,
+   "h": 455,
+   "pdfPage": 17,
+   "xrefs": [
+    340,
+    348,
+    325,
+    329,
+    333
+   ]
+  },
+  "products/lt-fence-square/hol-157-s-h": {
+   "w": 521,
+   "h": 480,
+   "pdfPage": 18,
+   "xrefs": [
+    359
+   ]
+  },
+  "products/lt-fence-square/hol-157-b": {
+   "w": 521,
+   "h": 478,
+   "pdfPage": 18,
+   "xrefs": [
+    363
+   ]
+  },
+  "products/lt-fence-round/hol-110-s": {
+   "w": 277,
+   "h": 564,
+   "pdfPage": 19,
+   "xrefs": [
+    376
+   ]
+  },
+  "products/lt-fence-round/hol-110-h": {
+   "w": 255,
+   "h": 580,
+   "pdfPage": 19,
+   "xrefs": [
+    380
+   ]
+  },
+  "products/lt-fence-round/hol-110-c": {
+   "w": 269,
+   "h": 566,
+   "pdfPage": 19,
+   "xrefs": [
+    384
+   ]
+  },
+  "products/lt-bollard/hol-800bol": {
+   "w": 164,
+   "h": 684,
+   "pdfPage": 20,
+   "xrefs": [
+    404
+   ]
+  },
+  "products/lt-bollard/hol-300bol": {
+   "w": 162,
+   "h": 614,
+   "pdfPage": 20,
+   "xrefs": [
+    408
+   ]
+  },
+  "products/lt-bollard/hol-110bol": {
+   "w": 73,
+   "h": 676,
+   "pdfPage": 20,
+   "xrefs": [
+    414
+   ]
+  },
+  "products/lt-bollard/hol-150bol": {
+   "w": 138,
+   "h": 661,
+   "pdfPage": 20,
+   "xrefs": [
+    412
+   ]
+  },
+  "products/lt-linear/hol-1000ba-15": {
+   "w": 776,
+   "h": 419,
+   "pdfPage": 21,
+   "xrefs": [
+    428
+   ]
+  },
+  "products/lt-linear/hol-1000ba-7": {
+   "w": 576,
+   "h": 272,
+   "pdfPage": 21,
+   "xrefs": [
+    430
+   ]
+  },
+  "products/lt-linear-flood/hol-1000ba-f": {
+   "w": 865,
+   "h": 416,
+   "pdfPage": 22,
+   "xrefs": [
+    437
+   ]
+  },
+  "products/lt-flood-125/hol-125c": {
+   "w": 450,
+   "h": 509,
+   "pdfPage": 23,
+   "xrefs": [
+    452
+   ]
+  },
+  "products/lt-flood-160-217/hol-160c-36f": {
+   "w": 324,
+   "h": 448,
+   "pdfPage": 24,
+   "xrefs": [
+    459
+   ]
+  },
+  "products/lt-flood-160-217/hol-160c-42f": {
+   "w": 334,
+   "h": 379,
+   "pdfPage": 24,
+   "xrefs": [
+    463
+   ]
+  },
+  "products/lt-flood-160-217/hol-217c": {
+   "w": 331,
+   "h": 433,
+   "pdfPage": 24,
+   "xrefs": [
+    467
+   ]
+  },
+  "products/lt-inground-round/hol-ll100-c12": {
+   "w": 301,
+   "h": 330,
+   "pdfPage": 25,
+   "xrefs": [
+    477
+   ]
+  },
+  "products/lt-inground-round/hol-ll140-c18": {
+   "w": 296,
+   "h": 308,
+   "pdfPage": 25,
+   "xrefs": [
+    481
+   ]
+  },
+  "products/lt-inground-round/hol-ll180-c36": {
+   "w": 301,
+   "h": 299,
+   "pdfPage": 25,
+   "xrefs": [
+    485
+   ]
+  },
+  "products/lt-inground-round/hol-ll220-c54-c72": {
+   "w": 321,
+   "h": 274,
+   "pdfPage": 25,
+   "xrefs": [
+    489
+   ]
+  },
+  "products/lt-inground-linear/hol-ll1010-c15": {
+   "w": 620,
+   "h": 402,
+   "pdfPage": 26,
+   "xrefs": [
+    505
+   ]
+  },
+  "products/lt-inground-linear/hol-ll1010-c36": {
+   "w": 681,
+   "h": 431,
+   "pdfPage": 26,
+   "xrefs": [
+    509
+   ]
+  },
+  "products/lt-inground-linear/hol-ll1010-c72": {
+   "w": 732,
+   "h": 400,
+   "pdfPage": 26,
+   "xrefs": [
+    513
+   ]
+  },
+  "products/lt-column/hol-2000-120": {
+   "w": 53,
+   "h": 355,
+   "pdfPage": 26,
+   "xrefs": [
+    517
+   ]
+  }
+ },
+ "installations": [
+  {
+   "id": "p10-1",
+   "catalogPage": 10,
+   "pdfPage": 6,
+   "w": 788,
+   "h": 1018
+  },
+  {
+   "id": "p10-2",
+   "catalogPage": 10,
+   "pdfPage": 6,
+   "w": 788,
+   "h": 1018
+  },
+  {
+   "id": "p10-3",
+   "catalogPage": 10,
+   "pdfPage": 6,
+   "w": 1585,
+   "h": 1024
+  },
+  {
+   "id": "p11-1",
+   "catalogPage": 11,
+   "pdfPage": 6,
+   "w": 698,
+   "h": 1600
+  },
+  {
+   "id": "p11-2",
+   "catalogPage": 11,
+   "pdfPage": 6,
+   "w": 673,
+   "h": 1018
+  },
+  {
+   "id": "p11-3",
+   "catalogPage": 11,
+   "pdfPage": 6,
+   "w": 673,
+   "h": 1024
+  },
+  {
+   "id": "p12-1",
+   "catalogPage": 12,
+   "pdfPage": 7,
+   "w": 788,
+   "h": 1018
+  },
+  {
+   "id": "p12-2",
+   "catalogPage": 12,
+   "pdfPage": 7,
+   "w": 788,
+   "h": 1018
+  },
+  {
+   "id": "p12-3",
+   "catalogPage": 12,
+   "pdfPage": 7,
+   "w": 1585,
+   "h": 1024
+  },
+  {
+   "id": "p13-1",
+   "catalogPage": 13,
+   "pdfPage": 7,
+   "w": 1575,
+   "h": 1021
+  },
+  {
+   "id": "p13-2",
+   "catalogPage": 13,
+   "pdfPage": 7,
+   "w": 781,
+   "h": 1024
+  },
+  {
+   "id": "p13-3",
+   "catalogPage": 13,
+   "pdfPage": 7,
+   "w": 782,
+   "h": 1024
+  },
+  {
+   "id": "p14-1",
+   "catalogPage": 14,
+   "pdfPage": 8,
+   "w": 788,
+   "h": 1018
+  },
+  {
+   "id": "p14-2",
+   "catalogPage": 14,
+   "pdfPage": 8,
+   "w": 788,
+   "h": 1018
+  },
+  {
+   "id": "p14-3",
+   "catalogPage": 14,
+   "pdfPage": 8,
+   "w": 1585,
+   "h": 1024
+  },
+  {
+   "id": "p15-1",
+   "catalogPage": 15,
+   "pdfPage": 8,
+   "w": 1575,
+   "h": 1024
+  },
+  {
+   "id": "p15-2",
+   "catalogPage": 15,
+   "pdfPage": 8,
+   "w": 1575,
+   "h": 1027
+  },
+  {
+   "id": "p17-1",
+   "catalogPage": 17,
+   "pdfPage": 9,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p17-2",
+   "catalogPage": 17,
+   "pdfPage": 9,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p17-3",
+   "catalogPage": 17,
+   "pdfPage": 9,
+   "w": 1575,
+   "h": 685
+  },
+  {
+   "id": "p19-1",
+   "catalogPage": 19,
+   "pdfPage": 10,
+   "w": 1575,
+   "h": 1021
+  },
+  {
+   "id": "p19-2",
+   "catalogPage": 19,
+   "pdfPage": 10,
+   "w": 781,
+   "h": 1024
+  },
+  {
+   "id": "p19-3",
+   "catalogPage": 19,
+   "pdfPage": 10,
+   "w": 782,
+   "h": 1024
+  },
+  {
+   "id": "p21-1",
+   "catalogPage": 21,
+   "pdfPage": 11,
+   "w": 781,
+   "h": 1021
+  },
+  {
+   "id": "p21-2",
+   "catalogPage": 21,
+   "pdfPage": 11,
+   "w": 782,
+   "h": 1021
+  },
+  {
+   "id": "p21-3",
+   "catalogPage": 21,
+   "pdfPage": 11,
+   "w": 1575,
+   "h": 1024
+  },
+  {
+   "id": "p23-1",
+   "catalogPage": 23,
+   "pdfPage": 12,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p23-2",
+   "catalogPage": 23,
+   "pdfPage": 12,
+   "w": 781,
+   "h": 676
+  },
+  {
+   "id": "p23-3",
+   "catalogPage": 23,
+   "pdfPage": 12,
+   "w": 778,
+   "h": 676
+  },
+  {
+   "id": "p23-4",
+   "catalogPage": 23,
+   "pdfPage": 12,
+   "w": 781,
+   "h": 676
+  },
+  {
+   "id": "p23-5",
+   "catalogPage": 23,
+   "pdfPage": 12,
+   "w": 778,
+   "h": 676
+  },
+  {
+   "id": "p25-1",
+   "catalogPage": 25,
+   "pdfPage": 13,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p25-2",
+   "catalogPage": 25,
+   "pdfPage": 13,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p25-3",
+   "catalogPage": 25,
+   "pdfPage": 13,
+   "w": 1575,
+   "h": 685
+  },
+  {
+   "id": "p27-1",
+   "catalogPage": 27,
+   "pdfPage": 14,
+   "w": 781,
+   "h": 1021
+  },
+  {
+   "id": "p27-2",
+   "catalogPage": 27,
+   "pdfPage": 14,
+   "w": 782,
+   "h": 1021
+  },
+  {
+   "id": "p27-3",
+   "catalogPage": 27,
+   "pdfPage": 14,
+   "w": 1575,
+   "h": 1024
+  },
+  {
+   "id": "p31-1",
+   "catalogPage": 31,
+   "pdfPage": 16,
+   "w": 781,
+   "h": 1021
+  },
+  {
+   "id": "p31-2",
+   "catalogPage": 31,
+   "pdfPage": 16,
+   "w": 782,
+   "h": 1021
+  },
+  {
+   "id": "p31-3",
+   "catalogPage": 31,
+   "pdfPage": 16,
+   "w": 1575,
+   "h": 1024
+  },
+  {
+   "id": "p33-1",
+   "catalogPage": 33,
+   "pdfPage": 17,
+   "w": 1575,
+   "h": 1021
+  },
+  {
+   "id": "p33-2",
+   "catalogPage": 33,
+   "pdfPage": 17,
+   "w": 781,
+   "h": 1024
+  },
+  {
+   "id": "p33-3",
+   "catalogPage": 33,
+   "pdfPage": 17,
+   "w": 782,
+   "h": 1024
+  },
+  {
+   "id": "p35-1",
+   "catalogPage": 35,
+   "pdfPage": 18,
+   "w": 781,
+   "h": 1021
+  },
+  {
+   "id": "p35-2",
+   "catalogPage": 35,
+   "pdfPage": 18,
+   "w": 782,
+   "h": 1021
+  },
+  {
+   "id": "p35-3",
+   "catalogPage": 35,
+   "pdfPage": 18,
+   "w": 1575,
+   "h": 1024
+  },
+  {
+   "id": "p37-1",
+   "catalogPage": 37,
+   "pdfPage": 19,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p37-2",
+   "catalogPage": 37,
+   "pdfPage": 19,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p37-3",
+   "catalogPage": 37,
+   "pdfPage": 19,
+   "w": 1575,
+   "h": 685
+  },
+  {
+   "id": "p39-1",
+   "catalogPage": 39,
+   "pdfPage": 20,
+   "w": 1575,
+   "h": 1021
+  },
+  {
+   "id": "p39-2",
+   "catalogPage": 39,
+   "pdfPage": 20,
+   "w": 781,
+   "h": 1024
+  },
+  {
+   "id": "p39-3",
+   "catalogPage": 39,
+   "pdfPage": 20,
+   "w": 782,
+   "h": 1024
+  },
+  {
+   "id": "p41-1",
+   "catalogPage": 41,
+   "pdfPage": 21,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p41-2",
+   "catalogPage": 41,
+   "pdfPage": 21,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p41-3",
+   "catalogPage": 41,
+   "pdfPage": 21,
+   "w": 1575,
+   "h": 685
+  },
+  {
+   "id": "p43-1",
+   "catalogPage": 43,
+   "pdfPage": 22,
+   "w": 781,
+   "h": 1021
+  },
+  {
+   "id": "p43-2",
+   "catalogPage": 43,
+   "pdfPage": 22,
+   "w": 782,
+   "h": 1021
+  },
+  {
+   "id": "p43-3",
+   "catalogPage": 43,
+   "pdfPage": 22,
+   "w": 1575,
+   "h": 1024
+  },
+  {
+   "id": "p45-1",
+   "catalogPage": 45,
+   "pdfPage": 23,
+   "w": 1575,
+   "h": 1021
+  },
+  {
+   "id": "p45-2",
+   "catalogPage": 45,
+   "pdfPage": 23,
+   "w": 1575,
+   "h": 1024
+  },
+  {
+   "id": "p47-1",
+   "catalogPage": 47,
+   "pdfPage": 24,
+   "w": 1575,
+   "h": 1021
+  },
+  {
+   "id": "p47-2",
+   "catalogPage": 47,
+   "pdfPage": 24,
+   "w": 781,
+   "h": 1024
+  },
+  {
+   "id": "p47-3",
+   "catalogPage": 47,
+   "pdfPage": 24,
+   "w": 782,
+   "h": 1024
+  },
+  {
+   "id": "p49-1",
+   "catalogPage": 49,
+   "pdfPage": 25,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p49-2",
+   "catalogPage": 49,
+   "pdfPage": 25,
+   "w": 1575,
+   "h": 682
+  },
+  {
+   "id": "p49-3",
+   "catalogPage": 49,
+   "pdfPage": 25,
+   "w": 1575,
+   "h": 685
+  }
+ ],
+ "certificates": {
+  "factory-registration": {
+   "w": 397,
+   "h": 561
+  },
+  "direct-production-road-stud": {
+   "w": 397,
+   "h": 561
+  },
+  "direct-production-led-lighting": {
+   "w": 397,
+   "h": 561
+  },
+  "construction-business": {
+   "w": 397,
+   "h": 561
+  },
+  "women-owned-business": {
+   "w": 397,
+   "h": 561
+  },
+  "sme": {
+   "w": 397,
+   "h": 561
+  },
+  "rnd-department": {
+   "w": 397,
+   "h": 561
+  }
+ }
+}

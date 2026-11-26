@@ -1,0 +1,1496 @@
+{
+ "_about": "그린원 최종 카탈로그 10~49P 에 수록된 설치사례 사진 전체(사진 1장 = 1건). 지역명·발주처·시공일자·사용 모델은 카탈로그에 없으므로 기재하지 않는다.",
+ "scenes": [
+  {
+   "id": "crosswalk",
+   "category": "road-stud",
+   "nameKo": "횡단보도",
+   "nameEn": "Crosswalk",
+   "sourceCatalogPages": [
+    "10"
+   ],
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ]
+  },
+  {
+   "id": "center-lane",
+   "category": "road-stud",
+   "nameKo": "중앙차선",
+   "nameEn": "Center lane",
+   "sourceCatalogPages": [
+    "11"
+   ],
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ]
+  },
+  {
+   "id": "side-lanes",
+   "category": "road-stud",
+   "nameKo": "좌우차선",
+   "nameEn": "Left and right lanes",
+   "sourceCatalogPages": [
+    "12"
+   ],
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ]
+  },
+  {
+   "id": "safe-way-home",
+   "category": "road-stud",
+   "nameKo": "안심귀갓길 · 골목길",
+   "nameEn": "Safe way home · Alleyway",
+   "sourceCatalogPages": [
+    "13"
+   ],
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ]
+  },
+  {
+   "id": "others",
+   "category": "road-stud",
+   "nameKo": "기타 (공원, 수변공원, 수변도로, 회전교차로, 산책로, 자전거도로)",
+   "nameEn": "Others (parks, waterfront parks, waterfront roads, roundabouts, walking paths, bicycle paths)",
+   "sourceCatalogPages": [
+    "14",
+    "15"
+   ],
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ]
+  },
+  {
+   "id": "line-bar",
+   "category": "lighting",
+   "nameKo": "라인조명",
+   "nameEn": "Line lighting",
+   "sourceCatalogPages": [
+    "17"
+   ],
+   "relatedGroupIds": [
+    "lt-line-bar"
+   ]
+  },
+  {
+   "id": "wall",
+   "category": "lighting",
+   "nameKo": "LED 벽부등",
+   "nameEn": "LED wall light",
+   "sourceCatalogPages": [
+    "19"
+   ],
+   "relatedGroupIds": [
+    "lt-wall"
+   ]
+  },
+  {
+   "id": "curb",
+   "category": "lighting",
+   "nameKo": "LED 경계석조명",
+   "nameEn": "LED curb stone lighting",
+   "sourceCatalogPages": [
+    "21"
+   ],
+   "relatedGroupIds": [
+    "lt-curb"
+   ]
+  },
+  {
+   "id": "logo-projector",
+   "category": "lighting",
+   "nameKo": "로고젝터",
+   "nameEn": "Logo projector",
+   "sourceCatalogPages": [
+    "23"
+   ],
+   "relatedGroupIds": [
+    "lt-logo-projector"
+   ]
+  },
+  {
+   "id": "park",
+   "category": "lighting",
+   "nameKo": "LED 공원등",
+   "nameEn": "LED park light",
+   "sourceCatalogPages": [
+    "25"
+   ],
+   "relatedGroupIds": [
+    "lt-park"
+   ]
+  },
+  {
+   "id": "security",
+   "category": "lighting",
+   "nameKo": "LED 공원보안등",
+   "nameEn": "LED park security light",
+   "sourceCatalogPages": [
+    "27"
+   ],
+   "relatedGroupIds": [
+    "lt-security-50-30",
+    "lt-security-25"
+   ]
+  },
+  {
+   "id": "floor-square",
+   "category": "lighting",
+   "nameKo": "LED 바닥매립등 (사각형)",
+   "nameEn": "LED recessed floor light (square)",
+   "sourceCatalogPages": [
+    "31"
+   ],
+   "relatedGroupIds": [
+    "lt-floor-square"
+   ]
+  },
+  {
+   "id": "floor-round",
+   "category": "lighting",
+   "nameKo": "LED 바닥매립등 (원형)",
+   "nameEn": "LED recessed floor light (round)",
+   "sourceCatalogPages": [
+    "33"
+   ],
+   "relatedGroupIds": [
+    "lt-floor-round"
+   ]
+  },
+  {
+   "id": "fence-square",
+   "category": "lighting",
+   "nameKo": "사각 펜스기둥조명",
+   "nameEn": "Square fence post light",
+   "sourceCatalogPages": [
+    "35"
+   ],
+   "relatedGroupIds": [
+    "lt-fence-square"
+   ]
+  },
+  {
+   "id": "fence-round",
+   "category": "lighting",
+   "nameKo": "원형 펜스기둥조명",
+   "nameEn": "Round fence post light",
+   "sourceCatalogPages": [
+    "37"
+   ],
+   "relatedGroupIds": [
+    "lt-fence-round"
+   ]
+  },
+  {
+   "id": "bollard",
+   "category": "lighting",
+   "nameKo": "LED 볼라드 조명",
+   "nameEn": "LED bollard light",
+   "sourceCatalogPages": [
+    "39"
+   ],
+   "relatedGroupIds": [
+    "lt-bollard"
+   ]
+  },
+  {
+   "id": "linear",
+   "category": "lighting",
+   "nameKo": "LED 라인조명",
+   "nameEn": "LED linear light",
+   "sourceCatalogPages": [
+    "41"
+   ],
+   "relatedGroupIds": [
+    "lt-linear"
+   ]
+  },
+  {
+   "id": "linear-flood",
+   "category": "lighting",
+   "nameKo": "LED 라인투광조명",
+   "nameEn": "LED linear floodlight",
+   "sourceCatalogPages": [
+    "43"
+   ],
+   "relatedGroupIds": [
+    "lt-linear-flood"
+   ]
+  },
+  {
+   "id": "flood-125",
+   "category": "lighting",
+   "nameKo": "LED 원형 투광등 (125C)",
+   "nameEn": "LED circle floodlight (125C)",
+   "sourceCatalogPages": [
+    "45"
+   ],
+   "relatedGroupIds": [
+    "lt-flood-125"
+   ]
+  },
+  {
+   "id": "flood-160-217",
+   "category": "lighting",
+   "nameKo": "LED 원형 투광등 (160C · 217C)",
+   "nameEn": "LED circle floodlight (160C · 217C)",
+   "sourceCatalogPages": [
+    "47"
+   ],
+   "relatedGroupIds": [
+    "lt-flood-160-217"
+   ]
+  },
+  {
+   "id": "inground-round",
+   "category": "lighting",
+   "nameKo": "LED 원형 지중등",
+   "nameEn": "LED circle in-ground light",
+   "sourceCatalogPages": [
+    "49"
+   ],
+   "relatedGroupIds": [
+    "lt-inground-round"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "p10-1",
+   "category": "road-stud",
+   "scene": "crosswalk",
+   "image": "assets/img/installations/p10-1.webp",
+   "thumb": "assets/img/installations/thumb/p10-1.webp",
+   "w": 788,
+   "h": 1018,
+   "orientation": "portrait",
+   "altKo": "횡단보도 설치사례 사진 1 (카탈로그 10P)",
+   "altEn": "Crosswalk installation example, photo 1 (catalog p. 10)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "10",
+   "sourcePdfPage": 6
+  },
+  {
+   "id": "p10-2",
+   "category": "road-stud",
+   "scene": "crosswalk",
+   "image": "assets/img/installations/p10-2.webp",
+   "thumb": "assets/img/installations/thumb/p10-2.webp",
+   "w": 788,
+   "h": 1018,
+   "orientation": "portrait",
+   "altKo": "횡단보도 설치사례 사진 2 (카탈로그 10P)",
+   "altEn": "Crosswalk installation example, photo 2 (catalog p. 10)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "10",
+   "sourcePdfPage": 6
+  },
+  {
+   "id": "p10-3",
+   "category": "road-stud",
+   "scene": "crosswalk",
+   "image": "assets/img/installations/p10-3.webp",
+   "thumb": "assets/img/installations/thumb/p10-3.webp",
+   "w": 1585,
+   "h": 1024,
+   "orientation": "landscape",
+   "altKo": "횡단보도 설치사례 사진 3 (카탈로그 10P)",
+   "altEn": "Crosswalk installation example, photo 3 (catalog p. 10)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "10",
+   "sourcePdfPage": 6
+  },
+  {
+   "id": "p11-1",
+   "category": "road-stud",
+   "scene": "center-lane",
+   "image": "assets/img/installations/p11-1.webp",
+   "thumb": "assets/img/installations/thumb/p11-1.webp",
+   "w": 698,
+   "h": 1600,
+   "orientation": "portrait",
+   "altKo": "중앙차선 설치사례 사진 1 (카탈로그 11P)",
+   "altEn": "Center lane installation example, photo 1 (catalog p. 11)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "11",
+   "sourcePdfPage": 6
+  },
+  {
+   "id": "p11-2",
+   "category": "road-stud",
+   "scene": "center-lane",
+   "image": "assets/img/installations/p11-2.webp",
+   "thumb": "assets/img/installations/thumb/p11-2.webp",
+   "w": 673,
+   "h": 1018,
+   "orientation": "portrait",
+   "altKo": "중앙차선 설치사례 사진 2 (카탈로그 11P)",
+   "altEn": "Center lane installation example, photo 2 (catalog p. 11)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "11",
+   "sourcePdfPage": 6
+  },
+  {
+   "id": "p11-3",
+   "category": "road-stud",
+   "scene": "center-lane",
+   "image": "assets/img/installations/p11-3.webp",
+   "thumb": "assets/img/installations/thumb/p11-3.webp",
+   "w": 673,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "중앙차선 설치사례 사진 3 (카탈로그 11P)",
+   "altEn": "Center lane installation example, photo 3 (catalog p. 11)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "11",
+   "sourcePdfPage": 6
+  },
+  {
+   "id": "p12-1",
+   "category": "road-stud",
+   "scene": "side-lanes",
+   "image": "assets/img/installations/p12-1.webp",
+   "thumb": "assets/img/installations/thumb/p12-1.webp",
+   "w": 788,
+   "h": 1018,
+   "orientation": "portrait",
+   "altKo": "좌우차선 설치사례 사진 1 (카탈로그 12P)",
+   "altEn": "Left and right lanes installation example, photo 1 (catalog p. 12)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "12",
+   "sourcePdfPage": 7
+  },
+  {
+   "id": "p12-2",
+   "category": "road-stud",
+   "scene": "side-lanes",
+   "image": "assets/img/installations/p12-2.webp",
+   "thumb": "assets/img/installations/thumb/p12-2.webp",
+   "w": 788,
+   "h": 1018,
+   "orientation": "portrait",
+   "altKo": "좌우차선 설치사례 사진 2 (카탈로그 12P)",
+   "altEn": "Left and right lanes installation example, photo 2 (catalog p. 12)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "12",
+   "sourcePdfPage": 7
+  },
+  {
+   "id": "p12-3",
+   "category": "road-stud",
+   "scene": "side-lanes",
+   "image": "assets/img/installations/p12-3.webp",
+   "thumb": "assets/img/installations/thumb/p12-3.webp",
+   "w": 1585,
+   "h": 1024,
+   "orientation": "landscape",
+   "altKo": "좌우차선 설치사례 사진 3 (카탈로그 12P)",
+   "altEn": "Left and right lanes installation example, photo 3 (catalog p. 12)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "12",
+   "sourcePdfPage": 7
+  },
+  {
+   "id": "p13-1",
+   "category": "road-stud",
+   "scene": "safe-way-home",
+   "image": "assets/img/installations/p13-1.webp",
+   "thumb": "assets/img/installations/thumb/p13-1.webp",
+   "w": 1575,
+   "h": 1021,
+   "orientation": "landscape",
+   "altKo": "안심귀갓길 · 골목길 설치사례 사진 1 (카탈로그 13P)",
+   "altEn": "Safe way home · Alleyway installation example, photo 1 (catalog p. 13)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "13",
+   "sourcePdfPage": 7
+  },
+  {
+   "id": "p13-2",
+   "category": "road-stud",
+   "scene": "safe-way-home",
+   "image": "assets/img/installations/p13-2.webp",
+   "thumb": "assets/img/installations/thumb/p13-2.webp",
+   "w": 781,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "안심귀갓길 · 골목길 설치사례 사진 2 (카탈로그 13P)",
+   "altEn": "Safe way home · Alleyway installation example, photo 2 (catalog p. 13)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "13",
+   "sourcePdfPage": 7
+  },
+  {
+   "id": "p13-3",
+   "category": "road-stud",
+   "scene": "safe-way-home",
+   "image": "assets/img/installations/p13-3.webp",
+   "thumb": "assets/img/installations/thumb/p13-3.webp",
+   "w": 782,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "안심귀갓길 · 골목길 설치사례 사진 3 (카탈로그 13P)",
+   "altEn": "Safe way home · Alleyway installation example, photo 3 (catalog p. 13)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "13",
+   "sourcePdfPage": 7
+  },
+  {
+   "id": "p14-1",
+   "category": "road-stud",
+   "scene": "others",
+   "image": "assets/img/installations/p14-1.webp",
+   "thumb": "assets/img/installations/thumb/p14-1.webp",
+   "w": 788,
+   "h": 1018,
+   "orientation": "portrait",
+   "altKo": "기타 설치사례 사진 1 (카탈로그 14P)",
+   "altEn": "Others installation example, photo 1 (catalog p. 14)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "14",
+   "sourcePdfPage": 8
+  },
+  {
+   "id": "p14-2",
+   "category": "road-stud",
+   "scene": "others",
+   "image": "assets/img/installations/p14-2.webp",
+   "thumb": "assets/img/installations/thumb/p14-2.webp",
+   "w": 788,
+   "h": 1018,
+   "orientation": "portrait",
+   "altKo": "기타 설치사례 사진 2 (카탈로그 14P)",
+   "altEn": "Others installation example, photo 2 (catalog p. 14)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "14",
+   "sourcePdfPage": 8
+  },
+  {
+   "id": "p14-3",
+   "category": "road-stud",
+   "scene": "others",
+   "image": "assets/img/installations/p14-3.webp",
+   "thumb": "assets/img/installations/thumb/p14-3.webp",
+   "w": 1585,
+   "h": 1024,
+   "orientation": "landscape",
+   "altKo": "기타 설치사례 사진 3 (카탈로그 14P)",
+   "altEn": "Others installation example, photo 3 (catalog p. 14)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "14",
+   "sourcePdfPage": 8
+  },
+  {
+   "id": "p15-1",
+   "category": "road-stud",
+   "scene": "others",
+   "image": "assets/img/installations/p15-1.webp",
+   "thumb": "assets/img/installations/thumb/p15-1.webp",
+   "w": 1575,
+   "h": 1024,
+   "orientation": "landscape",
+   "altKo": "기타 설치사례 사진 1 (카탈로그 15P)",
+   "altEn": "Others installation example, photo 1 (catalog p. 15)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "15",
+   "sourcePdfPage": 8
+  },
+  {
+   "id": "p15-2",
+   "category": "road-stud",
+   "scene": "others",
+   "image": "assets/img/installations/p15-2.webp",
+   "thumb": "assets/img/installations/thumb/p15-2.webp",
+   "w": 1575,
+   "h": 1027,
+   "orientation": "landscape",
+   "altKo": "기타 설치사례 사진 2 (카탈로그 15P)",
+   "altEn": "Others installation example, photo 2 (catalog p. 15)",
+   "relatedGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-138-solar",
+    "rs-113-module",
+    "rs-125-electric",
+    "rs-196-electric"
+   ],
+   "sourceCatalogPage": "15",
+   "sourcePdfPage": 8
+  },
+  {
+   "id": "p17-1",
+   "category": "lighting",
+   "scene": "line-bar",
+   "image": "assets/img/installations/p17-1.webp",
+   "thumb": "assets/img/installations/thumb/p17-1.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "라인조명 설치사례 사진 1 (카탈로그 17P)",
+   "altEn": "Line lighting installation example, photo 1 (catalog p. 17)",
+   "relatedGroupIds": [
+    "lt-line-bar"
+   ],
+   "sourceCatalogPage": "17",
+   "sourcePdfPage": 9
+  },
+  {
+   "id": "p17-2",
+   "category": "lighting",
+   "scene": "line-bar",
+   "image": "assets/img/installations/p17-2.webp",
+   "thumb": "assets/img/installations/thumb/p17-2.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "라인조명 설치사례 사진 2 (카탈로그 17P)",
+   "altEn": "Line lighting installation example, photo 2 (catalog p. 17)",
+   "relatedGroupIds": [
+    "lt-line-bar"
+   ],
+   "sourceCatalogPage": "17",
+   "sourcePdfPage": 9
+  },
+  {
+   "id": "p17-3",
+   "category": "lighting",
+   "scene": "line-bar",
+   "image": "assets/img/installations/p17-3.webp",
+   "thumb": "assets/img/installations/thumb/p17-3.webp",
+   "w": 1575,
+   "h": 685,
+   "orientation": "landscape",
+   "altKo": "라인조명 설치사례 사진 3 (카탈로그 17P)",
+   "altEn": "Line lighting installation example, photo 3 (catalog p. 17)",
+   "relatedGroupIds": [
+    "lt-line-bar"
+   ],
+   "sourceCatalogPage": "17",
+   "sourcePdfPage": 9
+  },
+  {
+   "id": "p19-1",
+   "category": "lighting",
+   "scene": "wall",
+   "image": "assets/img/installations/p19-1.webp",
+   "thumb": "assets/img/installations/thumb/p19-1.webp",
+   "w": 1575,
+   "h": 1021,
+   "orientation": "landscape",
+   "altKo": "LED 벽부등 설치사례 사진 1 (카탈로그 19P)",
+   "altEn": "LED wall light installation example, photo 1 (catalog p. 19)",
+   "relatedGroupIds": [
+    "lt-wall"
+   ],
+   "sourceCatalogPage": "19",
+   "sourcePdfPage": 10
+  },
+  {
+   "id": "p19-2",
+   "category": "lighting",
+   "scene": "wall",
+   "image": "assets/img/installations/p19-2.webp",
+   "thumb": "assets/img/installations/thumb/p19-2.webp",
+   "w": 781,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "LED 벽부등 설치사례 사진 2 (카탈로그 19P)",
+   "altEn": "LED wall light installation example, photo 2 (catalog p. 19)",
+   "relatedGroupIds": [
+    "lt-wall"
+   ],
+   "sourceCatalogPage": "19",
+   "sourcePdfPage": 10
+  },
+  {
+   "id": "p19-3",
+   "category": "lighting",
+   "scene": "wall",
+   "image": "assets/img/installations/p19-3.webp",
+   "thumb": "assets/img/installations/thumb/p19-3.webp",
+   "w": 782,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "LED 벽부등 설치사례 사진 3 (카탈로그 19P)",
+   "altEn": "LED wall light installation example, photo 3 (catalog p. 19)",
+   "relatedGroupIds": [
+    "lt-wall"
+   ],
+   "sourceCatalogPage": "19",
+   "sourcePdfPage": 10
+  },
+  {
+   "id": "p21-1",
+   "category": "lighting",
+   "scene": "curb",
+   "image": "assets/img/installations/p21-1.webp",
+   "thumb": "assets/img/installations/thumb/p21-1.webp",
+   "w": 781,
+   "h": 1021,
+   "orientation": "portrait",
+   "altKo": "LED 경계석조명 설치사례 사진 1 (카탈로그 21P)",
+   "altEn": "LED curb stone lighting installation example, photo 1 (catalog p. 21)",
+   "relatedGroupIds": [
+    "lt-curb"
+   ],
+   "sourceCatalogPage": "21",
+   "sourcePdfPage": 11
+  },
+  {
+   "id": "p21-2",
+   "category": "lighting",
+   "scene": "curb",
+   "image": "assets/img/installations/p21-2.webp",
+   "thumb": "assets/img/installations/thumb/p21-2.webp",
+   "w": 782,
+   "h": 1021,
+   "orientation": "portrait",
+   "altKo": "LED 경계석조명 설치사례 사진 2 (카탈로그 21P)",
+   "altEn": "LED curb stone lighting installation example, photo 2 (catalog p. 21)",
+   "relatedGroupIds": [
+    "lt-curb"
+   ],
+   "sourceCatalogPage": "21",
+   "sourcePdfPage": 11
+  },
+  {
+   "id": "p21-3",
+   "category": "lighting",
+   "scene": "curb",
+   "image": "assets/img/installations/p21-3.webp",
+   "thumb": "assets/img/installations/thumb/p21-3.webp",
+   "w": 1575,
+   "h": 1024,
+   "orientation": "landscape",
+   "altKo": "LED 경계석조명 설치사례 사진 3 (카탈로그 21P)",
+   "altEn": "LED curb stone lighting installation example, photo 3 (catalog p. 21)",
+   "relatedGroupIds": [
+    "lt-curb"
+   ],
+   "sourceCatalogPage": "21",
+   "sourcePdfPage": 11
+  },
+  {
+   "id": "p23-1",
+   "category": "lighting",
+   "scene": "logo-projector",
+   "image": "assets/img/installations/p23-1.webp",
+   "thumb": "assets/img/installations/thumb/p23-1.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "로고젝터 설치사례 사진 1 (카탈로그 23P)",
+   "altEn": "Logo projector installation example, photo 1 (catalog p. 23)",
+   "relatedGroupIds": [
+    "lt-logo-projector"
+   ],
+   "sourceCatalogPage": "23",
+   "sourcePdfPage": 12
+  },
+  {
+   "id": "p23-2",
+   "category": "lighting",
+   "scene": "logo-projector",
+   "image": "assets/img/installations/p23-2.webp",
+   "thumb": "assets/img/installations/thumb/p23-2.webp",
+   "w": 781,
+   "h": 676,
+   "orientation": "landscape",
+   "altKo": "로고젝터 설치사례 사진 2 (카탈로그 23P)",
+   "altEn": "Logo projector installation example, photo 2 (catalog p. 23)",
+   "relatedGroupIds": [
+    "lt-logo-projector"
+   ],
+   "sourceCatalogPage": "23",
+   "sourcePdfPage": 12
+  },
+  {
+   "id": "p23-3",
+   "category": "lighting",
+   "scene": "logo-projector",
+   "image": "assets/img/installations/p23-3.webp",
+   "thumb": "assets/img/installations/thumb/p23-3.webp",
+   "w": 778,
+   "h": 676,
+   "orientation": "landscape",
+   "altKo": "로고젝터 설치사례 사진 3 (카탈로그 23P)",
+   "altEn": "Logo projector installation example, photo 3 (catalog p. 23)",
+   "relatedGroupIds": [
+    "lt-logo-projector"
+   ],
+   "sourceCatalogPage": "23",
+   "sourcePdfPage": 12
+  },
+  {
+   "id": "p23-4",
+   "category": "lighting",
+   "scene": "logo-projector",
+   "image": "assets/img/installations/p23-4.webp",
+   "thumb": "assets/img/installations/thumb/p23-4.webp",
+   "w": 781,
+   "h": 676,
+   "orientation": "landscape",
+   "altKo": "로고젝터 설치사례 사진 4 (카탈로그 23P)",
+   "altEn": "Logo projector installation example, photo 4 (catalog p. 23)",
+   "relatedGroupIds": [
+    "lt-logo-projector"
+   ],
+   "sourceCatalogPage": "23",
+   "sourcePdfPage": 12
+  },
+  {
+   "id": "p23-5",
+   "category": "lighting",
+   "scene": "logo-projector",
+   "image": "assets/img/installations/p23-5.webp",
+   "thumb": "assets/img/installations/thumb/p23-5.webp",
+   "w": 778,
+   "h": 676,
+   "orientation": "landscape",
+   "altKo": "로고젝터 설치사례 사진 5 (카탈로그 23P)",
+   "altEn": "Logo projector installation example, photo 5 (catalog p. 23)",
+   "relatedGroupIds": [
+    "lt-logo-projector"
+   ],
+   "sourceCatalogPage": "23",
+   "sourcePdfPage": 12
+  },
+  {
+   "id": "p25-1",
+   "category": "lighting",
+   "scene": "park",
+   "image": "assets/img/installations/p25-1.webp",
+   "thumb": "assets/img/installations/thumb/p25-1.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "LED 공원등 설치사례 사진 1 (카탈로그 25P)",
+   "altEn": "LED park light installation example, photo 1 (catalog p. 25)",
+   "relatedGroupIds": [
+    "lt-park"
+   ],
+   "sourceCatalogPage": "25",
+   "sourcePdfPage": 13
+  },
+  {
+   "id": "p25-2",
+   "category": "lighting",
+   "scene": "park",
+   "image": "assets/img/installations/p25-2.webp",
+   "thumb": "assets/img/installations/thumb/p25-2.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "LED 공원등 설치사례 사진 2 (카탈로그 25P)",
+   "altEn": "LED park light installation example, photo 2 (catalog p. 25)",
+   "relatedGroupIds": [
+    "lt-park"
+   ],
+   "sourceCatalogPage": "25",
+   "sourcePdfPage": 13
+  },
+  {
+   "id": "p25-3",
+   "category": "lighting",
+   "scene": "park",
+   "image": "assets/img/installations/p25-3.webp",
+   "thumb": "assets/img/installations/thumb/p25-3.webp",
+   "w": 1575,
+   "h": 685,
+   "orientation": "landscape",
+   "altKo": "LED 공원등 설치사례 사진 3 (카탈로그 25P)",
+   "altEn": "LED park light installation example, photo 3 (catalog p. 25)",
+   "relatedGroupIds": [
+    "lt-park"
+   ],
+   "sourceCatalogPage": "25",
+   "sourcePdfPage": 13
+  },
+  {
+   "id": "p27-1",
+   "category": "lighting",
+   "scene": "security",
+   "image": "assets/img/installations/p27-1.webp",
+   "thumb": "assets/img/installations/thumb/p27-1.webp",
+   "w": 781,
+   "h": 1021,
+   "orientation": "portrait",
+   "altKo": "LED 공원보안등 설치사례 사진 1 (카탈로그 27P)",
+   "altEn": "LED park security light installation example, photo 1 (catalog p. 27)",
+   "relatedGroupIds": [
+    "lt-security-50-30",
+    "lt-security-25"
+   ],
+   "sourceCatalogPage": "27",
+   "sourcePdfPage": 14
+  },
+  {
+   "id": "p27-2",
+   "category": "lighting",
+   "scene": "security",
+   "image": "assets/img/installations/p27-2.webp",
+   "thumb": "assets/img/installations/thumb/p27-2.webp",
+   "w": 782,
+   "h": 1021,
+   "orientation": "portrait",
+   "altKo": "LED 공원보안등 설치사례 사진 2 (카탈로그 27P)",
+   "altEn": "LED park security light installation example, photo 2 (catalog p. 27)",
+   "relatedGroupIds": [
+    "lt-security-50-30",
+    "lt-security-25"
+   ],
+   "sourceCatalogPage": "27",
+   "sourcePdfPage": 14
+  },
+  {
+   "id": "p27-3",
+   "category": "lighting",
+   "scene": "security",
+   "image": "assets/img/installations/p27-3.webp",
+   "thumb": "assets/img/installations/thumb/p27-3.webp",
+   "w": 1575,
+   "h": 1024,
+   "orientation": "landscape",
+   "altKo": "LED 공원보안등 설치사례 사진 3 (카탈로그 27P)",
+   "altEn": "LED park security light installation example, photo 3 (catalog p. 27)",
+   "relatedGroupIds": [
+    "lt-security-50-30",
+    "lt-security-25"
+   ],
+   "sourceCatalogPage": "27",
+   "sourcePdfPage": 14
+  },
+  {
+   "id": "p31-1",
+   "category": "lighting",
+   "scene": "floor-square",
+   "image": "assets/img/installations/p31-1.webp",
+   "thumb": "assets/img/installations/thumb/p31-1.webp",
+   "w": 781,
+   "h": 1021,
+   "orientation": "portrait",
+   "altKo": "LED 바닥매립등 설치사례 사진 1 (카탈로그 31P)",
+   "altEn": "LED recessed floor light installation example, photo 1 (catalog p. 31)",
+   "relatedGroupIds": [
+    "lt-floor-square"
+   ],
+   "sourceCatalogPage": "31",
+   "sourcePdfPage": 16
+  },
+  {
+   "id": "p31-2",
+   "category": "lighting",
+   "scene": "floor-square",
+   "image": "assets/img/installations/p31-2.webp",
+   "thumb": "assets/img/installations/thumb/p31-2.webp",
+   "w": 782,
+   "h": 1021,
+   "orientation": "portrait",
+   "altKo": "LED 바닥매립등 설치사례 사진 2 (카탈로그 31P)",
+   "altEn": "LED recessed floor light installation example, photo 2 (catalog p. 31)",
+   "relatedGroupIds": [
+    "lt-floor-square"
+   ],
+   "sourceCatalogPage": "31",
+   "sourcePdfPage": 16
+  },
+  {
+   "id": "p31-3",
+   "category": "lighting",
+   "scene": "floor-square",
+   "image": "assets/img/installations/p31-3.webp",
+   "thumb": "assets/img/installations/thumb/p31-3.webp",
+   "w": 1575,
+   "h": 1024,
+   "orientation": "landscape",
+   "altKo": "LED 바닥매립등 설치사례 사진 3 (카탈로그 31P)",
+   "altEn": "LED recessed floor light installation example, photo 3 (catalog p. 31)",
+   "relatedGroupIds": [
+    "lt-floor-square"
+   ],
+   "sourceCatalogPage": "31",
+   "sourcePdfPage": 16
+  },
+  {
+   "id": "p33-1",
+   "category": "lighting",
+   "scene": "floor-round",
+   "image": "assets/img/installations/p33-1.webp",
+   "thumb": "assets/img/installations/thumb/p33-1.webp",
+   "w": 1575,
+   "h": 1021,
+   "orientation": "landscape",
+   "altKo": "LED 바닥매립등 설치사례 사진 1 (카탈로그 33P)",
+   "altEn": "LED recessed floor light installation example, photo 1 (catalog p. 33)",
+   "relatedGroupIds": [
+    "lt-floor-round"
+   ],
+   "sourceCatalogPage": "33",
+   "sourcePdfPage": 17
+  },
+  {
+   "id": "p33-2",
+   "category": "lighting",
+   "scene": "floor-round",
+   "image": "assets/img/installations/p33-2.webp",
+   "thumb": "assets/img/installations/thumb/p33-2.webp",
+   "w": 781,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "LED 바닥매립등 설치사례 사진 2 (카탈로그 33P)",
+   "altEn": "LED recessed floor light installation example, photo 2 (catalog p. 33)",
+   "relatedGroupIds": [
+    "lt-floor-round"
+   ],
+   "sourceCatalogPage": "33",
+   "sourcePdfPage": 17
+  },
+  {
+   "id": "p33-3",
+   "category": "lighting",
+   "scene": "floor-round",
+   "image": "assets/img/installations/p33-3.webp",
+   "thumb": "assets/img/installations/thumb/p33-3.webp",
+   "w": 782,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "LED 바닥매립등 설치사례 사진 3 (카탈로그 33P)",
+   "altEn": "LED recessed floor light installation example, photo 3 (catalog p. 33)",
+   "relatedGroupIds": [
+    "lt-floor-round"
+   ],
+   "sourceCatalogPage": "33",
+   "sourcePdfPage": 17
+  },
+  {
+   "id": "p35-1",
+   "category": "lighting",
+   "scene": "fence-square",
+   "image": "assets/img/installations/p35-1.webp",
+   "thumb": "assets/img/installations/thumb/p35-1.webp",
+   "w": 781,
+   "h": 1021,
+   "orientation": "portrait",
+   "altKo": "사각 펜스기둥조명 설치사례 사진 1 (카탈로그 35P)",
+   "altEn": "Square fence post light installation example, photo 1 (catalog p. 35)",
+   "relatedGroupIds": [
+    "lt-fence-square"
+   ],
+   "sourceCatalogPage": "35",
+   "sourcePdfPage": 18
+  },
+  {
+   "id": "p35-2",
+   "category": "lighting",
+   "scene": "fence-square",
+   "image": "assets/img/installations/p35-2.webp",
+   "thumb": "assets/img/installations/thumb/p35-2.webp",
+   "w": 782,
+   "h": 1021,
+   "orientation": "portrait",
+   "altKo": "사각 펜스기둥조명 설치사례 사진 2 (카탈로그 35P)",
+   "altEn": "Square fence post light installation example, photo 2 (catalog p. 35)",
+   "relatedGroupIds": [
+    "lt-fence-square"
+   ],
+   "sourceCatalogPage": "35",
+   "sourcePdfPage": 18
+  },
+  {
+   "id": "p35-3",
+   "category": "lighting",
+   "scene": "fence-square",
+   "image": "assets/img/installations/p35-3.webp",
+   "thumb": "assets/img/installations/thumb/p35-3.webp",
+   "w": 1575,
+   "h": 1024,
+   "orientation": "landscape",
+   "altKo": "사각 펜스기둥조명 설치사례 사진 3 (카탈로그 35P)",
+   "altEn": "Square fence post light installation example, photo 3 (catalog p. 35)",
+   "relatedGroupIds": [
+    "lt-fence-square"
+   ],
+   "sourceCatalogPage": "35",
+   "sourcePdfPage": 18
+  },
+  {
+   "id": "p37-1",
+   "category": "lighting",
+   "scene": "fence-round",
+   "image": "assets/img/installations/p37-1.webp",
+   "thumb": "assets/img/installations/thumb/p37-1.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "원형 펜스기둥조명 설치사례 사진 1 (카탈로그 37P)",
+   "altEn": "Round fence post light installation example, photo 1 (catalog p. 37)",
+   "relatedGroupIds": [
+    "lt-fence-round"
+   ],
+   "sourceCatalogPage": "37",
+   "sourcePdfPage": 19
+  },
+  {
+   "id": "p37-2",
+   "category": "lighting",
+   "scene": "fence-round",
+   "image": "assets/img/installations/p37-2.webp",
+   "thumb": "assets/img/installations/thumb/p37-2.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "원형 펜스기둥조명 설치사례 사진 2 (카탈로그 37P)",
+   "altEn": "Round fence post light installation example, photo 2 (catalog p. 37)",
+   "relatedGroupIds": [
+    "lt-fence-round"
+   ],
+   "sourceCatalogPage": "37",
+   "sourcePdfPage": 19
+  },
+  {
+   "id": "p37-3",
+   "category": "lighting",
+   "scene": "fence-round",
+   "image": "assets/img/installations/p37-3.webp",
+   "thumb": "assets/img/installations/thumb/p37-3.webp",
+   "w": 1575,
+   "h": 685,
+   "orientation": "landscape",
+   "altKo": "원형 펜스기둥조명 설치사례 사진 3 (카탈로그 37P)",
+   "altEn": "Round fence post light installation example, photo 3 (catalog p. 37)",
+   "relatedGroupIds": [
+    "lt-fence-round"
+   ],
+   "sourceCatalogPage": "37",
+   "sourcePdfPage": 19
+  },
+  {
+   "id": "p39-1",
+   "category": "lighting",
+   "scene": "bollard",
+   "image": "assets/img/installations/p39-1.webp",
+   "thumb": "assets/img/installations/thumb/p39-1.webp",
+   "w": 1575,
+   "h": 1021,
+   "orientation": "landscape",
+   "altKo": "LED 볼라드 조명 설치사례 사진 1 (카탈로그 39P)",
+   "altEn": "LED bollard light installation example, photo 1 (catalog p. 39)",
+   "relatedGroupIds": [
+    "lt-bollard"
+   ],
+   "sourceCatalogPage": "39",
+   "sourcePdfPage": 20
+  },
+  {
+   "id": "p39-2",
+   "category": "lighting",
+   "scene": "bollard",
+   "image": "assets/img/installations/p39-2.webp",
+   "thumb": "assets/img/installations/thumb/p39-2.webp",
+   "w": 781,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "LED 볼라드 조명 설치사례 사진 2 (카탈로그 39P)",
+   "altEn": "LED bollard light installation example, photo 2 (catalog p. 39)",
+   "relatedGroupIds": [
+    "lt-bollard"
+   ],
+   "sourceCatalogPage": "39",
+   "sourcePdfPage": 20
+  },
+  {
+   "id": "p39-3",
+   "category": "lighting",
+   "scene": "bollard",
+   "image": "assets/img/installations/p39-3.webp",
+   "thumb": "assets/img/installations/thumb/p39-3.webp",
+   "w": 782,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "LED 볼라드 조명 설치사례 사진 3 (카탈로그 39P)",
+   "altEn": "LED bollard light installation example, photo 3 (catalog p. 39)",
+   "relatedGroupIds": [
+    "lt-bollard"
+   ],
+   "sourceCatalogPage": "39",
+   "sourcePdfPage": 20
+  },
+  {
+   "id": "p41-1",
+   "category": "lighting",
+   "scene": "linear",
+   "image": "assets/img/installations/p41-1.webp",
+   "thumb": "assets/img/installations/thumb/p41-1.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "LED 라인조명 설치사례 사진 1 (카탈로그 41P)",
+   "altEn": "LED linear light installation example, photo 1 (catalog p. 41)",
+   "relatedGroupIds": [
+    "lt-linear"
+   ],
+   "sourceCatalogPage": "41",
+   "sourcePdfPage": 21
+  },
+  {
+   "id": "p41-2",
+   "category": "lighting",
+   "scene": "linear",
+   "image": "assets/img/installations/p41-2.webp",
+   "thumb": "assets/img/installations/thumb/p41-2.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "LED 라인조명 설치사례 사진 2 (카탈로그 41P)",
+   "altEn": "LED linear light installation example, photo 2 (catalog p. 41)",
+   "relatedGroupIds": [
+    "lt-linear"
+   ],
+   "sourceCatalogPage": "41",
+   "sourcePdfPage": 21
+  },
+  {
+   "id": "p41-3",
+   "category": "lighting",
+   "scene": "linear",
+   "image": "assets/img/installations/p41-3.webp",
+   "thumb": "assets/img/installations/thumb/p41-3.webp",
+   "w": 1575,
+   "h": 685,
+   "orientation": "landscape",
+   "altKo": "LED 라인조명 설치사례 사진 3 (카탈로그 41P)",
+   "altEn": "LED linear light installation example, photo 3 (catalog p. 41)",
+   "relatedGroupIds": [
+    "lt-linear"
+   ],
+   "sourceCatalogPage": "41",
+   "sourcePdfPage": 21
+  },
+  {
+   "id": "p43-1",
+   "category": "lighting",
+   "scene": "linear-flood",
+   "image": "assets/img/installations/p43-1.webp",
+   "thumb": "assets/img/installations/thumb/p43-1.webp",
+   "w": 781,
+   "h": 1021,
+   "orientation": "portrait",
+   "altKo": "LED 라인투광조명 설치사례 사진 1 (카탈로그 43P)",
+   "altEn": "LED linear floodlight installation example, photo 1 (catalog p. 43)",
+   "relatedGroupIds": [
+    "lt-linear-flood"
+   ],
+   "sourceCatalogPage": "43",
+   "sourcePdfPage": 22
+  },
+  {
+   "id": "p43-2",
+   "category": "lighting",
+   "scene": "linear-flood",
+   "image": "assets/img/installations/p43-2.webp",
+   "thumb": "assets/img/installations/thumb/p43-2.webp",
+   "w": 782,
+   "h": 1021,
+   "orientation": "portrait",
+   "altKo": "LED 라인투광조명 설치사례 사진 2 (카탈로그 43P)",
+   "altEn": "LED linear floodlight installation example, photo 2 (catalog p. 43)",
+   "relatedGroupIds": [
+    "lt-linear-flood"
+   ],
+   "sourceCatalogPage": "43",
+   "sourcePdfPage": 22
+  },
+  {
+   "id": "p43-3",
+   "category": "lighting",
+   "scene": "linear-flood",
+   "image": "assets/img/installations/p43-3.webp",
+   "thumb": "assets/img/installations/thumb/p43-3.webp",
+   "w": 1575,
+   "h": 1024,
+   "orientation": "landscape",
+   "altKo": "LED 라인투광조명 설치사례 사진 3 (카탈로그 43P)",
+   "altEn": "LED linear floodlight installation example, photo 3 (catalog p. 43)",
+   "relatedGroupIds": [
+    "lt-linear-flood"
+   ],
+   "sourceCatalogPage": "43",
+   "sourcePdfPage": 22
+  },
+  {
+   "id": "p45-1",
+   "category": "lighting",
+   "scene": "flood-125",
+   "image": "assets/img/installations/p45-1.webp",
+   "thumb": "assets/img/installations/thumb/p45-1.webp",
+   "w": 1575,
+   "h": 1021,
+   "orientation": "landscape",
+   "altKo": "LED 원형 투광등 설치사례 사진 1 (카탈로그 45P)",
+   "altEn": "LED circle floodlight installation example, photo 1 (catalog p. 45)",
+   "relatedGroupIds": [
+    "lt-flood-125"
+   ],
+   "sourceCatalogPage": "45",
+   "sourcePdfPage": 23
+  },
+  {
+   "id": "p45-2",
+   "category": "lighting",
+   "scene": "flood-125",
+   "image": "assets/img/installations/p45-2.webp",
+   "thumb": "assets/img/installations/thumb/p45-2.webp",
+   "w": 1575,
+   "h": 1024,
+   "orientation": "landscape",
+   "altKo": "LED 원형 투광등 설치사례 사진 2 (카탈로그 45P)",
+   "altEn": "LED circle floodlight installation example, photo 2 (catalog p. 45)",
+   "relatedGroupIds": [
+    "lt-flood-125"
+   ],
+   "sourceCatalogPage": "45",
+   "sourcePdfPage": 23
+  },
+  {
+   "id": "p47-1",
+   "category": "lighting",
+   "scene": "flood-160-217",
+   "image": "assets/img/installations/p47-1.webp",
+   "thumb": "assets/img/installations/thumb/p47-1.webp",
+   "w": 1575,
+   "h": 1021,
+   "orientation": "landscape",
+   "altKo": "LED 원형 투광등 설치사례 사진 1 (카탈로그 47P)",
+   "altEn": "LED circle floodlight installation example, photo 1 (catalog p. 47)",
+   "relatedGroupIds": [
+    "lt-flood-160-217"
+   ],
+   "sourceCatalogPage": "47",
+   "sourcePdfPage": 24
+  },
+  {
+   "id": "p47-2",
+   "category": "lighting",
+   "scene": "flood-160-217",
+   "image": "assets/img/installations/p47-2.webp",
+   "thumb": "assets/img/installations/thumb/p47-2.webp",
+   "w": 781,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "LED 원형 투광등 설치사례 사진 2 (카탈로그 47P)",
+   "altEn": "LED circle floodlight installation example, photo 2 (catalog p. 47)",
+   "relatedGroupIds": [
+    "lt-flood-160-217"
+   ],
+   "sourceCatalogPage": "47",
+   "sourcePdfPage": 24
+  },
+  {
+   "id": "p47-3",
+   "category": "lighting",
+   "scene": "flood-160-217",
+   "image": "assets/img/installations/p47-3.webp",
+   "thumb": "assets/img/installations/thumb/p47-3.webp",
+   "w": 782,
+   "h": 1024,
+   "orientation": "portrait",
+   "altKo": "LED 원형 투광등 설치사례 사진 3 (카탈로그 47P)",
+   "altEn": "LED circle floodlight installation example, photo 3 (catalog p. 47)",
+   "relatedGroupIds": [
+    "lt-flood-160-217"
+   ],
+   "sourceCatalogPage": "47",
+   "sourcePdfPage": 24
+  },
+  {
+   "id": "p49-1",
+   "category": "lighting",
+   "scene": "inground-round",
+   "image": "assets/img/installations/p49-1.webp",
+   "thumb": "assets/img/installations/thumb/p49-1.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "LED 원형 지중등 설치사례 사진 1 (카탈로그 49P)",
+   "altEn": "LED circle in-ground light installation example, photo 1 (catalog p. 49)",
+   "relatedGroupIds": [
+    "lt-inground-round"
+   ],
+   "sourceCatalogPage": "49",
+   "sourcePdfPage": 25
+  },
+  {
+   "id": "p49-2",
+   "category": "lighting",
+   "scene": "inground-round",
+   "image": "assets/img/installations/p49-2.webp",
+   "thumb": "assets/img/installations/thumb/p49-2.webp",
+   "w": 1575,
+   "h": 682,
+   "orientation": "landscape",
+   "altKo": "LED 원형 지중등 설치사례 사진 2 (카탈로그 49P)",
+   "altEn": "LED circle in-ground light installation example, photo 2 (catalog p. 49)",
+   "relatedGroupIds": [
+    "lt-inground-round"
+   ],
+   "sourceCatalogPage": "49",
+   "sourcePdfPage": 25
+  },
+  {
+   "id": "p49-3",
+   "category": "lighting",
+   "scene": "inground-round",
+   "image": "assets/img/installations/p49-3.webp",
+   "thumb": "assets/img/installations/thumb/p49-3.webp",
+   "w": 1575,
+   "h": 685,
+   "orientation": "landscape",
+   "altKo": "LED 원형 지중등 설치사례 사진 3 (카탈로그 49P)",
+   "altEn": "LED circle in-ground light installation example, photo 3 (catalog p. 49)",
+   "relatedGroupIds": [
+    "lt-inground-round"
+   ],
+   "sourceCatalogPage": "49",
+   "sourcePdfPage": 25
+  }
+ ]
+}

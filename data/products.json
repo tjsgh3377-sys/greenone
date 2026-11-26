@@ -1,0 +1,6259 @@
+{
+ "_about": "그린원 최종 카탈로그(PDF 26쪽) 기준 제품 데이터. price/priceBasis 는 내부 보관용이며 홈페이지에는 노출하지 않는다. 수정 후 python tools/build.py 실행.",
+ "categories": [
+  {
+   "id": "road-stud",
+   "nameKo": "도로표지병",
+   "nameEn": "Road Stud",
+   "page": "road-stud.html"
+  },
+  {
+   "id": "lighting",
+   "nameKo": "LED 경관조명",
+   "nameEn": "LED Landscape Lighting",
+   "page": "lighting.html"
+  }
+ ],
+ "subcategories": [
+  {
+   "id": "battery",
+   "category": "road-stud",
+   "nameKo": "배터리형",
+   "nameEn": "Battery"
+  },
+  {
+   "id": "hybrid",
+   "category": "road-stud",
+   "nameKo": "하이브리드형",
+   "nameEn": "Hybrid"
+  },
+  {
+   "id": "solar",
+   "category": "road-stud",
+   "nameKo": "태양광형",
+   "nameEn": "Solar"
+  },
+  {
+   "id": "electric",
+   "category": "road-stud",
+   "nameKo": "전기형",
+   "nameEn": "Mains-powered"
+  },
+  {
+   "id": "module",
+   "category": "road-stud",
+   "nameKo": "모듈교체형",
+   "nameEn": "Module replacement"
+  },
+  {
+   "id": "line",
+   "category": "lighting",
+   "nameKo": "라인조명",
+   "nameEn": "Line lighting"
+  },
+  {
+   "id": "wall",
+   "category": "lighting",
+   "nameKo": "벽부등",
+   "nameEn": "Wall light"
+  },
+  {
+   "id": "curb",
+   "category": "lighting",
+   "nameKo": "경계석조명",
+   "nameEn": "Curb stone lighting"
+  },
+  {
+   "id": "logo",
+   "category": "lighting",
+   "nameKo": "로고젝터",
+   "nameEn": "Logo projector"
+  },
+  {
+   "id": "park",
+   "category": "lighting",
+   "nameKo": "공원등·보안등",
+   "nameEn": "Park & security light"
+  },
+  {
+   "id": "accent",
+   "category": "lighting",
+   "nameKo": "포인트 조명",
+   "nameEn": "Accent lighting"
+  },
+  {
+   "id": "floor",
+   "category": "lighting",
+   "nameKo": "바닥매립등",
+   "nameEn": "Recessed floor light"
+  },
+  {
+   "id": "fence",
+   "category": "lighting",
+   "nameKo": "펜스기둥조명",
+   "nameEn": "Fence post light"
+  },
+  {
+   "id": "bollard",
+   "category": "lighting",
+   "nameKo": "볼라드 조명",
+   "nameEn": "Bollard light"
+  },
+  {
+   "id": "flood",
+   "category": "lighting",
+   "nameKo": "투광조명",
+   "nameEn": "Floodlight"
+  },
+  {
+   "id": "inground",
+   "category": "lighting",
+   "nameKo": "지중등",
+   "nameEn": "In-ground light"
+  },
+  {
+   "id": "column",
+   "category": "lighting",
+   "nameKo": "열주등",
+   "nameEn": "Column light"
+  }
+ ],
+ "powerTypes": {
+  "battery": {
+   "ko": "배터리형",
+   "en": "Battery type"
+  },
+  "hybrid": {
+   "ko": "하이브리드형 (태양광+배터리)",
+   "en": "Hybrid type (solar + battery)"
+  },
+  "solar": {
+   "ko": "태양광형",
+   "en": "Solar-powered type"
+  },
+  "electric": {
+   "ko": "전기형",
+   "en": "Mains-powered type"
+  },
+  "unconfirmed": {
+   "ko": "확인 중",
+   "en": "Under review"
+  }
+ },
+ "ledColorNames": {
+  "white": {
+   "ko": "백색",
+   "en": "White"
+  },
+  "yellow": {
+   "ko": "황색",
+   "en": "Yellow"
+  },
+  "green": {
+   "ko": "녹색",
+   "en": "Green"
+  },
+  "red": {
+   "ko": "적색",
+   "en": "Red"
+  },
+  "blue": {
+   "ko": "청색",
+   "en": "Blue"
+  },
+  "rgb": {
+   "ko": "RGB",
+   "en": "RGB"
+  },
+  "rgbw": {
+   "ko": "R.G.B.W",
+   "en": "R.G.B.W"
+  },
+  "full": {
+   "ko": "1 / 2 / 3 / Full Color",
+   "en": "1 / 2 / 3 / Full Color"
+  }
+ },
+ "groups": [
+  {
+   "id": "rs-138-battery",
+   "category": "road-stud",
+   "subcategory": "battery",
+   "nameKo": "Ø138 LED 도로표지병 · 배터리형",
+   "nameEn": "Ø138 LED Road Stud · Battery Type",
+   "catalogTitle": {
+    "ko": "LED 도로표지병",
+    "en": "Road Stud"
+   },
+   "catalogProductName": {
+    "ko": "Ф138도로표지병",
+    "en": "Road Stud"
+   },
+   "ledColorsCatalog": [
+    "White",
+    "Yellow",
+    "Green"
+   ],
+   "descriptionKo": [
+    "차도, 이면도로, 산책로, 자전거도로 등에 사용 가능 (태양광 충전이 안 되는 곳에 설치 가능)",
+    "저전력 구동으로 인한 장수명(최대 3년) 사용 / 전원 소모 저감 기능이 구비된 표지병",
+    "내충격, 방수·방진 구조 (IP68)",
+    "모듈(인솔) 교체 가능 구조로 유지 비용 절감 (기구물 교체가 필요 없음)",
+    "전선이 필요 없어 간편하게 시공 가능"
+   ],
+   "descriptionEn": [
+    "Can be used on carriageways, alleys, trails and bicycle paths (can be installed where solar charging is not available)",
+    "Long service life (up to 3 years) thanks to low-power operation / road stud with an energy-saving function",
+    "Shockproof, waterproof and dustproof structure (IP68)",
+    "Replaceable internal module reduces maintenance costs (no need to replace the fixture)",
+    "No wires required, allowing easy installation"
+   ],
+   "installationCaseIds": [
+    "p10-1",
+    "p10-2",
+    "p10-3",
+    "p11-1",
+    "p11-2",
+    "p11-3",
+    "p12-1",
+    "p12-2",
+    "p12-3",
+    "p13-1",
+    "p13-2",
+    "p13-3",
+    "p14-1",
+    "p14-2",
+    "p14-3",
+    "p15-1",
+    "p15-2"
+   ],
+   "sourceCatalogPage": "4",
+   "sourcePdfPage": 3,
+   "models": [
+    {
+     "id": "hor-138wb",
+     "model": "HOR-138WB",
+     "nameKo": "Ø138 도로표지병",
+     "nameEn": "Ø138 Road Stud",
+     "powerType": "battery",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26146003",
+     "price": 93500,
+     "images": [
+      {
+       "src": "assets/img/products/rs-138-battery/hor-138wb.webp",
+       "w": 572,
+       "h": 532
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery",
+       "en": "Lithium Battery"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø138mm × 68mm",
+       "en": "Ø138mm × 68mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "priceBasis": "납품하차도 기준 / 시공가능",
+     "category": "road-stud",
+     "subcategory": "battery",
+     "productGroup": "rs-138-battery",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "4",
+     "sourcePdfPage": 3,
+     "modelSource": {
+      "specTable": "HOR-138WB",
+      "imageCaption": "HOR-138WB"
+     }
+    },
+    {
+     "id": "hor-138yb",
+     "model": "HOR-138YB",
+     "nameKo": "Ø138 도로표지병",
+     "nameEn": "Ø138 Road Stud",
+     "powerType": "battery",
+     "ledColors": [
+      "yellow"
+     ],
+     "procurementId": "26146004",
+     "price": 93500,
+     "images": [
+      {
+       "src": "assets/img/products/rs-138-battery/hor-138yb.webp",
+       "w": 572,
+       "h": 532
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery",
+       "en": "Lithium Battery"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø138mm × 68mm",
+       "en": "Ø138mm × 68mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "priceBasis": "납품하차도 기준 / 시공가능",
+     "category": "road-stud",
+     "subcategory": "battery",
+     "productGroup": "rs-138-battery",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "4",
+     "sourcePdfPage": 3,
+     "modelSource": {
+      "specTable": "HOR-138YB",
+      "imageCaption": "HOR-138YB"
+     }
+    }
+   ],
+   "issueRefs": [
+    "C-01"
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "battery"
+   ]
+  },
+  {
+   "id": "rs-138-hybrid",
+   "category": "road-stud",
+   "subcategory": "hybrid",
+   "nameKo": "Ø138 LED 도로표지병 · 하이브리드형",
+   "nameEn": "Ø138 LED Road Stud · Hybrid Type",
+   "catalogTitle": {
+    "ko": "LED 도로표지병",
+    "en": "Road Stud"
+   },
+   "catalogProductName": {
+    "ko": "Ф138도로표지병",
+    "en": "Road Stud"
+   },
+   "ledColorsCatalog": [
+    "White",
+    "Yellow",
+    "Green"
+   ],
+   "descriptionKo": [
+    "차도, 이면도로, 산책로, 자전거도로 등에 사용 가능",
+    "저전력 구동으로 인한 장수명(최대 3년) 사용 / 전원 소모 저감 기능이 구비된 표지병",
+    "내충격, 방수·방진 구조 (IP68)",
+    "모듈(인솔) 교체 가능 구조로 유지 비용 절감 (기구물 교체가 필요 없음)",
+    "전선이 필요 없어 간편하게 시공 가능"
+   ],
+   "descriptionEn": [
+    "Can be used on carriageways, alleys, trails and bicycle paths",
+    "Long service life (up to 3 years) thanks to low-power operation / road stud with an energy-saving function",
+    "Shockproof, waterproof and dustproof structure (IP68)",
+    "Replaceable internal module reduces maintenance costs (no need to replace the fixture)",
+    "No wires required, allowing easy installation"
+   ],
+   "installationCaseIds": [
+    "p10-1",
+    "p10-2",
+    "p10-3",
+    "p11-1",
+    "p11-2",
+    "p11-3",
+    "p12-1",
+    "p12-2",
+    "p12-3",
+    "p13-1",
+    "p13-2",
+    "p13-3",
+    "p14-1",
+    "p14-2",
+    "p14-3",
+    "p15-1",
+    "p15-2"
+   ],
+   "sourceCatalogPage": "5",
+   "sourcePdfPage": 3,
+   "models": [
+    {
+     "id": "hor-138wh",
+     "model": "HOR-138WH",
+     "nameKo": "Ø138 도로표지병",
+     "nameEn": "Ø138 Road Stud",
+     "powerType": "hybrid",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26158874",
+     "price": 96800,
+     "images": [
+      {
+       "src": "assets/img/products/rs-138-hybrid/hor-138wh.webp",
+       "w": 572,
+       "h": 532
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery / Li-FePO4 (태양광)",
+       "en": "Lithium Battery / Li-FePO4 (solar-powered)"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트 + UV 코팅",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate + UV coating"
+      },
+      {
+       "key": "size",
+       "ko": "Ø138mm × 68mm",
+       "en": "Ø138mm × 68mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "priceBasis": "납품하차도 기준 / 시공가능",
+     "category": "road-stud",
+     "subcategory": "hybrid",
+     "productGroup": "rs-138-hybrid",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "5",
+     "sourcePdfPage": 3,
+     "modelSource": {
+      "specTable": "HOR-138WH",
+      "imageCaption": "HOR-138WH"
+     }
+    },
+    {
+     "id": "hor-138yh",
+     "model": "HOR-138YH",
+     "nameKo": "Ø138 도로표지병",
+     "nameEn": "Ø138 Road Stud",
+     "powerType": "hybrid",
+     "ledColors": [
+      "yellow"
+     ],
+     "procurementId": "26158873",
+     "price": 96800,
+     "images": [
+      {
+       "src": "assets/img/products/rs-138-hybrid/hor-138yh.webp",
+       "w": 572,
+       "h": 532
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery / Li-FePO4 (태양광)",
+       "en": "Lithium Battery / Li-FePO4 (solar-powered)"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트 + UV 코팅",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate + UV coating"
+      },
+      {
+       "key": "size",
+       "ko": "Ø138mm × 68mm",
+       "en": "Ø138mm × 68mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "priceBasis": "납품하차도 기준 / 시공가능",
+     "category": "road-stud",
+     "subcategory": "hybrid",
+     "productGroup": "rs-138-hybrid",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "5",
+     "sourcePdfPage": 3,
+     "modelSource": {
+      "specTable": "HOR-138YH",
+      "imageCaption": "HOR-138YH"
+     }
+    }
+   ],
+   "issueRefs": [
+    "C-01"
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "hybrid"
+   ]
+  },
+  {
+   "id": "rs-138-solar",
+   "category": "road-stud",
+   "subcategory": "solar",
+   "nameKo": "Ø138 LED 도로표지병 · 태양광형",
+   "nameEn": "Ø138 LED Road Stud · Solar-Powered Type",
+   "catalogTitle": {
+    "ko": "LED 도로표지병",
+    "en": "Road Stud"
+   },
+   "catalogProductName": {
+    "ko": "Ф138도로표지병",
+    "en": "Road Stud"
+   },
+   "ledColorsCatalog": [
+    "White",
+    "Yellow",
+    "Green"
+   ],
+   "descriptionKo": [
+    "차도, 이면도로, 산책로, 자전거도로 등에 사용 가능",
+    "저전력 구동 / 전원 소모 저감 기능이 구비된 표지병",
+    "내충격, 방수·방진 구조 (IP68)",
+    "모듈(인솔) 교체 가능 구조로 유지 비용 절감 (기구물 교체가 필요 없음)",
+    "전선이 필요 없어 간편하게 시공 가능"
+   ],
+   "descriptionEn": [
+    "Can be used on carriageways, alleys, trails and bicycle paths",
+    "Low-power operation / road stud with an energy-saving function",
+    "Shockproof, waterproof and dustproof structure (IP68)",
+    "Replaceable internal module reduces maintenance costs (no need to replace the fixture)",
+    "No wires required, allowing easy installation"
+   ],
+   "installationCaseIds": [
+    "p10-1",
+    "p10-2",
+    "p10-3",
+    "p11-1",
+    "p11-2",
+    "p11-3",
+    "p12-1",
+    "p12-2",
+    "p12-3",
+    "p13-1",
+    "p13-2",
+    "p13-3",
+    "p14-1",
+    "p14-2",
+    "p14-3",
+    "p15-1",
+    "p15-2"
+   ],
+   "sourceCatalogPage": "6",
+   "sourcePdfPage": 4,
+   "models": [
+    {
+     "id": "hor-138ws",
+     "model": "HOR-138WS",
+     "nameKo": "Ø138 도로표지병",
+     "nameEn": "Ø138 Road Stud",
+     "powerType": "solar",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26146001",
+     "price": 84700,
+     "images": [
+      {
+       "src": "assets/img/products/rs-138-solar/hor-138ws.webp",
+       "w": 572,
+       "h": 532
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Li-FePO4 (태양광)",
+       "en": "Li-FePO4 (solar-powered)"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트 + UV 코팅",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate + UV coating"
+      },
+      {
+       "key": "size",
+       "ko": "Ø138mm × 68mm",
+       "en": "Ø138mm × 68mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "priceBasis": "납품하차도 기준 / 시공가능",
+     "category": "road-stud",
+     "subcategory": "solar",
+     "productGroup": "rs-138-solar",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "6",
+     "sourcePdfPage": 4,
+     "modelSource": {
+      "specTable": "HOR-138WS",
+      "imageCaption": "HOR-138WS"
+     }
+    },
+    {
+     "id": "hor-138ys",
+     "model": "HOR-138YS",
+     "nameKo": "Ø138 도로표지병",
+     "nameEn": "Ø138 Road Stud",
+     "powerType": "solar",
+     "ledColors": [
+      "yellow"
+     ],
+     "procurementId": "26146002",
+     "price": 84700,
+     "images": [
+      {
+       "src": "assets/img/products/rs-138-solar/hor-138ys.webp",
+       "w": 572,
+       "h": 532
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Li-FePO4 (태양광)",
+       "en": "Li-FePO4 (solar-powered)"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트 + UV 코팅",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate + UV coating"
+      },
+      {
+       "key": "size",
+       "ko": "Ø138mm × 68mm",
+       "en": "Ø138mm × 68mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "priceBasis": "납품하차도 기준 / 시공가능",
+     "category": "road-stud",
+     "subcategory": "solar",
+     "productGroup": "rs-138-solar",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "6",
+     "sourcePdfPage": 4,
+     "modelSource": {
+      "specTable": "HOR-138YS",
+      "imageCaption": "HOR-138YS"
+     }
+    }
+   ],
+   "issueRefs": [
+    "C-01",
+    "I-08a"
+   ],
+   "pendingDescription": {
+    "reason": {
+     "ko": "사용기간·성능 표현이 국문과 영문에서 서로 다름",
+     "en": "Service-life and performance wording differs between the Korean and English text"
+    },
+    "catalogKo": [
+     "저전력 구동으로 인한 장수명으로 사용 / 전원소모 저감기능이 구비된 표지병 / 부조일수 5일이상"
+    ],
+    "catalogEn": [
+     "(can be installed in places where solar charging is not available)",
+     "Long service life (up to 3 years) due to low-power operation / road stud with energy-saving functionality"
+    ]
+   },
+   "verificationStatus": "verified",
+   "powerTypes": [
+    "solar"
+   ]
+  },
+  {
+   "id": "rs-113-module",
+   "category": "road-stud",
+   "subcategory": "module",
+   "nameKo": "Ø138 도로표지병 모듈교체용",
+   "nameEn": "Module Replacement for Ø138 Road Stud",
+   "catalogTitle": {
+    "ko": "모듈교체형",
+    "en": "Module replacement type"
+   },
+   "catalogProductName": {
+    "ko": "Ø138 표지병의 모듈교체용",
+    "en": "Ø138 stud module replacement"
+   },
+   "ledColorsCatalog": [
+    "White",
+    "Yellow",
+    "Green"
+   ],
+   "descriptionKo": [
+    "고휘도 LED 사용",
+    "내충격, 방수·방진 구조 (IP68)"
+   ],
+   "descriptionEn": [
+    "Uses high-brightness LEDs",
+    "Shockproof, waterproof and dustproof structure (IP68)"
+   ],
+   "pendingDescription": {
+    "reason": {
+     "ko": "배터리·하이브리드·태양광 모듈에 컨트롤러(전기 제어) 설명이 기재되어 있음",
+     "en": "Controller-related text is printed for battery / hybrid / solar modules"
+    },
+    "catalogKo": [
+     "컨트롤러를 이용한 28가지의 패턴 선택가능",
+     "30EA 당 1대의 컨트롤박스 필요함"
+    ],
+    "catalogEn": [
+     "28 selectable patterns via controller",
+     "1 control box required per 30 units"
+    ]
+   },
+   "installationCaseIds": [
+    "p10-1",
+    "p10-2",
+    "p10-3",
+    "p11-1",
+    "p11-2",
+    "p11-3",
+    "p12-1",
+    "p12-2",
+    "p12-3",
+    "p13-1",
+    "p13-2",
+    "p13-3",
+    "p14-1",
+    "p14-2",
+    "p14-3",
+    "p15-1",
+    "p15-2"
+   ],
+   "sourceCatalogPage": "7",
+   "sourcePdfPage": 4,
+   "issueRefs": [
+    "C-01",
+    "I-08b"
+   ],
+   "models": [
+    {
+     "id": "hor-wbi",
+     "model": "HOR-WBI",
+     "nameKo": "Ø138 표지병의 모듈교체용",
+     "nameEn": "Ø138 stud module replacement",
+     "powerType": "battery",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "25998110",
+     "price": 81400,
+     "images": [
+      {
+       "src": "assets/img/products/rs-113-module/hor-wbi.webp",
+       "w": 296,
+       "h": 271
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery",
+       "en": "Lithium Battery"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø113mm × 64mm",
+       "en": "Ø113mm × 64mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "category": "road-stud",
+     "subcategory": "module",
+     "productGroup": "rs-113-module",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "7",
+     "sourcePdfPage": 4,
+     "modelSource": {
+      "specTable": "HOR-WBI",
+      "imageCaption": "HOR-WBI"
+     }
+    },
+    {
+     "id": "hor-ybi",
+     "model": "HOR-YBI",
+     "nameKo": "Ø138 표지병의 모듈교체용",
+     "nameEn": "Ø138 stud module replacement",
+     "powerType": "battery",
+     "ledColors": [
+      "yellow"
+     ],
+     "procurementId": "25998111",
+     "price": 81400,
+     "images": [
+      {
+       "src": "assets/img/products/rs-113-module/hor-ybi.webp",
+       "w": 283,
+       "h": 271
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery",
+       "en": "Lithium Battery"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø113mm × 64mm",
+       "en": "Ø113mm × 64mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "category": "road-stud",
+     "subcategory": "module",
+     "productGroup": "rs-113-module",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "7",
+     "sourcePdfPage": 4,
+     "modelSource": {
+      "specTable": "HOR-YBI",
+      "imageCaption": "HOR-YBI"
+     }
+    },
+    {
+     "id": "hor-113whi",
+     "model": "HOR-113WHI",
+     "nameKo": "Ø138 표지병의 모듈교체용",
+     "nameEn": "Ø138 stud module replacement",
+     "powerType": "hybrid",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26372357",
+     "price": 82500,
+     "images": [
+      {
+       "src": "assets/img/products/rs-113-module/hor-113whi.webp",
+       "w": 300,
+       "h": 295
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Li-FePO4 (태양광) / Lithium Battery",
+       "en": "Li-FePO4 (solar-powered) / Lithium Battery"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø113mm × 64mm",
+       "en": "Ø113mm × 64mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "category": "road-stud",
+     "subcategory": "module",
+     "productGroup": "rs-113-module",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "7",
+     "sourcePdfPage": 4,
+     "modelSource": {
+      "specTable": "HOR-113WHI",
+      "imageCaption": "HOR-113WHI"
+     }
+    },
+    {
+     "id": "hor-113yhi",
+     "model": "HOR-113YHI",
+     "nameKo": "Ø138 표지병의 모듈교체용",
+     "nameEn": "Ø138 stud module replacement",
+     "powerType": "hybrid",
+     "ledColors": [
+      "yellow"
+     ],
+     "procurementId": "26372356",
+     "price": 82500,
+     "images": [
+      {
+       "src": "assets/img/products/rs-113-module/hor-113yhi.webp",
+       "w": 287,
+       "h": 283
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Li-FePO4 (태양광) / Lithium Battery",
+       "en": "Li-FePO4 (solar-powered) / Lithium Battery"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø113mm × 64mm",
+       "en": "Ø113mm × 64mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "category": "road-stud",
+     "subcategory": "module",
+     "productGroup": "rs-113-module",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "7",
+     "sourcePdfPage": 4,
+     "modelSource": {
+      "specTable": "HOR-113YHI",
+      "imageCaption": "HOR-113YHI"
+     }
+    },
+    {
+     "id": "hor-113wsi",
+     "model": "HOR-113WSI",
+     "nameKo": "Ø138 표지병의 모듈교체용",
+     "nameEn": "Ø138 stud module replacement",
+     "powerType": "solar",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26151423",
+     "price": 71500,
+     "images": [
+      {
+       "src": "assets/img/products/rs-113-module/hor-113wsi.webp",
+       "w": 289,
+       "h": 284
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Li-FePO4 (태양광)",
+       "en": "Li-FePO4 (solar-powered)"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø113mm × 64mm",
+       "en": "Ø113mm × 64mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "category": "road-stud",
+     "subcategory": "module",
+     "productGroup": "rs-113-module",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "7",
+     "sourcePdfPage": 4,
+     "modelSource": {
+      "specTable": "HOR-113WSI",
+      "imageCaption": "HOR-113WSI"
+     }
+    },
+    {
+     "id": "hor-113ysi",
+     "model": "HOR-113YSI",
+     "nameKo": "Ø138 표지병의 모듈교체용",
+     "nameEn": "Ø138 stud module replacement",
+     "powerType": "solar",
+     "ledColors": [
+      "yellow"
+     ],
+     "procurementId": "26151424",
+     "price": 71500,
+     "images": [
+      {
+       "src": "assets/img/products/rs-113-module/hor-113ysi.webp",
+       "w": 290,
+       "h": 286
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Li-FePO4 (태양광)",
+       "en": "Li-FePO4 (solar-powered)"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø113mm × 64mm",
+       "en": "Ø113mm × 64mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      }
+     ],
+     "category": "road-stud",
+     "subcategory": "module",
+     "productGroup": "rs-113-module",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "7",
+     "sourcePdfPage": 4,
+     "modelSource": {
+      "specTable": "HOR-113YSI",
+      "imageCaption": "HOR-113YSI"
+     }
+    }
+   ],
+   "verificationStatus": "verified",
+   "powerTypes": [
+    "battery",
+    "hybrid",
+    "solar"
+   ]
+  },
+  {
+   "id": "rs-125-electric",
+   "category": "road-stud",
+   "subcategory": "electric",
+   "nameKo": "Ø125 LED 도로표지병 · 전기형",
+   "nameEn": "Ø125 LED Road Stud · Mains-Powered Type",
+   "catalogTitle": {
+    "ko": "LED 도로표지병",
+    "en": "Road Stud"
+   },
+   "catalogProductName": {
+    "ko": "Ø125표지병",
+    "en": "Road Stud"
+   },
+   "ledColorsCatalog": [
+    "White",
+    "Yellow",
+    "Green"
+   ],
+   "descriptionKo": [
+    "최대 3,000mcd 이상, 제어함에서 수동으로 조도 제어 가능",
+    "상시점등을 기본으로 하고 상황에 따라 현장 제어함에서 점멸 기능 선택 가능",
+    "전기 제어식 점등방식",
+    "횡단보도, 스쿨존 설치"
+   ],
+   "descriptionEn": [
+    "Maximum brightness of over 3,000 mcd; illuminance can be controlled manually from the control box",
+    "Steady-on by default; flashing can be selected from the on-site control box depending on the situation",
+    "Electrically controlled lighting system",
+    "For installation at crosswalks and school zones"
+   ],
+   "installationCaseIds": [
+    "p10-1",
+    "p10-2",
+    "p10-3",
+    "p11-1",
+    "p11-2",
+    "p11-3",
+    "p12-1",
+    "p12-2",
+    "p12-3",
+    "p13-1",
+    "p13-2",
+    "p13-3",
+    "p14-1",
+    "p14-2",
+    "p14-3",
+    "p15-1",
+    "p15-2"
+   ],
+   "sourceCatalogPage": "8",
+   "sourcePdfPage": 5,
+   "issueRefs": [
+    "C-01"
+   ],
+   "models": [
+    {
+     "id": "hor-wc125",
+     "model": "HOR-WC125",
+     "nameKo": "Ø125 표지병",
+     "nameEn": "Ø125 Road Stud",
+     "powerType": "electric",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "25998122",
+     "price": 429000,
+     "images": [
+      {
+       "src": "assets/img/products/rs-125-electric/hor-wc125.webp",
+       "w": 695,
+       "h": 625
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 27 pcs",
+       "en": "Super Luminosity LED module × 27 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12~24V",
+       "en": "DC 12~24V"
+      },
+      {
+       "key": "materials",
+       "ko": "TOP: 스테인리스 / BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "TOP: Stainless steel / BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø125mm × 80mm",
+       "en": "Ø125mm × 80mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식 / 점등 또는 점멸",
+       "en": "Power supply method / Steady-on or flashing"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "최대 7W (조정 가능)",
+       "en": "Up to 7W (adjustable)"
+      }
+     ],
+     "priceBasis": "납품하차도 기준 / 시공가능",
+     "category": "road-stud",
+     "subcategory": "electric",
+     "productGroup": "rs-125-electric",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "8",
+     "sourcePdfPage": 5,
+     "modelSource": {
+      "specTable": "HOR-WC125",
+      "imageCaption": "HOR-WC125"
+     }
+    },
+    {
+     "id": "hor-yc125",
+     "model": "HOR-YC125",
+     "nameKo": "Ø125 표지병",
+     "nameEn": "Ø125 Road Stud",
+     "powerType": "electric",
+     "ledColors": [
+      "yellow"
+     ],
+     "procurementId": "25998123",
+     "price": 429000,
+     "images": [
+      {
+       "src": "assets/img/products/rs-125-electric/hor-yc125.webp",
+       "w": 695,
+       "h": 623
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 27 pcs",
+       "en": "Super Luminosity LED module × 27 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12~24V",
+       "en": "DC 12~24V"
+      },
+      {
+       "key": "materials",
+       "ko": "TOP: 스테인리스 / BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "TOP: Stainless steel / BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø125mm × 80mm",
+       "en": "Ø125mm × 80mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식 / 점등 또는 점멸",
+       "en": "Power supply method / Steady-on or flashing"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "최대 7W (조정 가능)",
+       "en": "Up to 7W (adjustable)"
+      }
+     ],
+     "priceBasis": "납품하차도 기준 / 시공가능",
+     "category": "road-stud",
+     "subcategory": "electric",
+     "productGroup": "rs-125-electric",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "8",
+     "sourcePdfPage": 5,
+     "modelSource": {
+      "specTable": "HOR-YC125",
+      "imageCaption": "HOR-YC125"
+     }
+    }
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "rs-196-electric",
+   "category": "road-stud",
+   "subcategory": "electric",
+   "nameKo": "196 LED 도로표지병 · 전기형",
+   "nameEn": "196 LED Road Stud · Mains-Powered Type",
+   "catalogTitle": {
+    "ko": "LED 도로표지병",
+    "en": "Road Stud"
+   },
+   "catalogProductName": {
+    "ko": "196 표지병",
+    "en": "Road Stud"
+   },
+   "ledColorsCatalog": [
+    "White",
+    "Yellow",
+    "Green"
+   ],
+   "descriptionKo": [
+    "최대 3,000mcd 이상, 제어함에서 수동으로 조도 제어 가능",
+    "상시점등을 기본으로 하고 상황에 따라 현장 제어함에서 점멸 기능 선택 가능",
+    "전기 제어식 점등방식",
+    "회전교차로, 도로섬 설치. 경관조명으로도 사용 가능"
+   ],
+   "descriptionEn": [
+    "Maximum brightness of over 3,000 mcd; illuminance can be controlled manually from the control box",
+    "Steady-on by default; flashing can be selected from the on-site control box depending on the situation",
+    "Electrically controlled lighting system",
+    "For installation at roundabouts and traffic islands; can also be used as landscape lighting"
+   ],
+   "installationCaseIds": [
+    "p10-1",
+    "p10-2",
+    "p10-3",
+    "p11-1",
+    "p11-2",
+    "p11-3",
+    "p12-1",
+    "p12-2",
+    "p12-3",
+    "p13-1",
+    "p13-2",
+    "p13-3",
+    "p14-1",
+    "p14-2",
+    "p14-3",
+    "p15-1",
+    "p15-2"
+   ],
+   "sourceCatalogPage": "9",
+   "sourcePdfPage": 5,
+   "issueRefs": [
+    "C-01",
+    "C-02"
+   ],
+   "models": [
+    {
+     "id": "hor-wc196",
+     "model": "HOR-WC196",
+     "nameKo": "196 표지병",
+     "nameEn": "196 Road Stud",
+     "powerType": "electric",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "25998124",
+     "price": 319000,
+     "images": [
+      {
+       "src": "assets/img/products/rs-196-electric/hor-wc196.webp",
+       "w": 752,
+       "h": 581
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12V / 6W",
+       "en": "DC 12V / 6W"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø196mm × 101mm × 29mm",
+       "en": "Ø196mm × 101mm × 29mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "선택 가능(패턴 설정) / 컨트롤러 구동방식",
+       "en": "Selectable (pattern setting) / Controller driving method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "최대 6W (조정 가능)",
+       "en": "Up to 6W (adjustable)"
+      }
+     ],
+     "priceBasis": "납품하차도 기준 / 시공가능",
+     "category": "road-stud",
+     "subcategory": "electric",
+     "productGroup": "rs-196-electric",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "9",
+     "sourcePdfPage": 5,
+     "modelSource": {
+      "specTable": "HOR-WC196",
+      "imageCaption": "HOR-WC196"
+     }
+    },
+    {
+     "id": "hor-yc196",
+     "model": "HOR-YC196",
+     "nameKo": "196 표지병",
+     "nameEn": "196 Road Stud",
+     "powerType": "electric",
+     "ledColors": [
+      "yellow"
+     ],
+     "procurementId": "25998125",
+     "price": 319000,
+     "images": [
+      {
+       "src": "assets/img/products/rs-196-electric/hor-yc196.webp",
+       "w": 752,
+       "h": 581
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12V / 6W",
+       "en": "DC 12V / 6W"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø196mm × 101mm × 29mm",
+       "en": "Ø196mm × 101mm × 29mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "선택 가능(패턴 설정) / 컨트롤러 구동방식",
+       "en": "Selectable (pattern setting) / Controller driving method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "최대 6W (조정 가능)",
+       "en": "Up to 6W (adjustable)"
+      }
+     ],
+     "priceBasis": "납품하차도 기준 / 시공가능",
+     "category": "road-stud",
+     "subcategory": "electric",
+     "productGroup": "rs-196-electric",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "9",
+     "sourcePdfPage": 5,
+     "modelSource": {
+      "specTable": "HOR-YC196",
+      "imageCaption": "HOR-YC196"
+     }
+    }
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-line-bar",
+   "category": "lighting",
+   "subcategory": "line",
+   "nameKo": "LED 라인조명 · 플렉시블 조명 (BAR Type)",
+   "nameEn": "LED Line Lighting · Flexible Lighting (Bar Type)",
+   "catalogTitle": {
+    "ko": "라인조명",
+    "en": "Line Lighting / BAR Type"
+   },
+   "catalogProductName": {
+    "ko": "➊, ➋ LED라인조명 / ➌ LED플렉시블 조명",
+    "en": "➊, ➋ LED Line Lighting / ➌ LED Flexible Lighting"
+   },
+   "ledColorsCatalog": [
+    "R.G.B.W"
+   ],
+   "descriptionKo": [
+    "선형렌즈 적용으로 협각 조사가 가능한 Bar 형태의 LED 조명기구",
+    "Slim한 폭의 규격으로 좁은 공간에 밀착 설치에 적합",
+    "유해물질이 포함되지 않은 에너지 절전형 친환경 제품",
+    "제품 이미지와 치수는 실물과 차이가 있을 수 있으며 외관과 사양은 고객사 협의 후 변경 가능"
+   ],
+   "descriptionEn": [
+    "Bar-shaped LED lighting fixture with a linear lens for narrow-angle illumination",
+    "Slim width allows flush installation in tight spaces",
+    "Energy-saving, eco-friendly product free of hazardous substances",
+    "Product images and dimensions may differ from the actual product; appearance and specifications may be changed after consultation with the customer"
+   ],
+   "installationCaseIds": [
+    "p17-1",
+    "p17-2",
+    "p17-3"
+   ],
+   "sourceCatalogPage": "16",
+   "sourcePdfPage": 9,
+   "models": [
+    {
+     "id": "line-1000ba-15h",
+     "model": "HOR-1000BA-15H",
+     "nameKo": "LED 라인조명",
+     "nameEn": "LED Line Lighting",
+     "powerType": "electric",
+     "ledColors": [
+      "rgbw"
+     ],
+     "procurementId": "26337936",
+     "price": 187000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-line-bar/1000ba-15h.webp",
+       "w": 679,
+       "h": 423
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "SMD LED",
+       "en": "SMD LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / COVER: 폴리카보네이트",
+       "en": "BODY: Aluminum / COVER: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "1,000 × 55(Ø72) × 17mm",
+       "en": "1,000 × 55(Ø72) × 17mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식 / 점등",
+       "en": "Power supply method / Steady-on"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "15W",
+       "en": "15W"
+      }
+     ],
+     "modelSource": {
+      "specTable": "HOR-1000BA-15H",
+      "imageCaption": "HOL-1000BA-15H"
+     },
+     "issueRefs": [
+      "I-01"
+     ],
+     "verificationStatus": "needs-review",
+     "category": "lighting",
+     "subcategory": "line",
+     "productGroup": "lt-line-bar",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "16",
+     "sourcePdfPage": 9
+    },
+    {
+     "id": "line-1000ba-15b",
+     "model": "HOR-1000BA-15B",
+     "nameKo": "LED 라인조명",
+     "nameEn": "LED Line Lighting",
+     "powerType": "electric",
+     "ledColors": [
+      "rgbw"
+     ],
+     "procurementId": "26337945",
+     "price": 253000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-line-bar/1000ba-15b.webp",
+       "w": 399,
+       "h": 355
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "SMD LED",
+       "en": "SMD LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / COVER: 폴리카보네이트",
+       "en": "BODY: Aluminum / COVER: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "1,000 × 25 × 26mm",
+       "en": "1,000 × 25 × 26mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식 / 점등",
+       "en": "Power supply method / Steady-on"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "15W",
+       "en": "15W"
+      }
+     ],
+     "modelSource": {
+      "specTable": "HOR-1000BA-15B",
+      "imageCaption": "HOL-1000BA-15B"
+     },
+     "issueRefs": [
+      "I-01"
+     ],
+     "verificationStatus": "needs-review",
+     "category": "lighting",
+     "subcategory": "line",
+     "productGroup": "lt-line-bar",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "16",
+     "sourcePdfPage": 9
+    },
+    {
+     "id": "line-1000fl-10",
+     "model": "HOR-1000FL-10",
+     "nameKo": "LED 플렉시블 조명",
+     "nameEn": "LED Flexible Lighting",
+     "powerType": "electric",
+     "ledColors": [
+      "rgbw"
+     ],
+     "procurementId": "26337928",
+     "price": 170500,
+     "images": [
+      {
+       "src": "assets/img/products/lt-line-bar/1000fl-10.webp",
+       "w": 603,
+       "h": 254
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "SMD LED",
+       "en": "SMD LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "실리콘",
+       "en": "Silicone"
+      },
+      {
+       "key": "size",
+       "ko": "1,000 × 10 × 10mm",
+       "en": "1,000 × 10 × 10mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식 / 점등",
+       "en": "Power supply method / Steady-on"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "10W",
+       "en": "10W"
+      }
+     ],
+     "modelSource": {
+      "specTable": "HOR-1000FL-10",
+      "imageCaption": "HOL-1000FL-10"
+     },
+     "issueRefs": [
+      "I-01",
+      "C-03"
+     ],
+     "verificationStatus": "needs-review",
+     "category": "lighting",
+     "subcategory": "line",
+     "productGroup": "lt-line-bar",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "16",
+     "sourcePdfPage": 9
+    }
+   ],
+   "issueRefs": [
+    "I-01"
+   ],
+   "verificationStatus": "needs-review",
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-wall",
+   "category": "lighting",
+   "subcategory": "wall",
+   "nameKo": "LED 벽부등",
+   "nameEn": "LED Wall Light",
+   "catalogTitle": {
+    "ko": "LED 벽부등",
+    "en": "Wall Light"
+   },
+   "catalogProductName": {
+    "ko": "LED 벽부등",
+    "en": "Wall Light"
+   },
+   "ledColorsCatalog": [
+    "White"
+   ],
+   "descriptionKo": [
+    "유해물질이 포함되지 않은 태양광 에너지 절전형 친환경 제품",
+    "고휘도 LED 사용 / 기준 조도량 100lx 이하에서 작동"
+   ],
+   "descriptionEn": [
+    "Eco-friendly, energy-saving solar product free of hazardous substances",
+    "Uses high-brightness LEDs / operates at a standard illuminance of 100 lx or less"
+   ],
+   "installationCaseIds": [
+    "p19-1",
+    "p19-2",
+    "p19-3"
+   ],
+   "sourceCatalogPage": "18",
+   "sourcePdfPage": 10,
+   "models": [
+    {
+     "id": "wall-ll180-su",
+     "model": "HOR-LL180-SU",
+     "nameKo": "LED 벽부등",
+     "nameEn": "LED Wall Light",
+     "powerType": "solar",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26003286",
+     "price": 264000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-wall/ll180-s.webp",
+       "w": 310,
+       "h": 604
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "SMD LED",
+       "en": "SMD LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 3.2V",
+       "en": "DC 3.2V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY, LENS: 폴리카보네이트",
+       "en": "BODY, LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "180 × 230 × 87.5mm",
+       "en": "180 × 230 × 87.5mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동, 전원인입방식",
+       "en": "Operates at a standard illuminance of 100 lx or less, power supply method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "2W",
+       "en": "2W"
+      }
+     ],
+     "modelSource": {
+      "specTable": "HOR-LL180-SU",
+      "imageCaption": "HOL-LL180-S"
+     },
+     "issueRefs": [
+      "I-02"
+     ],
+     "verificationStatus": "needs-review",
+     "category": "lighting",
+     "subcategory": "wall",
+     "productGroup": "lt-wall",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "18",
+     "sourcePdfPage": 10
+    },
+    {
+     "id": "wall-109wa",
+     "model": "HOR-109WA",
+     "nameKo": "LED 벽부등",
+     "nameEn": "LED Wall Light",
+     "powerType": "electric",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26084717",
+     "price": 192500,
+     "images": [
+      {
+       "src": "assets/img/products/lt-wall/109wa.webp",
+       "w": 322,
+       "h": 471
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "SMD LED",
+       "en": "SMD LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "109 × 167 × 203mm",
+       "en": "109 × 167 × 203mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동, 전원인입방식",
+       "en": "Operates at a standard illuminance of 100 lx or less, power supply method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "15W",
+       "en": "15W"
+      }
+     ],
+     "modelSource": {
+      "specTable": "HOR-109WA",
+      "imageCaption": "HOL-109WA"
+     },
+     "issueRefs": [
+      "I-02",
+      "I-08c"
+     ],
+     "verificationStatus": "needs-review",
+     "category": "lighting",
+     "subcategory": "wall",
+     "productGroup": "lt-wall",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "18",
+     "sourcePdfPage": 10
+    }
+   ],
+   "issueRefs": [
+    "I-02",
+    "I-08c"
+   ],
+   "verificationStatus": "needs-review",
+   "pendingDescription": null,
+   "powerTypes": [
+    "solar",
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-curb",
+   "category": "lighting",
+   "subcategory": "curb",
+   "nameKo": "LED 경계석조명",
+   "nameEn": "LED Curb Stone Lighting",
+   "catalogTitle": {
+    "ko": "LED경계석조명",
+    "en": "LED Curb Stone Lighting"
+   },
+   "catalogProductName": {
+    "ko": "➊ 레인보우 / ➋, ➌ 뉴경계석표지병",
+    "en": "➊ Rainbow / ➋, ➌ New Curb-Mounted Stud"
+   },
+   "ledColorsCatalog": [
+    "R.G.B.W"
+   ],
+   "descriptionKo": [
+    "고휘도 LED 사용",
+    "컨트롤러를 이용한 28가지의 패턴 선택 가능",
+    "30EA당 1대의 컨트롤박스 필요",
+    "내충격, 방수·방진 구조 (IP68)"
+   ],
+   "descriptionEn": [
+    "Uses high-brightness LEDs",
+    "28 selectable patterns via controller",
+    "1 control box required per 30 units",
+    "Shockproof, waterproof and dustproof structure (IP68)"
+   ],
+   "installationCaseIds": [
+    "p21-1",
+    "p21-2",
+    "p21-3"
+   ],
+   "sourceCatalogPage": "20",
+   "sourcePdfPage": 11,
+   "models": [
+    {
+     "id": "hol-19-c-1",
+     "model": "HOL-19-C-1",
+     "nameKo": "레인보우",
+     "nameEn": "Rainbow",
+     "powerType": "electric",
+     "ledColors": [
+      "rgbw"
+     ],
+     "procurementId": "25996689",
+     "price": 440000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-curb/hol-19-c-1.webp",
+       "w": 625,
+       "h": 406
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "RGBW LED × 27EA",
+       "en": "RGBW LED × 27EA"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12V / 6W, SMPS 별도",
+       "en": "DC 12V / 6W, SMPS not included"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "195 × 100 × 30mm",
+       "en": "195 × 100 × 30mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "선택 가능(패턴 설정) / 컨트롤러 구동방식",
+       "en": "Selectable (pattern setting) / Controller driving method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "6W",
+       "en": "6W"
+      }
+     ],
+     "priceBasis": null,
+     "category": "lighting",
+     "subcategory": "curb",
+     "productGroup": "lt-curb",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "20",
+     "sourcePdfPage": 11,
+     "modelSource": {
+      "specTable": "HOL-19-C-1",
+      "imageCaption": "HOL-19-C-1"
+     }
+    },
+    {
+     "id": "hol-155-h",
+     "model": "HOL-155-H",
+     "nameKo": "뉴경계석표지병",
+     "nameEn": "New Curb-Mounted Stud",
+     "powerType": "hybrid",
+     "ledColors": [
+      "rgbw"
+     ],
+     "procurementId": "26003291",
+     "price": 121000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-curb/hol-155-h.webp",
+       "w": 456,
+       "h": 388
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery 3.6V_19Ahr × 1EA / Li-FePO4(태양광) 3.2V_1.5Ahr × 1EA",
+       "en": "Lithium Battery 3.6V_19Ahr × 1EA / Li-FePO4 (solar-powered) 3.2V_1.5Ahr × 1EA"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "155 × 150 × 55mm",
+       "en": "155 × 150 × 55mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "선택 가능(패턴 설정) / 컨트롤러 구동방식",
+       "en": "Selectable (pattern setting) / Controller driving method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "24mW",
+       "en": "24mW"
+      }
+     ],
+     "priceBasis": null,
+     "issueRefs": [
+      "I-08d"
+     ],
+     "category": "lighting",
+     "subcategory": "curb",
+     "productGroup": "lt-curb",
+     "verificationStatus": "verified",
+     "sourceCatalogPage": "20",
+     "sourcePdfPage": 11,
+     "modelSource": {
+      "specTable": "HOL-155-H",
+      "imageCaption": "HOL-155-H"
+     }
+    },
+    {
+     "id": "hol-155-b",
+     "model": "HOL-155-B",
+     "nameKo": "뉴경계석표지병",
+     "nameEn": "New Curb-Mounted Stud",
+     "powerType": "battery",
+     "ledColors": [
+      "rgbw"
+     ],
+     "procurementId": "26003288",
+     "price": 132000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-curb/hol-155-b.webp",
+       "w": 473,
+       "h": 402
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery 3.6V_19Ahr × 2EA",
+       "en": "Lithium Battery 3.6V_19Ahr × 2EA"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "155 × 150 × 55mm",
+       "en": "155 × 150 × 55mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "선택 가능(패턴 설정) / 컨트롤러 구동방식",
+       "en": "Selectable (pattern setting) / Controller driving method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "3.12mW",
+       "en": "3.12mW"
+      }
+     ],
+     "priceBasis": null,
+     "issueRefs": [
+      "I-08d"
+     ],
+     "category": "lighting",
+     "subcategory": "curb",
+     "productGroup": "lt-curb",
+     "verificationStatus": "verified",
+     "sourceCatalogPage": "20",
+     "sourcePdfPage": 11,
+     "modelSource": {
+      "specTable": "HOL-155-B",
+      "imageCaption": "HOL-155-B"
+     }
+    }
+   ],
+   "issueRefs": [
+    "I-08d"
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "battery",
+    "hybrid",
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-logo-projector",
+   "category": "lighting",
+   "subcategory": "logo",
+   "nameKo": "로고젝터",
+   "nameEn": "Logo Projector",
+   "catalogTitle": {
+    "ko": "로고젝터",
+    "en": "Logo Projector"
+   },
+   "catalogProductName": {
+    "ko": "LED 경관조명기구",
+    "en": "Landscape Lighting Fixture"
+   },
+   "ledColorsCatalog": [
+    "1 / 2 / 3 / Full Color"
+   ],
+   "descriptionKo": [
+    "고휘도 LED 사용",
+    "내충격, 방수·방진 구조 (IP65)",
+    "원하는 지역에 원하는 문구, 그림, 환경 등을 이미지화하여 바닥에 조명을 조사하는 방식"
+   ],
+   "descriptionEn": [
+    "Uses high-brightness LEDs",
+    "Shockproof, waterproof and dustproof structure (IP65)",
+    "Projects desired text, pictures and images onto the ground in the desired area"
+   ],
+   "installationCaseIds": [
+    "p23-1",
+    "p23-2",
+    "p23-3",
+    "p23-4",
+    "p23-5"
+   ],
+   "sourceCatalogPage": "22",
+   "sourcePdfPage": 12,
+   "models": [
+    {
+     "id": "hol-ll50w-cu",
+     "model": "HOL-LL50W-CU",
+     "nameKo": "로고젝터 50W",
+     "nameEn": "Logo Projector 50W",
+     "powerType": "electric",
+     "ledColors": [
+      "full"
+     ],
+     "procurementId": "26337946",
+     "price": 1980000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-logo-projector/hol-ll50w-cu.webp",
+       "w": 166,
+       "h": 128
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 1 pcs",
+       "en": "Super Luminosity LED module × 1 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12V / 50W, SMPS 별도",
+       "en": "DC 12V / 50W, SMPS not included"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "W327 × D111 × H170mm",
+       "en": "W327 × D111 × H170mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "점등, 이미지 배광 방식",
+       "en": "Steady-on, image light distribution method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "Max. 50W",
+       "en": "Max. 50W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "logo",
+     "productGroup": "lt-logo-projector",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "22",
+     "sourcePdfPage": 12,
+     "modelSource": {
+      "specTable": "HOL-LL50W-CU",
+      "imageCaption": "HOL-LL50W-CU"
+     }
+    },
+    {
+     "id": "hol-ll80w-cu",
+     "model": "HOL-LL80W-CU",
+     "nameKo": "로고젝터 80W",
+     "nameEn": "Logo Projector 80W",
+     "powerType": "electric",
+     "ledColors": [
+      "full"
+     ],
+     "procurementId": "26337955",
+     "price": 2090000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-logo-projector/hol-ll80w-cu.webp",
+       "w": 166,
+       "h": 128
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 1 pcs",
+       "en": "Super Luminosity LED module × 1 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12V / 80W, SMPS 별도",
+       "en": "DC 12V / 80W, SMPS not included"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "W367 × D112 × H215mm",
+       "en": "W367 × D112 × H215mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "점등, 이미지 배광 방식",
+       "en": "Steady-on, image light distribution method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "Max. 80W",
+       "en": "Max. 80W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "logo",
+     "productGroup": "lt-logo-projector",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "22",
+     "sourcePdfPage": 12,
+     "modelSource": {
+      "specTable": "HOL-LL80W-CU",
+      "imageCaption": "HOL-LL80W-CU"
+     }
+    },
+    {
+     "id": "hol-ll100w-cu",
+     "model": "HOL-LL100W-CU",
+     "nameKo": "로고젝터 100W",
+     "nameEn": "Logo Projector 100W",
+     "powerType": "electric",
+     "ledColors": [
+      "full"
+     ],
+     "procurementId": "26337956",
+     "price": 3300000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-logo-projector/hol-ll100w-cu.webp",
+       "w": 144,
+       "h": 128
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 1 pcs",
+       "en": "Super Luminosity LED module × 1 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12V / 100W, SMPS 별도",
+       "en": "DC 12V / 100W, SMPS not included"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "W385 × D167 × H259mm",
+       "en": "W385 × D167 × H259mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "점등, 이미지 배광 방식",
+       "en": "Steady-on, image light distribution method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "Max. 100W",
+       "en": "Max. 100W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "logo",
+     "productGroup": "lt-logo-projector",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "22",
+     "sourcePdfPage": 12,
+     "modelSource": {
+      "specTable": "HOL-LL100W-CU",
+      "imageCaption": "HOL-LL100W-CU"
+     }
+    }
+   ],
+   "verificationStatus": "verified",
+   "issueRefs": [],
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-park",
+   "category": "lighting",
+   "subcategory": "park",
+   "nameKo": "LED 공원등",
+   "nameEn": "LED Park Light",
+   "catalogTitle": {
+    "ko": "LED 공원등",
+    "en": "Park Light"
+   },
+   "catalogProductName": {
+    "ko": "LED 공원",
+    "en": "Park Light"
+   },
+   "ledColorsCatalog": [
+    "R.G.B.W"
+   ],
+   "descriptionKo": [
+    "고휘도 LED 사용",
+    "설치 환경에 따라 색상 변경 가능",
+    "내충격, 방수·방진 구조 (IP65)"
+   ],
+   "descriptionEn": [
+    "Uses high-brightness LEDs",
+    "Color can be customized according to installation conditions",
+    "Shockproof, waterproof and dustproof structure (IP65)"
+   ],
+   "installationCaseIds": [
+    "p25-1",
+    "p25-2",
+    "p25-3"
+   ],
+   "sourceCatalogPage": "24",
+   "sourcePdfPage": 13,
+   "models": [
+    {
+     "id": "hol-ll80w-butterfly",
+     "model": "HOL-LL80W-Butterfly",
+     "nameKo": "LED 공원등 (Butterfly)",
+     "nameEn": "LED Park Light (Butterfly)",
+     "powerType": "electric",
+     "ledColors": [
+      "rgbw"
+     ],
+     "procurementId": "26003285",
+     "price": 1815000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-park/hol-ll80w-butterfly.webp",
+       "w": 612,
+       "h": 645
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 784 pcs",
+       "en": "Super Luminosity LED module × 784 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12V",
+       "en": "DC 12V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "483mm × 456mm × 높이 132mm",
+       "en": "483mm × 456mm × H 132mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식",
+       "en": "Power supply method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "80W",
+       "en": "80W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "park",
+     "productGroup": "lt-park",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "24",
+     "sourcePdfPage": 13,
+     "modelSource": {
+      "specTable": "HOL-LL80W-Butterfly",
+      "imageCaption": "HOL-LL80W-Butterfly"
+     }
+    },
+    {
+     "id": "hol-ll80w-seagull",
+     "model": "HOL-LL80W-Seagull",
+     "nameKo": "LED 공원등 (Seagull)",
+     "nameEn": "LED Park Light (Seagull)",
+     "powerType": "electric",
+     "ledColors": [
+      "rgbw"
+     ],
+     "procurementId": "26003284",
+     "price": 1815000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-park/hol-ll80w-seagull.webp",
+       "w": 775,
+       "h": 673
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 910 pcs",
+       "en": "Super Luminosity LED module × 910 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12V",
+       "en": "DC 12V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "947mm × 520mm × 높이 421mm",
+       "en": "947mm × 520mm × H 421mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식",
+       "en": "Power supply method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "80W",
+       "en": "80W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "park",
+     "productGroup": "lt-park",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "24",
+     "sourcePdfPage": 13,
+     "modelSource": {
+      "specTable": "HOL-LL80W-Seagull",
+      "imageCaption": "HOL-LL80W-Seagull"
+     }
+    }
+   ],
+   "verificationStatus": "verified",
+   "issueRefs": [],
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-security-50-30",
+   "category": "lighting",
+   "subcategory": "park",
+   "nameKo": "LED 공원보안등 (50W · 30W)",
+   "nameEn": "LED Park Security Light (50W · 30W)",
+   "catalogTitle": {
+    "ko": "LED 공원보안등",
+    "en": "Park Security Light"
+   },
+   "catalogProductName": {
+    "ko": "LED 공원보안등",
+    "en": "Park Security Light"
+   },
+   "ledColorsCatalog": [
+    "White"
+   ],
+   "descriptionKo": [
+    "저전력 구동으로 인한 장수명 사용 / 전원 소모 저감 기능이 구비된 경관조명 / 부조일수 5일 이상",
+    "내충격, 방수·방진 구조",
+    "전선이 필요 없어 간편하게 시공 가능"
+   ],
+   "descriptionEn": [
+    "Long service life thanks to low-power operation / landscape lighting with a power-saving function / operates 5 days or more without sunlight",
+    "Shockproof, waterproof and dustproof structure",
+    "No wires required, allowing easy installation"
+   ],
+   "installationCaseIds": [
+    "p27-1",
+    "p27-2",
+    "p27-3"
+   ],
+   "sourceCatalogPage": "26",
+   "sourcePdfPage": 14,
+   "models": [
+    {
+     "id": "hol-50s",
+     "model": "HOL-50S",
+     "nameKo": "LED 공원보안등 50W",
+     "nameEn": "LED Park Security Light 50W",
+     "powerType": "solar",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "25996687",
+     "price": 3000000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-security-50-30/hol-50s.webp",
+       "w": 270,
+       "h": 903
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module",
+       "en": "Super Luminosity LED module"
+      },
+      {
+       "key": "materials",
+       "ko": "몸체: 알루미늄 / 등주: STS 304 (도장 있음)",
+       "en": "BODY: Aluminum / POST: STS 304 (painted)"
+      },
+      {
+       "key": "size",
+       "ko": "1123 × 373 × 3900mm",
+       "en": "1123 × 373 × 3900mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "50W",
+       "en": "50W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "park",
+     "productGroup": "lt-security-50-30",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "26",
+     "sourcePdfPage": 14,
+     "modelSource": {
+      "specTable": "HOL-50S, 50W",
+      "imageCaption": "HOL-50S, 50W"
+     }
+    },
+    {
+     "id": "hol-ll30s-3m",
+     "model": "HOL-LL30S-3M",
+     "nameKo": "LED 공원보안등 30W",
+     "nameEn": "LED Park Security Light 30W",
+     "powerType": "solar",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "25996688",
+     "price": 2350000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-security-50-30/hol-ll30s-3m.webp",
+       "w": 270,
+       "h": 668
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module",
+       "en": "Super Luminosity LED module"
+      },
+      {
+       "key": "materials",
+       "ko": "몸체: 알루미늄 / 등주: STS 304",
+       "en": "BODY: Aluminum / POST: STS 304"
+      },
+      {
+       "key": "size",
+       "ko": "1123 × 373 × 3000mm",
+       "en": "1123 × 373 × 3000mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "30W",
+       "en": "30W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "park",
+     "productGroup": "lt-security-50-30",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "26",
+     "sourcePdfPage": 14,
+     "modelSource": {
+      "specTable": "HOL-LL30S-3M",
+      "imageCaption": "HOL-LL30S-3M"
+     }
+    }
+   ],
+   "issueRefs": [
+    "C-04"
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "solar"
+   ]
+  },
+  {
+   "id": "lt-security-25",
+   "category": "lighting",
+   "subcategory": "park",
+   "nameKo": "LED 공원보안등 (25W)",
+   "nameEn": "LED Park Security Light (25W)",
+   "catalogTitle": {
+    "ko": "LED 공원보안등",
+    "en": "Park Security Light"
+   },
+   "catalogProductName": {
+    "ko": "LED 공원보안등",
+    "en": "Park Security Light"
+   },
+   "ledColorsCatalog": [
+    "White"
+   ],
+   "descriptionKo": [
+    "저전력 구동으로 인한 장수명 사용 / 전원 소모 저감 기능이 구비된 경관조명 / 부조일수 5일 이상",
+    "내충격, 방수·방진 구조",
+    "전선이 필요 없어 간편하게 시공 가능"
+   ],
+   "descriptionEn": [
+    "Long service life thanks to low-power operation / landscape lighting with a power-saving function / operates 5 days or more without sunlight",
+    "Shockproof, waterproof and dustproof structure",
+    "No wires required, allowing easy installation"
+   ],
+   "installationCaseIds": [
+    "p27-1",
+    "p27-2",
+    "p27-3"
+   ],
+   "sourceCatalogPage": "28",
+   "sourcePdfPage": 15,
+   "models": [
+    {
+     "id": "hol-25s",
+     "model": "HOL-25S",
+     "nameKo": "LED 공원보안등 25W",
+     "nameEn": "LED Park Security Light 25W",
+     "powerType": "solar",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26003282",
+     "price": 3300000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-security-25/hol-25s.webp",
+       "w": 302,
+       "h": 1488
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module",
+       "en": "Super Luminosity LED module"
+      },
+      {
+       "key": "materials",
+       "ko": "몸체: 알루미늄 / 등주: STS 304 (도장 없음)",
+       "en": "BODY: Aluminum / POST: STS 304 (not painted)"
+      },
+      {
+       "key": "size",
+       "ko": "599 × 300 × 3000mm",
+       "en": "599 × 300 × 3000mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "25W",
+       "en": "25W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "park",
+     "productGroup": "lt-security-25",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "28",
+     "sourcePdfPage": 15,
+     "modelSource": {
+      "specTable": "HOL-25S",
+      "imageCaption": "HOL-25S"
+     }
+    }
+   ],
+   "verificationStatus": "verified",
+   "issueRefs": [],
+   "pendingDescription": null,
+   "powerTypes": [
+    "solar"
+   ]
+  },
+  {
+   "id": "lt-accent",
+   "category": "lighting",
+   "subcategory": "accent",
+   "nameKo": "LED 포인트 조명",
+   "nameEn": "LED Accent Lighting",
+   "catalogTitle": {
+    "ko": "LED 포인트 조명",
+    "en": "Accent Lighting"
+   },
+   "catalogProductName": {
+    "ko": "➊ 표지병미니 / ➋ 사각표지병 / ➌ LED스탭등",
+    "en": "➊ Mini Stud / ➋ Square Stud / ➌ LED Step Light"
+   },
+   "ledColorsCatalog": [
+    "White",
+    "Yellow",
+    "Green"
+   ],
+   "descriptionKo": [
+    "저전력 구동으로 인한 장수명 사용 / 전원 소모 저감 기능이 구비된 경관조명 / 부조일수 5일 이상",
+    "내충격, 방수·방진 구조 (IP68)",
+    "전선이 필요 없어 간편하게 시공 가능"
+   ],
+   "descriptionEn": [
+    "Long service life thanks to low-power operation / landscape lighting with a power-saving function / operates 5 days or more without sunlight",
+    "Shockproof, waterproof and dustproof structure (IP68)",
+    "No wires required, allowing easy installation"
+   ],
+   "installationCaseIds": [],
+   "sourceCatalogPage": "29",
+   "sourcePdfPage": 15,
+   "models": [
+    {
+     "id": "hol-130-b",
+     "model": "HOL-130-B",
+     "nameKo": "표지병미니",
+     "nameEn": "Mini Stud",
+     "powerType": "battery",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green"
+     ],
+     "procurementId": "26003287",
+     "price": 121000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-accent/hol-130-b.webp",
+       "w": 419,
+       "h": 405
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 4 pcs",
+       "en": "Super Luminosity LED module × 4 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery 3.6V_19Ahr × 2EA",
+       "en": "Lithium Battery 3.6V_19Ahr × 2EA"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 폴리카보네이트",
+       "en": "BODY: Aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "W130 × D130 × H95mm",
+       "en": "W130 × D130 × H95mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "3.6mW",
+       "en": "3.6mW"
+      }
+     ],
+     "modelSource": {
+      "specTable": "HOL-50S, 50W",
+      "imageCaption": "HOL-130-B"
+     },
+     "issueRefs": [
+      "I-03"
+     ],
+     "verificationStatus": "needs-review",
+     "category": "lighting",
+     "subcategory": "accent",
+     "productGroup": "lt-accent",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "29",
+     "sourcePdfPage": 15
+    },
+    {
+     "id": "hol-138s",
+     "model": "HOL-138S",
+     "nameKo": "사각표지병",
+     "nameEn": "Square Stud",
+     "powerType": "solar",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green"
+     ],
+     "procurementId": "26337927",
+     "price": 77000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-accent/hol-138s.webp",
+       "w": 565,
+       "h": 359
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 6 pcs",
+       "en": "Super Luminosity LED module × 6 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Li-FePO4(태양광) 3.2V_1.5Ahr × 1EA",
+       "en": "Li-FePO4 (solar-powered) 3.2V_1.5Ahr × 1EA"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "W150 × D138 × H25.5mm",
+       "en": "W150 × D138 × H25.5mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "9.6W",
+       "en": "9.6W"
+      }
+     ],
+     "modelSource": {
+      "specTable": "HOL-LL30S-3M",
+      "imageCaption": "HOL-138S"
+     },
+     "issueRefs": [
+      "I-03",
+      "C-05"
+     ],
+     "verificationStatus": "needs-review",
+     "category": "lighting",
+     "subcategory": "accent",
+     "productGroup": "lt-accent",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "29",
+     "sourcePdfPage": 15
+    },
+    {
+     "id": "hol-275-10",
+     "model": "HOL-275-10",
+     "nameKo": "LED 스탭등",
+     "nameEn": "LED Step Light",
+     "powerType": "electric",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green"
+     ],
+     "procurementId": "26337934",
+     "price": 253000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-accent/hol-275-10.webp",
+       "w": 235,
+       "h": 176
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "SMD LED",
+       "en": "SMD LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄, 폴리카보네이트",
+       "en": "BODY: Aluminum, Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "275 × 80 × 59mm",
+       "en": "275 × 80 × 59mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "10W",
+       "en": "10W"
+      }
+     ],
+     "issueRefs": [
+      "I-08e"
+     ],
+     "category": "lighting",
+     "subcategory": "accent",
+     "productGroup": "lt-accent",
+     "verificationStatus": "verified",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "29",
+     "sourcePdfPage": 15,
+     "modelSource": {
+      "specTable": "HOL-275-10",
+      "imageCaption": "HOL-275-10"
+     }
+    }
+   ],
+   "issueRefs": [
+    "I-03",
+    "I-08e",
+    "C-05"
+   ],
+   "verificationStatus": "needs-review",
+   "pendingDescription": null,
+   "powerTypes": [
+    "battery",
+    "solar",
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-floor-square",
+   "category": "lighting",
+   "subcategory": "floor",
+   "nameKo": "LED 바닥매립등 · 사각형",
+   "nameEn": "LED Recessed Floor Light · Square",
+   "catalogTitle": {
+    "ko": "LED 바닥매립등",
+    "en": "Solar-powered type"
+   },
+   "catalogProductName": {
+    "ko": "LED경관조명기구",
+    "en": "LED landscape lighting fixtures"
+   },
+   "ledColorsCatalog": [
+    "백색",
+    "황색",
+    "녹색",
+    "적색",
+    "청색 (1 선택)"
+   ],
+   "descriptionKo": [
+    "공원 이면도로, 산책로, 자전거도로 등에 사용 가능",
+    "저전력 구동으로 인한 장수명 사용 / 전원 소모 저감 기능이 구비된 경관조명 / 부조일수 5일 이상",
+    "내충격, 방수·방진 구조 (IP68)",
+    "전선이 필요 없어 간편하게 시공 가능"
+   ],
+   "descriptionEn": [
+    "Suitable for park side roads, walking paths and bicycle lanes",
+    "Long service life thanks to low-power operation / landscape lighting with a power-saving function / operates 5 days or more without sunlight",
+    "Shockproof, waterproof and dustproof structure (IP68)",
+    "No wires required, allowing easy installation"
+   ],
+   "installationCaseIds": [
+    "p31-1",
+    "p31-2",
+    "p31-3"
+   ],
+   "sourceCatalogPage": "30",
+   "sourcePdfPage": 16,
+   "models": [
+    {
+     "id": "hol-222-60s",
+     "model": "HOL-222-60S",
+     "nameKo": "LED 바닥매립등",
+     "nameEn": "LED Recessed Floor Light",
+     "powerType": "solar",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green",
+      "red",
+      "blue"
+     ],
+     "procurementId": "26337929",
+     "price": 264000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-floor-square/hol-222-60s.webp",
+       "w": 565,
+       "h": 469
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 4 pcs",
+       "en": "Super Luminosity LED module × 4 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Super Capacitor × 6 pcs, 2.3V, 120F",
+       "en": "Super Capacitor × 6 pcs, 2.3V, 120F"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄, 스테인레스 / LENS: 폴리카보네이트",
+       "en": "BODY: Aluminum and stainless steel / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "222mm × 222mm × 높이 60mm",
+       "en": "222mm × 222mm × H 60mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "27mW",
+       "en": "27mW"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "floor",
+     "productGroup": "lt-floor-square",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "30",
+     "sourcePdfPage": 16,
+     "modelSource": {
+      "specTable": "HOL-222-60S",
+      "imageCaption": "HOL-222-60S"
+     }
+    },
+    {
+     "id": "hol-118-60s",
+     "model": "HOL-118-60S",
+     "nameKo": "LED 바닥매립등",
+     "nameEn": "LED Recessed Floor Light",
+     "powerType": "solar",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green",
+      "red",
+      "blue"
+     ],
+     "procurementId": "26337930",
+     "price": 143000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-floor-square/hol-118-60s.webp",
+       "w": 587,
+       "h": 478
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 4 pcs",
+       "en": "Super Luminosity LED module × 4 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Super Capacitor × 2 pcs, 2.3V, 120F",
+       "en": "Super Capacitor × 2 pcs, 2.3V, 120F"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄, 스테인레스 / LENS: 폴리카보네이트",
+       "en": "BODY: Aluminum and stainless steel / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "118mm × 118mm × 높이 60mm",
+       "en": "118mm × 118mm × H 60mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "4mW",
+       "en": "4mW"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "floor",
+     "productGroup": "lt-floor-square",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "30",
+     "sourcePdfPage": 16,
+     "modelSource": {
+      "specTable": "HOL-118-60S",
+      "imageCaption": "HOL-118-60S"
+     }
+    }
+   ],
+   "verificationStatus": "verified",
+   "issueRefs": [],
+   "pendingDescription": null,
+   "powerTypes": [
+    "solar"
+   ]
+  },
+  {
+   "id": "lt-floor-round",
+   "category": "lighting",
+   "subcategory": "floor",
+   "nameKo": "LED 바닥매립등 · 원형",
+   "nameEn": "LED Recessed Floor Light · Round",
+   "catalogTitle": {
+    "ko": "LED 바닥매립등",
+    "en": "Solar-powered type"
+   },
+   "catalogProductName": {
+    "ko": "LED경관조명기구",
+    "en": "LED landscape lighting fixtures"
+   },
+   "ledColorsCatalog": [
+    "백색",
+    "황색",
+    "녹색",
+    "적색",
+    "청색 (1 선택)"
+   ],
+   "descriptionKo": [
+    "공원 이면도로, 산책로, 자전거도로, 수변도로 등에 사용 가능",
+    "저전력 구동으로 인한 장수명 사용 / 전원 소모 저감 기능이 구비된 경관조명 / 부조일수 5일 이상",
+    "내충격, 방수·방진 구조 (IP68)",
+    "전선이 필요 없어 간편하게 시공 가능"
+   ],
+   "descriptionEn": [
+    "Suitable for park access roads, walking paths, bicycle lanes and waterfront paths",
+    "Long service life thanks to low-power operation / landscape lighting with a power-saving function / operates 5 days or more without sunlight",
+    "Shockproof, waterproof and dustproof structure (IP68)",
+    "No wires required, allowing easy installation"
+   ],
+   "installationCaseIds": [
+    "p33-1",
+    "p33-2",
+    "p33-3"
+   ],
+   "sourceCatalogPage": "32",
+   "sourcePdfPage": 17,
+   "models": [
+    {
+     "id": "hol-120-60s",
+     "model": "HOL-120-60S",
+     "nameKo": "LED 바닥매립등",
+     "nameEn": "LED Recessed Floor Light",
+     "powerType": "solar",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green",
+      "red",
+      "blue"
+     ],
+     "procurementId": "26337933",
+     "price": 143000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-floor-round/hol-120-60s.webp",
+       "w": 404,
+       "h": 516
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 4 pcs",
+       "en": "Super Luminosity LED module × 4 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Super Capacitor × 2 pcs, 2.3V, 120F",
+       "en": "Super Capacitor × 2 pcs, 2.3V, 120F"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄, 스테인레스 / LENS: 폴리카보네이트",
+       "en": "BODY: Aluminum and stainless steel / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø120mm × 높이 60mm",
+       "en": "Ø120mm × H 60mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "4mW",
+       "en": "4mW"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "floor",
+     "productGroup": "lt-floor-round",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "32",
+     "sourcePdfPage": 17,
+     "modelSource": {
+      "specTable": "HOL-120-60S",
+      "imageCaption": "HOL-120-60S"
+     }
+    },
+    {
+     "id": "hol-96-47s",
+     "model": "HOL-96-47S",
+     "nameKo": "LED 바닥매립등",
+     "nameEn": "LED Recessed Floor Light",
+     "powerType": "solar",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green",
+      "red",
+      "blue"
+     ],
+     "procurementId": "26337932",
+     "price": 88000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-floor-round/hol-96-47s.webp",
+       "w": 414,
+       "h": 505
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 5 pcs",
+       "en": "Super Luminosity LED module × 5 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Super Capacitor × 1 pcs, 2.3V, 120F",
+       "en": "Super Capacitor × 1 pcs, 2.3V, 120F"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄, 스테인레스 / LENS: 폴리카보네이트",
+       "en": "BODY: Aluminum and stainless steel / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø96mm × 높이 47.8mm",
+       "en": "Ø96mm × H 47.8mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "3mW",
+       "en": "3mW"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "floor",
+     "productGroup": "lt-floor-round",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "32",
+     "sourcePdfPage": 17,
+     "modelSource": {
+      "specTable": "HOL-96-47S",
+      "imageCaption": "HOL-96-47S"
+     }
+    },
+    {
+     "id": "hol-67-30s",
+     "model": "HOL-67-30S",
+     "nameKo": "LED 바닥매립등",
+     "nameEn": "LED Recessed Floor Light",
+     "powerType": "solar",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green",
+      "red",
+      "blue"
+     ],
+     "procurementId": "26337931",
+     "price": 36300,
+     "images": [
+      {
+       "src": "assets/img/products/lt-floor-round/hol-67-30s.webp",
+       "w": 374,
+       "h": 455
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 1 pcs",
+       "en": "Super Luminosity LED module × 1 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Super Capacitor × 3 pcs, 2.3V, 10F",
+       "en": "Super Capacitor × 3 pcs, 2.3V, 10F"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄, 스테인레스 / LENS: 폴리카보네이트",
+       "en": "BODY: Aluminum and stainless steel / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø67mm × 높이 30.8mm",
+       "en": "Ø67mm × H 30.8mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동",
+       "en": "Operates at a standard illuminance of 100 lx or less"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "3mW",
+       "en": "3mW"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "floor",
+     "productGroup": "lt-floor-round",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "32",
+     "sourcePdfPage": 17,
+     "modelSource": {
+      "specTable": "HOL-67-30S",
+      "imageCaption": "HOL-67-30S"
+     }
+    }
+   ],
+   "verificationStatus": "verified",
+   "issueRefs": [],
+   "pendingDescription": null,
+   "powerTypes": [
+    "solar"
+   ]
+  },
+  {
+   "id": "lt-fence-square",
+   "category": "lighting",
+   "subcategory": "fence",
+   "nameKo": "사각 펜스기둥조명",
+   "nameEn": "Square Fence Post Light",
+   "catalogTitle": {
+    "ko": "사각 펜스기둥조명",
+    "en": "Square Fence Post Light"
+   },
+   "catalogProductName": {
+    "ko": "사각펜스기둥조명",
+    "en": "Square Fence Post Light"
+   },
+   "ledColorsCatalog": [
+    "White",
+    "Yellow",
+    "Green"
+   ],
+   "descriptionKo": [
+    "차도, 이면도로, 산책로, 자전거도로 등에 설치된 펜스에 설치 가능",
+    "저전력 구동으로 인한 장수명 사용 / 전원 소모 저감 기능 / 부조일수 5일 이상",
+    "내충격, 방수·방진 구조 (IP68)",
+    "전선이 필요 없어 간편하게 시공 가능"
+   ],
+   "descriptionEn": [
+    "Can be installed on fences along carriageways, alleys, trails and bicycle paths",
+    "Long service life thanks to low-power operation / energy-saving function / operates 5 days or more without sunlight",
+    "Shockproof, waterproof and dustproof structure (IP68)",
+    "No wires required, allowing easy installation"
+   ],
+   "installationCaseIds": [
+    "p35-1",
+    "p35-2",
+    "p35-3"
+   ],
+   "sourceCatalogPage": "34",
+   "sourcePdfPage": 18,
+   "models": [
+    {
+     "id": "hol-157-s",
+     "model": "HOL-157-S",
+     "nameKo": "사각 펜스기둥조명",
+     "nameEn": "Square Fence Post Light",
+     "powerType": "solar",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green"
+     ],
+     "procurementId": "26003294",
+     "price": 145200,
+     "images": [
+      {
+       "src": "assets/img/products/lt-fence-square/hol-157-s-h.webp",
+       "w": 521,
+       "h": 480
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 28 pcs",
+       "en": "Super Luminosity LED module × 28 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Li-FePO4(태양광) 3.2V_1.5Ahr × 1EA",
+       "en": "Li-FePO4 (solar-powered) 3.2V_1.5Ahr × 1EA"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅, 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum, polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "157mm × 157mm × 높이 101mm",
+       "en": "157mm × 157mm × H 101mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동 / 전원인입방식",
+       "en": "Operates at a standard illuminance of 100 lx or less / Power supply method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "57mW",
+       "en": "57mW"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "fence",
+     "productGroup": "lt-fence-square",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "34",
+     "sourcePdfPage": 18,
+     "modelSource": {
+      "specTable": "HOL-157-S",
+      "imageCaption": "HOL-157-S"
+     }
+    },
+    {
+     "id": "hol-157-h",
+     "model": "HOL-157-H",
+     "nameKo": "사각 펜스기둥조명",
+     "nameEn": "Square Fence Post Light",
+     "powerType": "hybrid",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green"
+     ],
+     "procurementId": "26003293",
+     "price": 174900,
+     "images": [
+      {
+       "src": "assets/img/products/lt-fence-square/hol-157-s-h.webp",
+       "w": 521,
+       "h": 480
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 28 pcs",
+       "en": "Super Luminosity LED module × 28 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery 3.6V_19Ahr × 2EA / Li-FePO4(태양광) 3.2V_1.5Ahr × 1EA",
+       "en": "Lithium Battery 3.6V_19Ahr × 2EA / Li-FePO4 (solar-powered) 3.2V_1.5Ahr × 1EA"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅, 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum, polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "157mm × 157mm × 높이 101mm",
+       "en": "157mm × 157mm × H 101mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동 / 전원인입방식",
+       "en": "Operates at a standard illuminance of 100 lx or less / Power supply method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "57mW",
+       "en": "57mW"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "fence",
+     "productGroup": "lt-fence-square",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "34",
+     "sourcePdfPage": 18,
+     "modelSource": {
+      "specTable": "HOL-157-H",
+      "imageCaption": "HOL-157-H"
+     }
+    },
+    {
+     "id": "hol-157-b",
+     "model": "HOL-157-B",
+     "nameKo": "사각 펜스기둥조명",
+     "nameEn": "Square Fence Post Light",
+     "powerType": "unconfirmed",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green"
+     ],
+     "procurementId": "26003292",
+     "price": 220000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-fence-square/hol-157-b.webp",
+       "w": 521,
+       "h": 478
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 28 pcs",
+       "en": "Super Luminosity LED module × 28 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery 3.6V_19Ahr × 5EA",
+       "en": "Lithium Battery 3.6V_19Ahr × 5EA"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅, 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum, polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "157mm × 157mm × 높이 101mm",
+       "en": "157mm × 157mm × H 101mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동 / 전원인입방식",
+       "en": "Operates at a standard illuminance of 100 lx or less / Power supply method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "14mW",
+       "en": "14mW"
+      }
+     ],
+     "powerTypeCatalog": {
+      "typeField": {
+       "ko": "태양광형",
+       "en": "Solar-powered type"
+      },
+      "powerSupplyRow": {
+       "ko": "배터리형",
+       "en": "Battery type"
+      }
+     },
+     "issueRefs": [
+      "I-04"
+     ],
+     "verificationStatus": "needs-review",
+     "category": "lighting",
+     "subcategory": "fence",
+     "productGroup": "lt-fence-square",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "34",
+     "sourcePdfPage": 18,
+     "modelSource": {
+      "specTable": "HOL-157-B",
+      "imageCaption": "HOL-157-B"
+     }
+    }
+   ],
+   "issueRefs": [
+    "I-04",
+    "I-08f"
+   ],
+   "verificationStatus": "needs-review",
+   "pendingDescription": null,
+   "powerTypes": [
+    "hybrid",
+    "solar",
+    "unconfirmed"
+   ]
+  },
+  {
+   "id": "lt-fence-round",
+   "category": "lighting",
+   "subcategory": "fence",
+   "nameKo": "원형 펜스기둥조명",
+   "nameEn": "Round Fence Post Light",
+   "catalogTitle": {
+    "ko": "원형 펜스기둥조명",
+    "en": "Round Fence Post Light"
+   },
+   "catalogProductName": {
+    "ko": "원형펜스기둥조명",
+    "en": "Round Fence Post Light"
+   },
+   "ledColorsCatalog": [
+    "White",
+    "Yellow",
+    "Green"
+   ],
+   "descriptionKo": [
+    "차도, 이면도로, 산책로, 자전거도로 등에 설치된 펜스에 설치 가능",
+    "저전력 구동으로 인한 장수명 사용 / 전원 소모 저감 기능 / 부조일수 5일 이상",
+    "내충격, 방수·방진 구조 (IP68)",
+    "전선이 필요 없어 간편하게 시공 가능"
+   ],
+   "descriptionEn": [
+    "Can be installed on fences along carriageways, alleys, trails and bicycle paths",
+    "Long service life thanks to low-power operation / energy-saving function / operates 5 days or more without sunlight",
+    "Shockproof, waterproof and dustproof structure (IP68)",
+    "No wires required, allowing easy installation"
+   ],
+   "installationCaseIds": [
+    "p37-1",
+    "p37-2",
+    "p37-3"
+   ],
+   "sourceCatalogPage": "36",
+   "sourcePdfPage": 19,
+   "models": [
+    {
+     "id": "hol-110-s",
+     "model": "HOL-110-S",
+     "nameKo": "원형 펜스기둥조명",
+     "nameEn": "Round Fence Post Light",
+     "powerType": "solar",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green"
+     ],
+     "procurementId": "26003289",
+     "price": 198000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-fence-round/hol-110-s.webp",
+       "w": 277,
+       "h": 564
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 28 pcs",
+       "en": "Super Luminosity LED module × 28 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Li-FePO4 3.2V_1.5Ahr × 2EA",
+       "en": "Li-FePO4 3.2V_1.5Ahr × 2EA"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅, 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum, polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø110mm × 높이 234.5mm",
+       "en": "Ø110mm × H 234.5mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동 / 전원인입방식",
+       "en": "Operates at a standard illuminance of 100 lx or less / Power supply method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "38mW",
+       "en": "38mW"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "fence",
+     "productGroup": "lt-fence-round",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "36",
+     "sourcePdfPage": 19,
+     "modelSource": {
+      "specTable": "HOL-110-S",
+      "imageCaption": "HOL-110-S"
+     }
+    },
+    {
+     "id": "hol-110-h",
+     "model": "HOL-110-H",
+     "nameKo": "원형 펜스기둥조명",
+     "nameEn": "Round Fence Post Light",
+     "powerType": "hybrid",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green"
+     ],
+     "procurementId": "26003290",
+     "price": 238700,
+     "images": [
+      {
+       "src": "assets/img/products/lt-fence-round/hol-110-h.webp",
+       "w": 255,
+       "h": 580
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 28 pcs",
+       "en": "Super Luminosity LED module × 28 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "Lithium Battery 3.6V_19Ahr × 1EA / Li-FePO4 3.2V_1.5Ahr × 2EA",
+       "en": "Lithium Battery 3.6V_19Ahr × 1EA / Li-FePO4 3.2V_1.5Ahr × 2EA"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅, 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum, polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø110mm × 높이 234.5mm",
+       "en": "Ø110mm × H 234.5mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동 / 전원인입방식",
+       "en": "Operates at a standard illuminance of 100 lx or less / Power supply method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "38mW",
+       "en": "38mW"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "fence",
+     "productGroup": "lt-fence-round",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "36",
+     "sourcePdfPage": 19,
+     "modelSource": {
+      "specTable": "HOL-110-H",
+      "imageCaption": "HOL-110-H"
+     }
+    },
+    {
+     "id": "hol-110-c",
+     "model": "HOL-110-C",
+     "nameKo": "원형 펜스기둥조명",
+     "nameEn": "Round Fence Post Light",
+     "powerType": "electric",
+     "ledColors": [
+      "white",
+      "yellow",
+      "green"
+     ],
+     "procurementId": "26089748",
+     "price": 396000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-fence-round/hol-110-c.webp",
+       "w": 269,
+       "h": 566
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "Super Luminosity LED module × 28 pcs",
+       "en": "Super Luminosity LED module × 28 pcs"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅, 폴리카보네이트 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum, polycarbonate / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø110mm × 높이 234.5mm",
+       "en": "Ø110mm × H 234.5mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "기준 조도량 100lx 이하에서 작동 / 전원인입방식",
+       "en": "Operates at a standard illuminance of 100 lx or less / Power supply method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "3W",
+       "en": "3W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "fence",
+     "productGroup": "lt-fence-round",
+     "verificationStatus": "verified",
+     "issueRefs": [
+      "I-08g"
+     ],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "36",
+     "sourcePdfPage": 19,
+     "modelSource": {
+      "specTable": "HOL-110-C",
+      "imageCaption": "HOL-110-C"
+     }
+    }
+   ],
+   "issueRefs": [
+    "I-08g"
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "hybrid",
+    "solar",
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-bollard",
+   "category": "lighting",
+   "subcategory": "bollard",
+   "nameKo": "LED 볼라드 조명",
+   "nameEn": "LED Bollard Light",
+   "catalogTitle": {
+    "ko": "LED볼라드 조명",
+    "en": "Bollard Light"
+   },
+   "catalogProductName": {
+    "ko": "LED 볼라드 조명",
+    "en": "Bollard Light"
+   },
+   "ledColorsCatalog": [
+    "White"
+   ],
+   "descriptionKo": [
+    "어린이보호구역, 횡단보도 앞, 산책로, 자전거도로 등 인구 이동이 있는 지역의 안전을 위한 시설물",
+    "고휘도 LED 사용",
+    "내충격, 방수·방진 구조 (IP65)"
+   ],
+   "descriptionEn": [
+    "Safety lighting for areas with pedestrian traffic such as school zones, crosswalks, trails and bicycle paths",
+    "Uses high-brightness LEDs",
+    "Shockproof, waterproof and dustproof structure (IP65)"
+   ],
+   "installationCaseIds": [
+    "p39-1",
+    "p39-2",
+    "p39-3"
+   ],
+   "sourceCatalogPage": "38",
+   "sourcePdfPage": 20,
+   "models": [
+    {
+     "id": "hol-800bol",
+     "model": "HOL-800BOL",
+     "nameKo": "LED 볼라드 조명",
+     "nameEn": "LED Bollard Light",
+     "powerType": "electric",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26084714",
+     "price": 319000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-bollard/hol-800bol.webp",
+       "w": 164,
+       "h": 684
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "COB LED",
+       "en": "COB LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 38.5V",
+       "en": "DC 38.5V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "150 × 150 × 800mm",
+       "en": "150 × 150 × 800mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식 / 점등 또는 점멸",
+       "en": "Power supply method / Steady-on or flashing"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "9W",
+       "en": "9W"
+      }
+     ],
+     "priceBasis": null,
+     "category": "lighting",
+     "subcategory": "bollard",
+     "productGroup": "lt-bollard",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "38",
+     "sourcePdfPage": 20,
+     "modelSource": {
+      "specTable": "HOL-800BOL",
+      "imageCaption": "HOL-800BOL"
+     }
+    },
+    {
+     "id": "hol-300bol",
+     "model": "HOL-300BOL",
+     "nameKo": "LED 볼라드 조명",
+     "nameEn": "LED Bollard Light",
+     "powerType": "electric",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26084715",
+     "price": 297000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-bollard/hol-300bol.webp",
+       "w": 162,
+       "h": 614
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "COB LED",
+       "en": "COB LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 22V",
+       "en": "DC 22V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "72 × 115 × 300mm",
+       "en": "72 × 115 × 300mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식 / 점등 또는 점멸",
+       "en": "Power supply method / Steady-on or flashing"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "5.5W",
+       "en": "5.5W"
+      }
+     ],
+     "priceBasis": null,
+     "category": "lighting",
+     "subcategory": "bollard",
+     "productGroup": "lt-bollard",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "sourceCatalogPage": "38",
+     "sourcePdfPage": 20,
+     "modelSource": {
+      "specTable": "HOL-300BOL",
+      "imageCaption": "HOL-300BOL"
+     }
+    },
+    {
+     "id": "hol-110bol",
+     "model": "HOL-110BOL",
+     "nameKo": "LED 볼라드 조명",
+     "nameEn": "LED Bollard Light",
+     "powerType": "electric",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26122094",
+     "price": null,
+     "images": [
+      {
+       "src": "assets/img/products/lt-bollard/hol-110bol.webp",
+       "w": 73,
+       "h": 676
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "COB LED",
+       "en": "COB LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12V",
+       "en": "DC 12V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 폴리카보네이트, SGT275, 폴리우레탄",
+       "en": "BODY: Polycarbonate, SGT275, polyurethane"
+      },
+      {
+       "key": "size",
+       "ko": "Ø110 × 1268mm",
+       "en": "Ø110 × 1268mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식 / 점등 또는 점멸",
+       "en": "Power supply method / Steady-on or flashing"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "3W",
+       "en": "3W"
+      }
+     ],
+     "priceNote": "가격문의",
+     "issueRefs": [
+      "C-06"
+     ],
+     "category": "lighting",
+     "subcategory": "bollard",
+     "productGroup": "lt-bollard",
+     "verificationStatus": "verified",
+     "priceBasis": null,
+     "sourceCatalogPage": "38",
+     "sourcePdfPage": 20,
+     "modelSource": {
+      "specTable": "HOL-110BOL",
+      "imageCaption": "HOL-110BOL"
+     }
+    },
+    {
+     "id": "hol-150bol",
+     "model": "HOL-150BOL",
+     "nameKo": "LED 볼라드 조명",
+     "nameEn": "LED Bollard Light",
+     "powerType": "electric",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26122093",
+     "price": null,
+     "images": [
+      {
+       "src": "assets/img/products/lt-bollard/hol-150bol.webp",
+       "w": 138,
+       "h": 661
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "COB LED",
+       "en": "COB LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 12V",
+       "en": "DC 12V"
+      },
+      {
+       "key": "materials",
+       "ko": "LENS: 폴리카보네이트",
+       "en": "LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "Ø150 × 1065mm",
+       "en": "Ø150 × 1065mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전원인입방식 / 점등 또는 점멸",
+       "en": "Power supply method / Steady-on or flashing"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "3W",
+       "en": "3W"
+      }
+     ],
+     "priceNote": "가격문의",
+     "issueRefs": [
+      "C-06"
+     ],
+     "category": "lighting",
+     "subcategory": "bollard",
+     "productGroup": "lt-bollard",
+     "verificationStatus": "verified",
+     "priceBasis": null,
+     "sourceCatalogPage": "38",
+     "sourcePdfPage": 20,
+     "modelSource": {
+      "specTable": "HOL-150BOL",
+      "imageCaption": "HOL-150BOL"
+     }
+    }
+   ],
+   "issueRefs": [
+    "C-06"
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-linear",
+   "category": "lighting",
+   "subcategory": "line",
+   "nameKo": "LED 라인조명 (라인바 · 핸드레일바)",
+   "nameEn": "LED Linear Light (Line Bar · Handrail Bar)",
+   "catalogTitle": {
+    "ko": "LED 라인조명",
+    "en": "LED Linear Light"
+   },
+   "catalogProductName": {
+    "ko": "➊ LED 라인바 / ➋ LED 핸드레일바 / ➌ LED 바",
+    "en": "➊ LED Line Bar / ➋ LED Handrail Bar / ➌ LED Bar"
+   },
+   "ledColorsCatalog": [],
+   "descriptionKo": [
+    "유백, 투명 커버 선택 가능",
+    "각도 조절 가능",
+    "길이별 제작 가능",
+    "핸드레일 난간 설치용",
+    "색상 연출 가능"
+   ],
+   "descriptionEn": [
+    "Available with milky-white or transparent covers",
+    "Adjustable angle",
+    "Customizable lengths",
+    "Designed for handrail installation",
+    "Supports color effects"
+   ],
+   "installationCaseIds": [
+    "p41-1",
+    "p41-2",
+    "p41-3"
+   ],
+   "sourceCatalogPage": "40",
+   "sourcePdfPage": 21,
+   "models": [
+    {
+     "id": "hol-1000ba-15",
+     "model": "HOL-1000BA-15",
+     "nameKo": "LED 라인바 15W (RGB)",
+     "nameEn": "LED Line Bar 15W (RGB)",
+     "powerType": "electric",
+     "ledColors": [
+      "rgb"
+     ],
+     "procurementId": "26337935",
+     "price": 143000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-linear/hol-1000ba-15.webp",
+       "w": 776,
+       "h": 419
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "SMD LED",
+       "en": "SMD LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "1000 × 25 × 21mm",
+       "en": "1000 × 25 × 21mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "15W",
+       "en": "15W"
+      }
+     ],
+     "issueRefs": [
+      "I-05"
+     ],
+     "category": "lighting",
+     "subcategory": "line",
+     "productGroup": "lt-linear",
+     "verificationStatus": "verified",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "40",
+     "sourcePdfPage": 21,
+     "modelSource": {
+      "specTable": "HOL-1000BA-15",
+      "imageCaption": "HOL-1000BA-15"
+     }
+    },
+    {
+     "id": "hol-1000ba-b15",
+     "model": "HOL-1000BA-B15",
+     "nameKo": "LED 라인바 15W (백색)",
+     "nameEn": "LED Line Bar 15W (White)",
+     "powerType": "electric",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26396633",
+     "price": 121000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-linear/hol-1000ba-15.webp",
+       "w": 776,
+       "h": 419
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "SMD LED",
+       "en": "SMD LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "1000 × 25 × 21mm",
+       "en": "1000 × 25 × 21mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "15W",
+       "en": "15W"
+      }
+     ],
+     "issueRefs": [
+      "I-05"
+     ],
+     "category": "lighting",
+     "subcategory": "line",
+     "productGroup": "lt-linear",
+     "verificationStatus": "verified",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "40",
+     "sourcePdfPage": 21,
+     "modelSource": {
+      "specTable": "HOL-1000BA-B15",
+      "imageCaption": "HOL-1000BA-B15"
+     }
+    },
+    {
+     "id": "hol-1000ba-7a",
+     "model": "HOL-1000BA-7A",
+     "nameKo": "LED 핸드레일바 7.5W (RGB)",
+     "nameEn": "LED Handrail Bar 7.5W (RGB)",
+     "powerType": "electric",
+     "ledColors": [
+      "rgb"
+     ],
+     "procurementId": "26396635",
+     "price": 121000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-linear/hol-1000ba-7.webp",
+       "w": 576,
+       "h": 272
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "SMD LED",
+       "en": "SMD LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "510 × 25 × 21mm",
+       "en": "510 × 25 × 21mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "7.5W",
+       "en": "7.5W"
+      }
+     ],
+     "issueRefs": [
+      "I-05"
+     ],
+     "category": "lighting",
+     "subcategory": "line",
+     "productGroup": "lt-linear",
+     "verificationStatus": "verified",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "40",
+     "sourcePdfPage": 21,
+     "modelSource": {
+      "specTable": "HOL-1000BA-7A",
+      "imageCaption": "HOL-1000BA-7A"
+     }
+    },
+    {
+     "id": "hol-1000ba-7b",
+     "model": "HOL-1000BA-7B",
+     "nameKo": "LED 핸드레일바 7.5W (백색)",
+     "nameEn": "LED Handrail Bar 7.5W (White)",
+     "powerType": "electric",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26396634",
+     "price": 106700,
+     "images": [
+      {
+       "src": "assets/img/products/lt-linear/hol-1000ba-7.webp",
+       "w": 576,
+       "h": 272
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "SMD LED",
+       "en": "SMD LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "510 × 25 × 21mm",
+       "en": "510 × 25 × 21mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "7.5W",
+       "en": "7.5W"
+      }
+     ],
+     "issueRefs": [
+      "I-05"
+     ],
+     "category": "lighting",
+     "subcategory": "line",
+     "productGroup": "lt-linear",
+     "verificationStatus": "verified",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "40",
+     "sourcePdfPage": 21,
+     "modelSource": {
+      "specTable": "HOL-1000BA-7B",
+      "imageCaption": "HOL-1000BA-7B"
+     }
+    }
+   ],
+   "issueRefs": [
+    "I-05"
+   ],
+   "verificationStatus": "needs-review",
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-linear-flood",
+   "category": "lighting",
+   "subcategory": "flood",
+   "nameKo": "LED 라인투광조명",
+   "nameEn": "LED Linear Floodlight",
+   "catalogTitle": {
+    "ko": "LED 라인투광조명",
+    "en": "LED Linear Floodlight"
+   },
+   "catalogProductName": {
+    "ko": "LED 바 투광등",
+    "en": "LED BAR FLOOD LIGHT"
+   },
+   "ledColorsCatalog": [],
+   "descriptionKo": [
+    "500mm 단위 제작 가능",
+    "서브 컨트롤러 내장 가능",
+    "SMD TYPE의 LED로 제작 가능",
+    "LED 수량 변경 가능 (기본 18구)",
+    "3가지 브라켓 적용 가능"
+   ],
+   "descriptionEn": [
+    "Available in 500mm increments",
+    "Sub-controller can be built in",
+    "Can be manufactured with SMD-type LEDs",
+    "Adjustable LED count (standard: 18 LEDs)",
+    "Compatible with 3 types of brackets"
+   ],
+   "installationCaseIds": [
+    "p43-1",
+    "p43-2",
+    "p43-3"
+   ],
+   "sourceCatalogPage": "42",
+   "sourcePdfPage": 22,
+   "models": [
+    {
+     "id": "hol-1000ba-18f",
+     "model": "HOL-1000BA-18F",
+     "nameKo": "LED 바 투광등 18W",
+     "nameEn": "LED Bar Floodlight 18W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337937",
+     "price": 319000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-linear-flood/hol-1000ba-f.webp",
+       "w": 865,
+       "h": 416
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "1000 × 36 × 30mm",
+       "en": "1000 × 36 × 30mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "18W",
+       "en": "18W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-linear-flood",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "42",
+     "sourcePdfPage": 22,
+     "modelSource": {
+      "specTable": "HOL-1000BA-18F",
+      "imageCaption": "HOL-1000BA-18F"
+     }
+    },
+    {
+     "id": "hol-1000ba-24f",
+     "model": "HOL-1000BA-24F",
+     "nameKo": "LED 바 투광등 24W",
+     "nameEn": "LED Bar Floodlight 24W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337938",
+     "price": 352000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-linear-flood/hol-1000ba-f.webp",
+       "w": 865,
+       "h": 416
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "1000 × 36 × 30mm",
+       "en": "1000 × 36 × 30mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "24W",
+       "en": "24W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-linear-flood",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "42",
+     "sourcePdfPage": 22,
+     "modelSource": {
+      "specTable": "HOL-1000BA-24F",
+      "imageCaption": "HOL-1000BA-24F"
+     }
+    },
+    {
+     "id": "hol-1000ba-36f",
+     "model": "HOL-1000BA-36F",
+     "nameKo": "LED 바 투광등 36W",
+     "nameEn": "LED Bar Floodlight 36W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337947",
+     "price": 418000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-linear-flood/hol-1000ba-f.webp",
+       "w": 865,
+       "h": 416
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "1000 × 36 × 30mm",
+       "en": "1000 × 36 × 30mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "36W",
+       "en": "36W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-linear-flood",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "42",
+     "sourcePdfPage": 22,
+     "modelSource": {
+      "specTable": "HOL-1000BA-36F",
+      "imageCaption": "HOL-1000BA-36F"
+     }
+    },
+    {
+     "id": "hol-1000ba-54f",
+     "model": "HOL-1000BA-54F",
+     "nameKo": "LED 바 투광등 54W",
+     "nameEn": "LED Bar Floodlight 54W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337948",
+     "price": 451000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-linear-flood/hol-1000ba-f.webp",
+       "w": 865,
+       "h": 416
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 다이캐스팅 / LENS: 폴리카보네이트",
+       "en": "BODY: Die-cast aluminum / LENS: Polycarbonate"
+      },
+      {
+       "key": "size",
+       "ko": "1000 × 36 × 30mm",
+       "en": "1000 × 36 × 30mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "54W",
+       "en": "54W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-linear-flood",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "42",
+     "sourcePdfPage": 22,
+     "modelSource": {
+      "specTable": "HOL-1000BA-54F",
+      "imageCaption": "HOL-1000BA-54F"
+     }
+    }
+   ],
+   "issueRefs": [
+    "C-07"
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-flood-125",
+   "category": "lighting",
+   "subcategory": "flood",
+   "nameKo": "LED 원형 투광등 (125C)",
+   "nameEn": "LED Circle Floodlight (125C)",
+   "catalogTitle": {
+    "ko": "LED투광조명",
+    "en": "LED Floodlight"
+   },
+   "catalogProductName": {
+    "ko": "LED 원형 투광등",
+    "en": "LED CIRCLE FLOOD LIGHT"
+   },
+   "ledColorsCatalog": [],
+   "descriptionKo": [
+    "4가지 기구/브라켓 선택 가능",
+    "전면 강화유리 샌딩 처리 가능",
+    "빛가림판(후드) 장착 가능"
+   ],
+   "descriptionEn": [
+    "Choice of 4 fixture / bracket options",
+    "Front tempered glass can be sandblasted",
+    "Light shield (hood) can be attached"
+   ],
+   "installationCaseIds": [
+    "p45-1",
+    "p45-2"
+   ],
+   "sourceCatalogPage": "44",
+   "sourcePdfPage": 23,
+   "models": [
+    {
+     "id": "hol-125c-12f",
+     "model": "HOL-125C-12F",
+     "nameKo": "LED 원형 투광등 12W",
+     "nameEn": "LED Circle Floodlight 12W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337939",
+     "price": 352000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-flood-125/hol-125c.webp",
+       "w": 450,
+       "h": 509
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø125 × 130mm",
+       "en": "Ø125 × 130mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "12W",
+       "en": "12W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-flood-125",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "44",
+     "sourcePdfPage": 23,
+     "modelSource": {
+      "specTable": "HOL-125C-12F",
+      "imageCaption": "HOL-125C-12F"
+     }
+    },
+    {
+     "id": "hol-125c-18f",
+     "model": "HOL-125C-18F",
+     "nameKo": "LED 원형 투광등 18W",
+     "nameEn": "LED Circle Floodlight 18W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337940",
+     "price": 385000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-flood-125/hol-125c.webp",
+       "w": 450,
+       "h": 509
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø125 × 130mm",
+       "en": "Ø125 × 130mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "18W",
+       "en": "18W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-flood-125",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "44",
+     "sourcePdfPage": 23,
+     "modelSource": {
+      "specTable": "HOL-125C-18F",
+      "imageCaption": "HOL-125C-18F"
+     }
+    },
+    {
+     "id": "hol-125c-24f",
+     "model": "HOL-125C-24F",
+     "nameKo": "LED 원형 투광등 24W",
+     "nameEn": "LED Circle Floodlight 24W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337941",
+     "price": 418000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-flood-125/hol-125c.webp",
+       "w": 450,
+       "h": 509
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø125 × 130mm",
+       "en": "Ø125 × 130mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "24W",
+       "en": "24W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-flood-125",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "44",
+     "sourcePdfPage": 23,
+     "modelSource": {
+      "specTable": "HOL-125C-24F",
+      "imageCaption": "HOL-125C-24F"
+     }
+    }
+   ],
+   "verificationStatus": "verified",
+   "issueRefs": [],
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-flood-160-217",
+   "category": "lighting",
+   "subcategory": "flood",
+   "nameKo": "LED 원형 투광등 (160C · 217C)",
+   "nameEn": "LED Circle Floodlight (160C · 217C)",
+   "catalogTitle": {
+    "ko": "LED투광조명",
+    "en": "LED Floodlight"
+   },
+   "catalogProductName": {
+    "ko": "LED 원형 투광등",
+    "en": "LED CIRCLE FLOOD LIGHT"
+   },
+   "ledColorsCatalog": [],
+   "descriptionKo": [],
+   "descriptionEn": [],
+   "installationCaseIds": [
+    "p47-1",
+    "p47-2",
+    "p47-3"
+   ],
+   "sourceCatalogPage": "46",
+   "sourcePdfPage": 24,
+   "models": [
+    {
+     "id": "hol-160c-36f",
+     "model": "HOL-160C-36F",
+     "nameKo": "LED 원형 투광등 36W",
+     "nameEn": "LED Circle Floodlight 36W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337949",
+     "price": 550000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-flood-160-217/hol-160c-36f.webp",
+       "w": 324,
+       "h": 448
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø165 × 163mm",
+       "en": "Ø165 × 163mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "36W",
+       "en": "36W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-flood-160-217",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "46",
+     "sourcePdfPage": 24,
+     "modelSource": {
+      "specTable": "HOL-160C-36F",
+      "imageCaption": "HOL-160C-36F"
+     }
+    },
+    {
+     "id": "hol-160c-42f",
+     "model": "HOL-160C-42F",
+     "nameKo": "LED 원형 투광등 42W",
+     "nameEn": "LED Circle Floodlight 42W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337950",
+     "price": 605000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-flood-160-217/hol-160c-42f.webp",
+       "w": 334,
+       "h": 379
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø165 × 163mm",
+       "en": "Ø165 × 163mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "42W",
+       "en": "42W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-flood-160-217",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "46",
+     "sourcePdfPage": 24,
+     "modelSource": {
+      "specTable": "HOL-160C-42F",
+      "imageCaption": "HOL-160C-42F"
+     }
+    },
+    {
+     "id": "hol-217c-54f",
+     "model": "HOL-217C-54F",
+     "nameKo": "LED 원형 투광등 54W",
+     "nameEn": "LED Circle Floodlight 54W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337951",
+     "price": 803000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-flood-160-217/hol-217c.webp",
+       "w": 331,
+       "h": 433
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø217 × 203mm",
+       "en": "Ø217 × 203mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "54W",
+       "en": "54W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-flood-160-217",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "46",
+     "sourcePdfPage": 24,
+     "modelSource": {
+      "specTable": "HOL-217C-54F",
+      "imageCaption": "HOL-217C-54F"
+     }
+    },
+    {
+     "id": "hol-217c-72f",
+     "model": "HOL-217C-72F",
+     "nameKo": "LED 원형 투광등 72W",
+     "nameEn": "LED Circle Floodlight 72W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337957",
+     "price": 880000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-flood-160-217/hol-217c.webp",
+       "w": 331,
+       "h": 433
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø217 × 203mm",
+       "en": "Ø217 × 203mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "72W",
+       "en": "72W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-flood-160-217",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "46",
+     "sourcePdfPage": 24,
+     "modelSource": {
+      "specTable": "HOL-217C-72F",
+      "imageCaption": "HOL-217C-72F"
+     }
+    },
+    {
+     "id": "hol-217c-108f",
+     "model": "HOL-217C-108F",
+     "nameKo": "LED 원형 투광등 108W (RGB)",
+     "nameEn": "LED Circle Floodlight 108W (RGB)",
+     "powerType": "electric",
+     "ledColors": [
+      "rgb"
+     ],
+     "procurementId": "26337960",
+     "price": 935000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-flood-160-217/hol-217c.webp",
+       "w": 331,
+       "h": 433
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø217 × 203mm",
+       "en": "Ø217 × 203mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "108W",
+       "en": "108W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-flood-160-217",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "46",
+     "sourcePdfPage": 24,
+     "modelSource": {
+      "specTable": "HOL-217C-108F",
+      "imageCaption": "HOL-217C-108F"
+     }
+    },
+    {
+     "id": "hol-217c-108fb",
+     "model": "HOL-217C-108FB",
+     "nameKo": "LED 원형 투광등 108W (백색)",
+     "nameEn": "LED Circle Floodlight 108W (White)",
+     "powerType": "electric",
+     "ledColors": [
+      "white"
+     ],
+     "procurementId": "26396632",
+     "price": 825000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-flood-160-217/hol-217c.webp",
+       "w": 331,
+       "h": 433
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø217 × 203mm",
+       "en": "Ø217 × 203mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "108W",
+       "en": "108W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "flood",
+     "productGroup": "lt-flood-160-217",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "46",
+     "sourcePdfPage": 24,
+     "modelSource": {
+      "specTable": "HOL-217C-108FB",
+      "imageCaption": "HOL-217C-108FB"
+     }
+    }
+   ],
+   "issueRefs": [
+    "I-06"
+   ],
+   "verificationStatus": "needs-review",
+   "pendingDescription": {
+    "reason": {
+     "ko": "국문 제품설명과 영문 제품설명의 기술 내용이 서로 다름",
+     "en": "The Korean and English product descriptions state different technical content"
+    },
+    "catalogKo": [
+     "5가지 기구/브라켓 선택 가능",
+     "전면 강화유리 샌딩처리 가능",
+     "빛가림판(후드) 장착 가능"
+    ],
+    "catalogEn": [
+     "Uses high-brightness LED",
+     "28 selectable patterns via controller",
+     "1 control box required per 30 units",
+     "Shockproof, waterproof, and dustproof structure (IP68)"
+    ]
+   },
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-inground-round",
+   "category": "lighting",
+   "subcategory": "inground",
+   "nameKo": "LED 원형 지중등",
+   "nameEn": "LED Circle In-ground Light",
+   "catalogTitle": {
+    "ko": "LED지중등",
+    "en": "LED In-ground Light"
+   },
+   "catalogProductName": {
+    "ko": "LED 원형 지중등",
+    "en": "LED CIRCLE INGROUND LIGHT"
+   },
+   "ledColorsCatalog": [],
+   "descriptionKo": [
+    "SMD LED 변경 가능 (눈부심 발생을 줄일 경우)"
+   ],
+   "descriptionEn": [
+    "Can be changed to SMD LEDs (to reduce glare)"
+   ],
+   "installationCaseIds": [
+    "p49-1",
+    "p49-2",
+    "p49-3"
+   ],
+   "sourceCatalogPage": "48",
+   "sourcePdfPage": 25,
+   "models": [
+    {
+     "id": "hol-ll100-c12",
+     "model": "HOL-LL100-C12",
+     "nameKo": "LED 원형 지중등 12W",
+     "nameEn": "LED Circle In-ground Light 12W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337942",
+     "price": 352000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-inground-round/hol-ll100-c12.webp",
+       "w": 301,
+       "h": 330
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø100 × 95mm",
+       "en": "Ø100 × 95mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "12W",
+       "en": "12W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "inground",
+     "productGroup": "lt-inground-round",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "48",
+     "sourcePdfPage": 25,
+     "modelSource": {
+      "specTable": "HOL-LL100-C12",
+      "imageCaption": "HOL-LL100-C12"
+     }
+    },
+    {
+     "id": "hol-ll140-c18",
+     "model": "HOL-LL140-C18",
+     "nameKo": "LED 원형 지중등 18W",
+     "nameEn": "LED Circle In-ground Light 18W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337943",
+     "price": 385000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-inground-round/hol-ll140-c18.webp",
+       "w": 296,
+       "h": 308
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø140 × 115mm",
+       "en": "Ø140 × 115mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "18W",
+       "en": "18W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "inground",
+     "productGroup": "lt-inground-round",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "48",
+     "sourcePdfPage": 25,
+     "modelSource": {
+      "specTable": "HOL-LL140-C18",
+      "imageCaption": "HOL-LL140-C18"
+     }
+    },
+    {
+     "id": "hol-ll180-c36",
+     "model": "HOL-LL180-C36",
+     "nameKo": "LED 원형 지중등 36W",
+     "nameEn": "LED Circle In-ground Light 36W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337952",
+     "price": 605000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-inground-round/hol-ll180-c36.webp",
+       "w": 301,
+       "h": 299
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø180 × 140mm",
+       "en": "Ø180 × 140mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "36W",
+       "en": "36W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "inground",
+     "productGroup": "lt-inground-round",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "48",
+     "sourcePdfPage": 25,
+     "modelSource": {
+      "specTable": "HOL-LL180-C36",
+      "imageCaption": "HOL-LL180-C36"
+     }
+    },
+    {
+     "id": "hol-ll220-c54",
+     "model": "HOL-LL220-C54",
+     "nameKo": "LED 원형 지중등 54W",
+     "nameEn": "LED Circle In-ground Light 54W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337953",
+     "price": 660000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-inground-round/hol-ll220-c54-c72.webp",
+       "w": 321,
+       "h": 274
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø220 × 150mm",
+       "en": "Ø220 × 150mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "54W",
+       "en": "54W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "inground",
+     "productGroup": "lt-inground-round",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "48",
+     "sourcePdfPage": 25,
+     "modelSource": {
+      "specTable": "HOL-LL220-C54",
+      "imageCaption": "HOL-LL220-C54"
+     }
+    },
+    {
+     "id": "hol-ll220-c72",
+     "model": "HOL-LL220-C72",
+     "nameKo": "LED 원형 지중등 72W",
+     "nameEn": "LED Circle In-ground Light 72W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337958",
+     "price": 715000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-inground-round/hol-ll220-c54-c72.webp",
+       "w": 321,
+       "h": 274
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 / LENS: 강화유리",
+       "en": "BODY: Aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "Ø220 × 150mm",
+       "en": "Ø220 × 150mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "72W",
+       "en": "72W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "inground",
+     "productGroup": "lt-inground-round",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "48",
+     "sourcePdfPage": 25,
+     "modelSource": {
+      "specTable": "HOL-LL220-C72",
+      "imageCaption": "HOL-LL220-C72"
+     }
+    }
+   ],
+   "issueRefs": [
+    "C-07"
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-inground-linear",
+   "category": "lighting",
+   "subcategory": "inground",
+   "nameKo": "LED 라인지중등",
+   "nameEn": "LED Linear In-ground Light",
+   "catalogTitle": {
+    "ko": "LED 라인지중등",
+    "en": "LED Linear In-ground Light"
+   },
+   "catalogProductName": {
+    "ko": "LED바 지중등",
+    "en": "LED BAR INGROUND LIGHT"
+   },
+   "ledColorsCatalog": [],
+   "descriptionKo": [
+    "유해물질이 포함되지 않은 에너지 절전형 친환경 제품",
+    "제품 이미지와 치수는 실물과 차이가 있을 수 있으며 외관과 사양은 고객사 협의 후 변경 가능"
+   ],
+   "descriptionEn": [
+    "Energy-saving, eco-friendly product free of hazardous substances",
+    "Product images and dimensions may differ from the actual product; appearance and specifications may be changed after consultation with the customer"
+   ],
+   "installationCaseIds": [],
+   "sourceCatalogPage": "50",
+   "sourcePdfPage": 26,
+   "models": [
+    {
+     "id": "hol-ll1010-c15",
+     "model": "HOL-LL1010-C15",
+     "nameKo": "LED 바 지중등 15W",
+     "nameEn": "LED Bar In-ground Light 15W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337944",
+     "price": 341000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-inground-linear/hol-ll1010-c15.webp",
+       "w": 620,
+       "h": 402
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 압출 / LENS: 강화유리",
+       "en": "BODY: Extruded aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "1010 × 65 × 70mm",
+       "en": "1010 × 65 × 70mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "15W",
+       "en": "15W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "inground",
+     "productGroup": "lt-inground-linear",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "50",
+     "sourcePdfPage": 26,
+     "modelSource": {
+      "specTable": "HOL-LL1010-C15",
+      "imageCaption": "HOL-LL1010-C15"
+     }
+    },
+    {
+     "id": "hol-ll1010-c36",
+     "model": "HOL-LL1010-C36",
+     "nameKo": "LED 바 지중등 36W",
+     "nameEn": "LED Bar In-ground Light 36W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337954",
+     "price": 605000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-inground-linear/hol-ll1010-c36.webp",
+       "w": 681,
+       "h": 431
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 압출 / LENS: 강화유리",
+       "en": "BODY: Extruded aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "1010 × 90 × 100mm",
+       "en": "1010 × 90 × 100mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "36W",
+       "en": "36W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "inground",
+     "productGroup": "lt-inground-linear",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "50",
+     "sourcePdfPage": 26,
+     "modelSource": {
+      "specTable": "HOL-LL1010-C36",
+      "imageCaption": "HOL-LL1010-C36"
+     }
+    },
+    {
+     "id": "hol-ll1010-c72",
+     "model": "HOL-LL1010-C72",
+     "nameKo": "LED 바 지중등 72W",
+     "nameEn": "LED Bar In-ground Light 72W",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337959",
+     "price": 715000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-inground-linear/hol-ll1010-c72.webp",
+       "w": 732,
+       "h": 400
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "BODY: 알루미늄 압출 / LENS: 강화유리",
+       "en": "BODY: Extruded aluminum / LENS: Tempered glass"
+      },
+      {
+       "key": "size",
+       "ko": "1010 × 95 × 105mm",
+       "en": "1010 × 95 × 105mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "72W",
+       "en": "72W"
+      }
+     ],
+     "modelSource": {
+      "specTable": "ECO-LL1010-C72",
+      "imageCaption": "HOL-LL1010-C72"
+     },
+     "issueRefs": [
+      "I-07"
+     ],
+     "verificationStatus": "needs-review",
+     "category": "lighting",
+     "subcategory": "inground",
+     "productGroup": "lt-inground-linear",
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "50",
+     "sourcePdfPage": 26
+    }
+   ],
+   "issueRefs": [
+    "I-07"
+   ],
+   "verificationStatus": "needs-review",
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  },
+  {
+   "id": "lt-column",
+   "category": "lighting",
+   "subcategory": "column",
+   "nameKo": "LED 열주등",
+   "nameEn": "LED Column Light",
+   "catalogTitle": {
+    "ko": "LED열주등",
+    "en": "LED Bollard Light"
+   },
+   "catalogProductName": {
+    "ko": "LED 열주등",
+    "en": "LED BAR COIUMN LIGHT"
+   },
+   "ledColorsCatalog": [],
+   "descriptionKo": [
+    "속 파이프 표면의 타공 모양 변경 가능"
+   ],
+   "descriptionEn": [
+    "The perforation pattern on the surface of the inner pipe can be modified"
+   ],
+   "installationCaseIds": [],
+   "sourceCatalogPage": "51",
+   "sourcePdfPage": 26,
+   "models": [
+    {
+     "id": "hol-2000-120",
+     "model": "HOL-2000-120",
+     "nameKo": "LED 열주등",
+     "nameEn": "LED Column Light",
+     "powerType": "electric",
+     "ledColors": [],
+     "procurementId": "26337961",
+     "price": 3300000,
+     "images": [
+      {
+       "src": "assets/img/products/lt-column/hol-2000-120.webp",
+       "w": 53,
+       "h": 355
+      }
+     ],
+     "specifications": [
+      {
+       "key": "lightingDevice",
+       "ko": "POWER LED",
+       "en": "POWER LED"
+      },
+      {
+       "key": "powerSupply",
+       "ko": "DC 24V",
+       "en": "DC 24V"
+      },
+      {
+       "key": "materials",
+       "ko": "스테인리스강",
+       "en": "Stainless steel"
+      },
+      {
+       "key": "size",
+       "ko": "Ø216 × 2000mm",
+       "en": "Ø216 × 2000mm"
+      },
+      {
+       "key": "lightingMethod",
+       "ko": "전기인입방식",
+       "en": "Electrical service connection method"
+      },
+      {
+       "key": "powerConsumption",
+       "ko": "120W",
+       "en": "120W"
+      }
+     ],
+     "category": "lighting",
+     "subcategory": "column",
+     "productGroup": "lt-column",
+     "verificationStatus": "verified",
+     "issueRefs": [],
+     "priceBasis": "납품하차도 기준",
+     "sourceCatalogPage": "51",
+     "sourcePdfPage": 26,
+     "modelSource": {
+      "specTable": "HOL-2000-120",
+      "imageCaption": "HOL-2000-120"
+     }
+    }
+   ],
+   "issueRefs": [
+    "C-08"
+   ],
+   "verificationStatus": "verified",
+   "pendingDescription": null,
+   "powerTypes": [
+    "electric"
+   ]
+  }
+ ]
+}

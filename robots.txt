@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tjsgh3377-sys.github.io/greenone/sitemap.xml

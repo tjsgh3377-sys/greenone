@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>GreenOne 전체 페이지 자동 점검 (개발용)</title>
+<style>body{font:14px/1.6 monospace;margin:16px}iframe{position:absolute;left:-9999px;top:0;border:0;height:900px}</style>
+</head>
+<body>
+<!-- 개발용 도구: 로컬 서버에서 tools/sweep.html?w=390 처럼 열면 모든 페이지를 해당 폭의 iframe 으로 불러와
+     가로 넘침 / 깨진 이미지 / 스크립트 오류를 점검한다. 결과는 window.RESULT 와 화면에 출력된다. -->
+<pre id="out">running…</pre>
+<script>
+(async function () {
+  var q = new URLSearchParams(location.search), w = +(q.get("w") || 1440), imgs = q.get("img") !== "0";
+  var pages = (await (await fetch("pages.json", { cache: "no-store" })).json()).map(function (p) { return "../" + p; });
+  var res = { width: w, pages: pages.length, overflow: [], brokenImages: [], errors: [], images: 0 };
+  for (var u of pages) {
+    await new Promise(function (done) {
+      var f = document.createElement("iframe"); f.width = w; f.src = u;
+      f.onload = async function () {
+        var win = f.contentWindow, d = f.contentDocument, errs = [];
+        win.addEventListener("error", function (e) { errs.push(e.message); });
+        try {
+          var sw = d.documentElement.scrollWidth, cw = d.documentElement.clientWidth;
+          if (sw > cw + 1) {
+            var wide = Array.from(d.querySelectorAll("body *")).filter(function (el) { var r = el.getBoundingClientRect(); return r.right > cw + 1 && r.width > 0; })
+              .slice(0, 3).map(function (el) { return el.tagName + "." + el.className; });
+            res.overflow.push(u + " " + sw + ">" + cw + " " + wide.join(","));
+          }
+          if (imgs) {
+            var list = Array.from(d.images);
+            list.forEach(function (i) { i.loading = "eager"; });
+            await Promise.all(list.map(function (i) { return i.complete ? 0 : new Promise(function (r) { i.onload = i.onerror = r; }); }));
+            res.images += list.length;
+            for (var i of list) {
+              if (i.naturalWidth) continue;
+              // 화면 밖 iframe 의 srcset 이미지는 크기 계산이 늦을 수 있어, 실제 파일 응답으로 한 번 더 판정한다.
+              var ok = false;
+              try { ok = (await fetch(i.currentSrc || i.src, { method: "HEAD" })).ok; } catch (e) { ok = false; }
+              if (!ok) res.brokenImages.push(u + " " + (i.currentSrc || i.getAttribute("src")));
+            }
+          }
+          // 대표 상호작용이 예외 없이 동작하는지
+          var b = d.querySelector(".burger"); if (b) { b.click(); b.click(); }
+          d.querySelectorAll(".model-tab").forEach(function (t) { t.click(); });
+          d.querySelectorAll("[data-filter]").forEach(function (t) { t.click(); });
+        } catch (e) { errs.push(String(e)); }
+        if (errs.length) res.errors.push(u + " " + errs.join(" | "));
+        f.remove(); done();
+      };
+      document.body.appendChild(f);
+    });
+  }
+  window.RESULT = res;
+  document.getElementById("out").textContent = JSON.stringify(res, null, 1);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "_about": "카탈로그 3P(PDF 2쪽)에 수록된 인증서 7종. 인증번호·유효기간은 별도 확인 전까지 기재하지 않는다.",
+  "sourceCatalogPage": "3",
+  "sourcePdfPage": 2,
+  "items": [
+    {"id": "factory-registration", "nameKo": "공장등록증", "nameEn": "Factory Registration Certificate", "image": "assets/img/certificates/factory-registration.webp", "w": 397, "h": 561},
+    {"id": "direct-production-road-stud", "nameKo": "직접생산증명서 (도로표지병)", "nameEn": "Direct Production Certificate (Road Studs)", "image": "assets/img/certificates/direct-production-road-stud.webp", "w": 397, "h": 561},
+    {"id": "direct-production-led-lighting", "nameKo": "직접생산증명서 (LED 경관조명기구)", "nameEn": "Direct Production Certificate (LED Landscape Lighting Fixtures)", "image": "assets/img/certificates/direct-production-led-lighting.webp", "w": 397, "h": 561},
+    {"id": "construction-business", "nameKo": "건설업 등록증", "nameEn": "Construction Business Registration Certificate", "image": "assets/img/certificates/construction-business.webp", "w": 397, "h": 561},
+    {"id": "women-owned-business", "nameKo": "여성기업 확인서", "nameEn": "Women-Owned Business Certificate", "image": "assets/img/certificates/women-owned-business.webp", "w": 397, "h": 561},
+    {"id": "sme", "nameKo": "중소기업 확인서", "nameEn": "Small and Medium-Sized Enterprise Certificate", "image": "assets/img/certificates/sme.webp", "w": 397, "h": 561},
+    {"id": "rnd-department", "nameKo": "연구개발전담부서 인정서", "nameEn": "R&D Department Recognition Certificate", "image": "assets/img/certificates/rnd-department.webp", "w": 397, "h": 561}
+  ]
+}
