@@ -265,7 +265,8 @@ html[lang="en"] .hero h1 span + span { margin-top: .18em; }
 
 /* 7. Sub pages ------------------------------------------------------------ */
 /* 서브페이지 상단: 사진 없이 로고 딥그린 배경 + 흰 글자 */
-.ph { background: var(--forest); color: #fff; }
+/* 딥그린을 92% 로 살짝 풀고(흰 바탕이 비쳐 부드러워짐), 왼쪽 위에서 연두빛이 은은하게 번지는 막을 얹는다 */
+.ph { background: linear-gradient(115deg, rgba(129, 180, 64, .2) 0%, rgba(129, 180, 64, .06) 38%, rgba(129, 180, 64, 0) 62%), rgba(12, 54, 28, .92); color: #fff; }
 .ph .eyebrow { color: var(--leaf); }
 .ph .lead { color: rgba(255, 255, 255, .82); }
 .ph .crumb, .pd-top .crumb { color: rgba(255, 255, 255, .72); }
@@ -412,7 +413,7 @@ html[lang="en"] .pcard-cat { letter-spacing: .12em; text-transform: uppercase; f
 .pcard:hover::before { transform: scaleX(1); }
 .empty { padding: 72px 0; text-align: center; color: var(--muted); border-bottom: 1px solid var(--line); }
 
-.pd-top { background: var(--forest); color: #fff; padding: 18px 0; }
+.pd-top { background: linear-gradient(115deg, rgba(129, 180, 64, .2) 0%, rgba(129, 180, 64, .06) 38%, rgba(129, 180, 64, 0) 62%), rgba(12, 54, 28, .92); color: #fff; padding: 18px 0; }
 .pd-top .crumb { margin: 0; padding: 0; }
 .pd { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); gap: 40px clamp(32px, 5vw, 96px); align-items: start; }
 .pd-stage { position: sticky; top: calc(var(--hd-h) + 28px); }
