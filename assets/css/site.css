@@ -192,9 +192,9 @@ html[lang="en"] .hero h1 span + span { margin-top: .18em; }
 .hero-foot b { color: #fff; font-weight: 600; }
 .hero-text > .eyebrow { margin-top: auto; }
 .hero-media { position: absolute; inset: 0; overflow: hidden; }
-.hero-media > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 78%; }
+.hero-media > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 78%; filter: saturate(.62) brightness(.8) contrast(.94); }  /* 원본 야경의 채도·밝기를 낮춰 차분하게 */
 /* 문구 가독성을 위한 어두운 막(왼쪽이 진하고 오른쪽으로 갈수록 사진이 그대로 보인다) */
-.hero-media::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgba(6, 20, 13, .78) 0%, rgba(6, 20, 13, .52) 38%, rgba(6, 20, 13, .12) 68%, rgba(6, 20, 13, 0) 100%); }
+.hero-media::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgba(6, 20, 13, .78) 0%, rgba(6, 20, 13, .52) 38%, rgba(6, 20, 13, .22) 68%, rgba(6, 20, 13, .14) 100%); }
 
 .duo-item { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(16px, 2vw, 32px); align-items: end; }
 .duo-item + .duo-item { margin-top: clamp(64px, 8vw, 132px); }
