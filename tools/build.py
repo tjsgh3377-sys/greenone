@@ -328,7 +328,6 @@ def build_home(L):
 <p class="hero-foot"><b>{tag}</b><span>{sub}</span></p>
 </div>
 <div class="hero-media">{img}
-<div class="hero-index"><a href="{u1}"><span class="num">01</span><strong>{n1}</strong></a><a href="{u3}"><span class="num">02</span><strong>{n2}</strong></a></div>
 </div>
 </section>""".format(eb=e(H["hero"]["eyebrow"]), h1="".join("<span>%s</span>" % e(x) for x in H["hero"]["title"]), desc=e(H["hero"]["desc"]),
                      u1=p.u("road-stud.html"), u2=p.u("applications.html"), u3=p.u("lighting.html"), c1=e(H["hero"]["cta1"]), c2=e(H["hero"]["cta2"]),
