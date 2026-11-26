@@ -12,8 +12,6 @@
   --leaf: #81B440;          /* 로고 원본 R129 G180 B64 */
   --ivory: #F6F5EF;
   --ivory-2: #ECEBE2;
-  --mint: #E7EFD9;          /* 로고 잎 색(#81B440)을 옅게 푼 연두 — 서브페이지 상단 배경 */
-  --mint-line: #CBD9B4;
   --paper: #FFFFFF;
   --ink: #202824;
   --muted: #5C655F;
@@ -266,9 +264,14 @@ html[lang="en"] .hero h1 span + span { margin-top: .18em; }
 .cta-contact a:hover { color: var(--leaf); }
 
 /* 7. Sub pages ------------------------------------------------------------ */
-.ph { background: var(--mint); border-bottom: 1px solid var(--mint-line); }
-.ph .lead, .ph .crumb, .pd-top .crumb { color: #47533F; }
-.ph .crumb li:not(:last-child)::after, .pd-top .crumb li:not(:last-child)::after { color: #A9BC8C; }
+/* 서브페이지 상단: 사진 없이 로고 딥그린 배경 + 흰 글자 */
+.ph { background: var(--forest); color: #fff; }
+.ph .eyebrow { color: var(--leaf); }
+.ph .lead { color: rgba(255, 255, 255, .82); }
+.ph .crumb, .pd-top .crumb { color: rgba(255, 255, 255, .72); }
+.ph .crumb li:not(:last-child)::after, .pd-top .crumb li:not(:last-child)::after { color: rgba(255, 255, 255, .35); }
+.ph .crumb a:hover, .pd-top .crumb a:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.ph .crumb [aria-current], .pd-top .crumb [aria-current] { color: #fff; }
 .ph-in { display: grid; grid-template-columns: minmax(0, 1fr); min-height: clamp(260px, 26vw, 400px); }
 .ph.has-media .ph-in { grid-template-columns: minmax(0, 52fr) minmax(0, 48fr); }
 .ph-text { padding: clamp(40px, 5vw, 84px) clamp(24px, 4vw, 72px) clamp(40px, 5vw, 76px) max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter))); display: flex; flex-direction: column; justify-content: flex-end; }
@@ -409,7 +412,7 @@ html[lang="en"] .pcard-cat { letter-spacing: .12em; text-transform: uppercase; f
 .pcard:hover::before { transform: scaleX(1); }
 .empty { padding: 72px 0; text-align: center; color: var(--muted); border-bottom: 1px solid var(--line); }
 
-.pd-top { background: var(--mint); border-bottom: 1px solid var(--mint-line); padding: 18px 0; }
+.pd-top { background: var(--forest); color: #fff; padding: 18px 0; }
 .pd-top .crumb { margin: 0; padding: 0; }
 .pd { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); gap: 40px clamp(32px, 5vw, 96px); align-items: start; }
 .pd-stage { position: sticky; top: calc(var(--hd-h) + 28px); }
